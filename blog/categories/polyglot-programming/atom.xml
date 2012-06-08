@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: polyglot programming | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.github.com/blog/categories/polyglot-programming/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.github.com/"/>
+  <updated>2012-06-08T00:48:28-07:00</updated>
+  <id>http://expectedpayoff.github.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Yegge on the value of Polyglot Programming]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
+    <updated>2012-06-07T21:29:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
+    <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
+]]></content>
+  </entry>
+  
+</feed>
