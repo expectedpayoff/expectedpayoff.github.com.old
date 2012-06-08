@@ -12,4 +12,4 @@ To push the entire blog framework to github repo:
 
 `$> git add -A`
 `$> git commit -m 'update'`
-`$> git push source source`
+`$> git push source source / sh gpom.sh`
