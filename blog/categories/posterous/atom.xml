@@ -4,7 +4,7 @@
   <title><![CDATA[Category: posterous | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/blog/categories/posterous/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T00:38:32-07:00</updated>
+  <updated>2012-06-08T00:40:57-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -46,6 +46,15 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <updated>2012-06-07T21:40:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Humanity's greatest danger: our inability to understand the exponential function]]></title>
     <link href="http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
     <updated>2012-06-07T20:50:00-07:00</updated>
@@ -74,24 +83,6 @@
     <updated>2012-06-07T20:44:00-07:00</updated>
     <id>http://expectedpayoff.github.com/blog/2012/06/07/information-theory</id>
     <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Advice to Young Engineer/Entrepreneur]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur/"/>
-    <updated>2012-06-07T19:17:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur</id>
-    <content type="html"><![CDATA[<p>Just reposting a <a href="http://news.ycombinator.com/item?id=1747713">little gem from HackerNews</a>...</p>
-
-<blockquote><ol>
-<li><p>Be good. Be very good. Don't be the "front-end guy" or the "back-end guy", or some other "guy". Once you know what you want to build, building software is about five things: algorithms that solve your problem, programming languages that express your algorithms, computer architecture that makes your algorithms run efficiently on real hardware, the practical toolchain, and the management of complexity of real software. So study algorithms, and then graduate algorithms, and then advanced graduate algorithms. Do every challenge problem online. Study programming languages to express those algorithms. You can get away with three: C, Lisp, Haskell. Everything else is crud. Study computer architecture and compilers to see how your programs run efficiently. Learn great tools (Emacs/Vim/Visual Studio/bash/Linux/OS X/Windows whatever - just great ones that you're damn good at). Learn how complexity is managed. Look at lare open source projects, study how they're organized, and contribute patches to understand how small changes can effect a large system.</p></li>
-<li><p>Learn what to build. Once you get really good, your time starts to be more valuable than gold. There will be very few people in the world who are as good (the internet will bias you to think that the world is full of great people - this ain't so, there isn't enough of 'em). You owe it to people and to yourself not to bother with improving something by 1% or 10% because you're wasting time in opportunity cost and could be improving something by 1000%. Make sure what you're building is worth building, and make sure every line of code you write is worth writing, otherwise you will fail. Break the NIH syndrome in yourselves now (all good people have it, phenomenal people that build successful companies broke it in themselves). Learn to infer what people want.</p></li>
-<li><p>If you're that good, you will easily get a $100k job after graduation (probably more by then), and grow to $180k in a few years. That's very, very comfortable. It's not worth busting your ass 16 hours a day to build another CRM tool when you can have a $180k job. So don't start a business to start a business. Start a business to bring a meaningful change in the world. A huge change. A 1000% change. There are lots of hugely successful companies out there that do what's not meaningful to you - ignore them. But do make sure that what's meaningful to you is also meaningful to millions (hopefully billions) of others. You won't get rich writing Lisp compilers.</p></li>
-</ol>
-
-
-<p>  This is what matters. Most everything else is fluff.</p></blockquote>
 ]]></content>
   </entry>
   
