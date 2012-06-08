@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: vim - E(X)PECTED P(A)YOFF</title>
+  <title>How to set up DrRacket for The Little Schemer - E(X)PECTED P(A)YOFF</title>
   <meta name="author" content="Byron Gibson">
 
   
-  <meta name="description" content="Category: vim">
+  <meta name="description" content="Racket, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://expectedpayoff.github.comblog/categories/vim/">
+  <link rel="canonical" href="http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -75,36 +75,110 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Vim</h1>
+    
+      <h1 class="entry-title">How to Set Up DrRacket for the Little Schemer</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-07T21:57:00-07:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
 
-  
-  <h2>2012</h2>
+<ol>
+<li><p>Start DrRacket</p></li>
+<li><p>Change the language to Module. In the Language menu at the top (or the bottom left):</p>
 
-<article>
-  
-<h1><a href="/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/">A Dead Simple Way to Get Up and Running with Lisp in Vim</a></h1>
-<time datetime="2012-06-07T15:15:00-07:00" pubdate><span class='month'>Jun</span> <span class='day'>07</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/lisp/'>lisp</a>, <a class='category' href='/blog/categories/old-blog/'>old blog</a>, <a class='category' href='/blog/categories/posterous/'>posterous</a>, <a class='category' href='/blog/categories/vim/'>vim</a></span>
-</footer>
+<p> <blockquote><p>Language -&gt; Choose Language -&gt; Module -&gt; OK</p></blockquote></p></li>
+<li><p>DrRacket lacks the primitive <code>atom?</code> used extensively in The Little Schemer, so you have to define it yourself.  atom? simply returns true if the input is an atom, false if not. In the top window, the Definitions window, add:</p></li>
+</ol>
 
 
-</article>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>(define atom? (lambda (a)  (not (list? a))))</span></code></pre></td></tr></table></div></figure>
 
+
+<p>That&#8217;s all, you&#8217;re ready to start.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Byron Gibson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-07T21:57:00-07:00" pubdate data-updated="true">Jun 7<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/drracket/'>DrRacket</a>, <a class='category' href='/blog/categories/old-blog/'>old blog</a>, <a class='category' href='/blog/categories/posterous/'>posterous</a>, <a class='category' href='/blog/categories/programming/'>programming</a>, <a class='category' href='/blog/categories/scheme/'>scheme</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/" data-via="byrongibson" data-counturl="http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/06/07/best-soccer-slash-futbol-site-ever/" title="Previous Post: Best soccer/futbol site ever">&laquo; Best soccer/futbol site ever</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -228,7 +302,10 @@
       var disqus_shortname = 'byrongibson';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/';
+        var disqus_url = 'http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
