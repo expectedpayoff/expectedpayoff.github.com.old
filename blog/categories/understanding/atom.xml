@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: understanding | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.github.com/blog/categories/understanding/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.github.com/"/>
+  <updated>2012-06-08T00:44:31-07:00</updated>
+  <id>http://expectedpayoff.github.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Solitude, Leadership, and Creativity]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/solitude-leadership-and-creativity/"/>
+    <updated>2012-06-07T21:07:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/solitude-leadership-and-creativity</id>
+    <content type="html"><![CDATA[<p>One of the <a href="http://theamericanscholar.org/solitude-and-leadership/">best essays</a> I've ever read.</p>
+
+<p>TLDR: Leadership requires depth of understanding, intospection, and capacity for creativity, all of which require solitude to cultivate.</p>
+
+<p>Also <a href="http://news.ycombinator.com/item?id=3627606">reaffirmed by Steve Wozniak</a>, on creativity.</p>
+]]></content>
+  </entry>
+  
+</feed>
