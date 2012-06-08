@@ -4,7 +4,7 @@
   <title><![CDATA[Category: posterous | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/blog/categories/posterous/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T00:40:57-07:00</updated>
+  <updated>2012-06-08T00:41:51-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -55,6 +55,15 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
+    <updated>2012-06-07T21:36:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
+    <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Humanity's greatest danger: our inability to understand the exponential function]]></title>
     <link href="http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
     <updated>2012-06-07T20:50:00-07:00</updated>
@@ -74,15 +83,6 @@
 <p>This little rule of thumb is immensely useful for interpreting news reports, government proclamations, managing personal finances, and understanding a host of other problems facing the human race over the next century, which Professor Bartlett elaborates on.</p>
 
 <p>Well worth the time to watch it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information Theory]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/information-theory/"/>
-    <updated>2012-06-07T20:44:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/information-theory</id>
-    <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
 ]]></content>
   </entry>
   
