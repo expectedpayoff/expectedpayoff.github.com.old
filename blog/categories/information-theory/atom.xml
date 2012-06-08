@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: information theory | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.github.com/blog/categories/information-theory/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.github.com/"/>
+  <updated>2012-06-08T00:38:32-07:00</updated>
+  <id>http://expectedpayoff.github.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Information Theory]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/information-theory/"/>
+    <updated>2012-06-07T20:44:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/information-theory</id>
+    <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

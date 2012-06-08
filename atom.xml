@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T00:37:43-07:00</updated>
+  <updated>2012-06-08T00:38:32-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -66,6 +66,15 @@
 <p>This little rule of thumb is immensely useful for interpreting news reports, government proclamations, managing personal finances, and understanding a host of other problems facing the human race over the next century, which Professor Bartlett elaborates on.</p>
 
 <p>Well worth the time to watch it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Information Theory]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/information-theory/"/>
+    <updated>2012-06-07T20:44:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/information-theory</id>
+    <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
 ]]></content>
   </entry>
   
