@@ -1,5 +1,4 @@
 
 
-Added the following line to new_post task
+Customized new_post task.  Merge Rakefile.custom into Rakefile when running git pull octopress master
 
-published: false
