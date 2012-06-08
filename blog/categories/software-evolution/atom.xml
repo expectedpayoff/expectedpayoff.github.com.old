@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: old blog | E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/blog/categories/old-blog/atom.xml" rel="self"/>
+  <title><![CDATA[Category: software evolution | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.github.com/blog/categories/software-evolution/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
   <updated>2012-06-08T00:27:01-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
@@ -28,25 +28,6 @@
 
 
 <p>  This is what matters. Most everything else is fluff.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Dead Simple Way to Get Up and Running with Lisp in Vim]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/"/>
-    <updated>2012-06-07T15:15:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim</id>
-    <content type="html"><![CDATA[<p>The <a href="http://www.google.com/search?q=how+to+use+lisp+with+vim">web is replete</a> with people trying to create, or learn, an efficient workflow for programming Lisp in Vim.  I'm the latter.  A vim amateur/intermediate, a Lisp noob.<br/>
-I want a quick and easy way to hack Lisp in Vim, save it in a file, load it into the REPL, hack some more in the REPL, and push the file to Github, without having to take the time to learn Emacs and <a href="http://common-lisp.net/project/slime/">SLIME</a>, or even <a href="http://www.vim.org/scripts/script.php?script_id=2531">SLIMV</a> (I'll get around to these later after I've learned the language somewhat).</p>
-
-<p>My solution:  two terminal windows (three if you want one for vcs commits).  One with vim and your code, the second with a REPL, the third with command prompt in your working/project directory for git commits.</p>
-
-<ol>
-<li><p>In vim, make your changes and save :w.  Leave the editor open.</p></li>
-<li><p>Alt-tab to the REPL terminal, use (load 'filename.lisp) to reload your code after changing it.</p></li>
-<li><p>In the third terminal, add, commit, and push to vcs as necessary.</p></li>
-</ol>
-
 ]]></content>
   </entry>
   
