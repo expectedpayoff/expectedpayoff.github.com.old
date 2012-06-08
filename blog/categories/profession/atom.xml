@@ -4,7 +4,7 @@
   <title><![CDATA[Category: profession | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/blog/categories/profession/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T00:49:17-07:00</updated>
+  <updated>2012-06-08T00:49:47-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -19,6 +19,30 @@
     <updated>2012-06-07T21:40:00-07:00</updated>
     <id>http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
+    <updated>2012-06-07T21:13:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
+    <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
+
+<ol>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_1">Break it down.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_2">Your requirements will change.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_3">Obey Gall's Law.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_4">Document as you go.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_5">Use version control.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_6">Maintain separate development and production environments.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_7">Backup and restore.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_8">Leave your code in a working state at the end of every day.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_9">If you can't figure out a problem, walk away.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_10">Fix bugs first.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_11">Communicate, communicate, communicate.</a></li>
+</ol>
+
 ]]></content>
   </entry>
   
