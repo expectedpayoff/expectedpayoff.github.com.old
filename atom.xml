@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T00:49:47-07:00</updated>
+  <updated>2012-06-08T00:50:12-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -43,6 +43,33 @@
     <updated>2012-06-07T21:52:00-07:00</updated>
     <id>http://expectedpayoff.github.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
     <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
+    <updated>2012-06-07T21:42:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
+    <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
+
+<ol>
+<li>More stable</li>
+<li>Less virus, trojan, &amp; security risk</li>
+<li>Security through <a href="http://en.wikipedia.org/wiki/Security_through_transparency">transparency</a> and (for now)<a href="http://en.wikipedia.org/wiki/Security_through_minority#Security_through_minority">minority</a> vs <a href="http://en.wikipedia.org/wiki/Security_through_obscurity">Security through obscurity</a></a></li>
+<li><a href="http://c2.com/cgi/wiki?GratisSoftware">free</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gratis_versus_Libre%22">Free</a></li>
+<li>Update all your software, not just the OS, with one-click</li>
+<li>Tens of thousands ofeasy-to-getf/Free software packages available in the online, repositories</li>
+<li>Next-generation desktops (Compiz Fusion, etc.)</li>
+<li>Never defragment your hard drive again</li>
+<li>Your system never slows down over months and years of useage</li>
+<li>Theme your desktop (with more than just 3 themes)</li>
+<li>Less ecological impact - no boxed software, no CDs, download everything online.</li>
+<li>Be part of an emerging global community</li>
+<li><a href="http://www.whylinuxisbetter.net/">More&#8230;</a></li>
+</ol>
+
 ]]></content>
   </entry>
   

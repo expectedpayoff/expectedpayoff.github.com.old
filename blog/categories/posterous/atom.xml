@@ -4,7 +4,7 @@
   <title><![CDATA[Category: posterous | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/blog/categories/posterous/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T00:49:47-07:00</updated>
+  <updated>2012-06-08T00:50:12-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -46,6 +46,33 @@
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
+    <updated>2012-06-07T21:42:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
+    <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
+
+<ol>
+<li>More stable</li>
+<li>Less virus, trojan, &amp; security risk</li>
+<li>Security through <a href="http://en.wikipedia.org/wiki/Security_through_transparency">transparency</a> and (for now)<a href="http://en.wikipedia.org/wiki/Security_through_minority#Security_through_minority">minority</a> vs <a href="http://en.wikipedia.org/wiki/Security_through_obscurity">Security through obscurity</a></a></li>
+<li><a href="http://c2.com/cgi/wiki?GratisSoftware">free</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gratis_versus_Libre%22">Free</a></li>
+<li>Update all your software, not just the OS, with one-click</li>
+<li>Tens of thousands ofeasy-to-getf/Free software packages available in the online, repositories</li>
+<li>Next-generation desktops (Compiz Fusion, etc.)</li>
+<li>Never defragment your hard drive again</li>
+<li>Your system never slows down over months and years of useage</li>
+<li>Theme your desktop (with more than just 3 themes)</li>
+<li>Less ecological impact - no boxed software, no CDs, download everything online.</li>
+<li>Be part of an emerging global community</li>
+<li><a href="http://www.whylinuxisbetter.net/">More...</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
     <link href="http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
     <updated>2012-06-07T21:40:00-07:00</updated>
@@ -60,15 +87,6 @@
     <updated>2012-06-07T21:36:00-07:00</updated>
     <id>http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Steve Yegge on the value of Polyglot Programming]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
-    <updated>2012-06-07T21:29:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
-    <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
 ]]></content>
   </entry>
   
