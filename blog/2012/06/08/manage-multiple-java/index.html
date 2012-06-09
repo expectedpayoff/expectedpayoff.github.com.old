@@ -1,0 +1,426 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Manage Multiple Java, Scala, Haskell, etc Packages in Debian with Update Alternatives - E(X)PECTED P(A)YOFF</title>
+  <meta name="author" content="Byron Gibson">
+
+  
+  <meta name="description" content="Sun/Oracle Java was removed from Linux distros in 2011 due to licensing issues.
+It can only be downloaded directly from Oracle&#8217;s website now &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="E(X)PECTED P(A)YOFF" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32249640-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">E(X)PECTED P(A)YOFF</a></h1>
+  
+    <h2>probabalistic thinking, complexity management, software evolution, abstraction</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+ 
+<form action="http://www.duckduckgo.com/" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sites" value="expectedpayoff.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search&hellip;"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Manage Multiple Java, Scala, Haskell, Etc Packages in Debian With Update Alternatives</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T13:53:00-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Sun/Oracle Java was <a href="http://askubuntu.com/questions/67909/how-do-i-install-oracle-jdk-6">removed from Linux distros</a> in 2011 due to licensing issues.<br/>
+It can only be downloaded directly from Oracle&#8217;s website now and installed manually.
+There are many different ways of doing that, but for Debian and Debian-derivatives,
+I prefer using Debian&#8217;s excellent <code>update-alternatives</code> tool.  Here&#8217;s how and why:</p>
+
+<h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">How To</a></h4>
+
+<p>TLDR:  See my installation guide for <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Haskell</a> to understand the process, it&#8217;s the
+same for any package.  Then review the setup scripts for <a href="https://github.com/byrongibson/scripts/tree/master/install/java">Java</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/scala">Scala</a>,
+and <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell">Haskell</a>.</p>
+
+<p>The commands take the form:</p>
+
+<figure class='code'><figcaption><span>Install  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --install <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span> <span class="o">[</span>priority<span class="o">]</span> <span class="se">\</span>
+</span><span class='line'> --slave <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span> <span class="se">\</span>
+</span><span class='line'> ...
+</span><span class='line'> --slave <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>&#8220;Change active package&#8221;  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --config <span class="o">[</span>identifier<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>&#8220;Remove all&#8221;  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --remove <span class="o">[</span>identifier<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Read on for why&#8230;</p>
+
+<!-- more -->
+
+
+<h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Why?</a></h4>
+
+<ol>
+<li><p>It can be used with any package, not just Java.  I currently use it to manage
+multiple versions of Java, Scala, Haskell GHC, Haskell Platform, Ant, and Maven.</p></li>
+<li><p>Debian repos are known for providing stable software, but sometimes at the cost of
+being up to date.  Great for production machines, not so great when you want to
+experiment with the latest and greatest on your dev box.  <code>update-alternatives</code>
+solves that, by letting you easily bypass the repos to manually add current versions
+of software to the system (linking them into /usr/bin/, /usr/lib, /usr/share, etc.)
+without conflicting with the version from the repos.  With <code>update-alternatives</code> you
+can install both, and toggle among the active one depending on what you&#8217;re working on.</p></li>
+<li><p>Upgrade to a new version without deleting the old.  Both can co-exist on the system
+at the same time, unlike installing the software via repo.  If the new version breaks
+something that depends on it, easily rollback to the prior version with just a
+<code>sudo update-alternatives --config</code>.</p></li>
+<li><p>Keep your system cleaner by putting software in a single location like
+/opt/java/jdk/1.6.0_34 and soft linking it to system directories like /usr/bin,
+/usr/lib, /usr/share, etc.  A typical *nix install is messy - files are deposited
+throughout the system in /usr/bin, /usr/lib, /usr/share, etc.  <code>update-alternatives</code>
+solves that problem.</p></li>
+<li><p>Easily uninstall any package.  For example, switch the current active package to
+another version with <code>update-alternatives --config java</code> and delete the unwanted one
+with <code>rm -rf /opt/java/jdk/1.7.0_04</code>.</p></li>
+<li><p>Run the software via System PATH instead of user PATH.  <code>update-alternatives</code>
+automatically installs software to the system path it is designed for, usually
+/usr/bin.</p></li>
+</ol>
+
+
+<h4>Final Thoughts</h4>
+
+<p>This system reminds me a bit of <a href="http://www.gobolinux.org/">Gobo Linux</a>, which seeks to [redesign the Linux
+filesystem][7] by putting full package distributions in a single location, like
+<code>/Programs/Bash/3.0</code>.  A great idea that would make Linux much more user-friendly.
+<code>update-alternatives</code> is one small step in that direction.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Byron Gibson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T13:53:00-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ant/'>ant</a>, <a class='category' href='/blog/categories/debian/'>debian</a>, <a class='category' href='/blog/categories/debian-derivatives/'>debian derivatives</a>, <a class='category' href='/blog/categories/haskell/'>haskell</a>, <a class='category' href='/blog/categories/haskell-platform/'>haskell platform</a>, <a class='category' href='/blog/categories/java/'>java</a>, <a class='category' href='/blog/categories/jvm/'>jvm</a>, <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/maven/'>maven</a>, <a class='category' href='/blog/categories/scala/'>scala</a>, <a class='category' href='/blog/categories/ubuntu/'>ubuntu</a>, <a class='category' href='/blog/categories/unix/'>unix</a>, <a class='category' href='/blog/categories/update-alternatives/'>update-alternatives</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/" data-via="byrongibson" data-counturl="http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/" title="Previous Post: How to set up DrRacket for The Little Schemer">&laquo; How to set up DrRacket for The Little Schemer</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/06/08/manage-multiple-java/">Manage Multiple Java, Scala, Haskell, etc Packages in Debian with Update Alternatives</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/">How to set up DrRacket for The Little Schemer</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/07/best-soccer-slash-futbol-site-ever/">Best soccer/futbol site ever</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/07/why-linux-is-better-than-windows/">Why Linux is better than Windows</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/">Paul Graham explaining computer programming to a 7th grader</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("byrongibson", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/byrongibson" class="twitter-follow-button" data-show-count="false">Follow @byrongibson</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/byrongibson">@byrongibson</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'byrongibson',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:byrongibson">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "byrongibson"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/fbg111@gmail.com?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Byron Gibson -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'byrongibson';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/';
+        var disqus_url = 'http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

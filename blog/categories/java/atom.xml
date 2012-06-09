@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: java | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.github.com/blog/categories/java/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.github.com/"/>
+  <updated>2012-06-08T17:31:04-07:00</updated>
+  <id>http://expectedpayoff.github.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc Packages in Debian with Update Alternatives]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/"/>
+    <updated>2012-06-08T13:53:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java</id>
+    <content type="html"><![CDATA[<p>Sun/Oracle Java was <a href="http://askubuntu.com/questions/67909/how-do-i-install-oracle-jdk-6">removed from Linux distros</a> in 2011 due to licensing issues.<br/>
+It can only be downloaded directly from Oracle's website now and installed manually.
+There are many different ways of doing that, but for Debian and Debian-derivatives,
+I prefer using Debian's excellent <code>update-alternatives</code> tool.  Here's how and why:</p>
+
+<h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">How To</a></h4>
+
+<p>TLDR:  See my installation guide for <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Haskell</a> to understand the process, it's the
+same for any package.  Then review the setup scripts for <a href="https://github.com/byrongibson/scripts/tree/master/install/java">Java</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/scala">Scala</a>,
+and <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell">Haskell</a>.</p>
+
+<p>The commands take the form:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Install  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --install <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span> <span class="o">[</span>priority<span class="o">]</span> <span class="se">\</span>
+</span><span class='line'> --slave <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span> <span class="se">\</span>
+</span><span class='line'> ...
+</span><span class='line'> --slave <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>"Change active package"  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --config <span class="o">[</span>identifier<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>"Remove all"  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --remove <span class="o">[</span>identifier<span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Read on for why...</p>
+
+<!-- more -->
+
+
+<h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Why?</a></h4>
+
+<ol>
+<li><p>It can be used with any package, not just Java.  I currently use it to manage
+multiple versions of Java, Scala, Haskell GHC, Haskell Platform, Ant, and Maven.</p></li>
+<li><p>Debian repos are known for providing stable software, but sometimes at the cost of
+being up to date.  Great for production machines, not so great when you want to
+experiment with the latest and greatest on your dev box.  <code>update-alternatives</code>
+solves that, by letting you easily bypass the repos to manually add current versions
+of software to the system (linking them into /usr/bin/, /usr/lib, /usr/share, etc.)
+without conflicting with the version from the repos.  With <code>update-alternatives</code> you
+can install both, and toggle among the active one depending on what you're working on.</p></li>
+<li><p>Upgrade to a new version without deleting the old.  Both can co-exist on the system
+at the same time, unlike installing the software via repo.  If the new version breaks
+something that depends on it, easily rollback to the prior version with just a
+<code>sudo update-alternatives --config</code>.</p></li>
+<li><p>Keep your system cleaner by putting software in a single location like
+/opt/java/jdk/1.6.0_34 and soft linking it to system directories like /usr/bin,
+/usr/lib, /usr/share, etc.  A typical *nix install is messy - files are deposited
+throughout the system in /usr/bin, /usr/lib, /usr/share, etc.  <code>update-alternatives</code>
+solves that problem.</p></li>
+<li><p>Easily uninstall any package.  For example, switch the current active package to
+another version with <code>update-alternatives --config java</code> and delete the unwanted one
+with <code>rm -rf /opt/java/jdk/1.7.0_04</code>.</p></li>
+<li><p>Run the software via System PATH instead of user PATH.  <code>update-alternatives</code>
+automatically installs software to the system path it is designed for, usually
+/usr/bin.</p></li>
+</ol>
+
+
+<h4>Final Thoughts</h4>
+
+<p>This system reminds me a bit of <a href="http://www.gobolinux.org/">Gobo Linux</a>, which seeks to [redesign the Linux
+filesystem][7] by putting full package distributions in a single location, like
+<code>/Programs/Bash/3.0</code>.  A great idea that would make Linux much more user-friendly.
+<code>update-alternatives</code> is one small step in that direction.</p>
+]]></content>
+  </entry>
+  
+</feed>
