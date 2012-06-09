@@ -4,7 +4,7 @@
   <title><![CDATA[Category: unix | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/blog/categories/unix/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T17:31:04-07:00</updated>
+  <updated>2012-06-08T18:21:03-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -25,32 +25,46 @@ I prefer using Debian's excellent <code>update-alternatives</code> tool.  Here's
 
 <h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">How To</a></h4>
 
-<p>TLDR:  See my installation guide for <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Haskell</a> to understand the process, it's the
-same for any package.  Then review the setup scripts for <a href="https://github.com/byrongibson/scripts/tree/master/install/java">Java</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/scala">Scala</a>,
-and <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell">Haskell</a>.</p>
+<ol>
+<li><p>Download the package, extract or build to <code>/usr/lib/jvm/[version]</code>,
+<code>/opt/java/[version]</code>, <code>/opt/scala/[version]</code>, <code>/opt/haskell/[version]</code>,
+or anywhere else in the system file system (except <code>~/</code>).</p></li>
+<li><p>Change owner:group to root:root</p></li>
+</ol>
 
-<p>The commands take the form:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Install  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --install <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span> <span class="o">[</span>priority<span class="o">]</span> <span class="se">\</span>
-</span><span class='line'> --slave <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span> <span class="se">\</span>
-</span><span class='line'> ...
-</span><span class='line'> --slave <span class="o">[</span>destination<span class="o">]</span> <span class="o">[</span>identifier<span class="o">]</span> <span class="o">[</span><span class="nb">source</span><span class="o">]</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p><code>lang:bash
+sudo chown -Rv root:root /opt/java/[version]
+</code></p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>"Change active package"  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --config <span class="o">[</span>identifier<span class="o">]</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<ol>
+<li>Run the <code>update-alternatives</code> script (<a href="https://github.com/byrongibson/scripts/tree/master/install/java">Java</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/scala">Scala</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell">Haskell</a>). Feel
+free to fork and modify for other languages.</li>
+</ol>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>"Remove all"  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'>update-alternatives --remove <span class="o">[</span>identifier<span class="o">]</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>See my installation guide for <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Haskell</a> for more details. The same process works
+for any package.  The tricky part is writing the <code>update-alternatives</code> script, but it
+should be clear how it works upon closer inspection of those scripts.</p>
+
+<p>The <code>update-alternatives</code> commands take the form:</p>
+
+<p>{% codeblock Install lang:bash %}
+update-alternatives --install [destination] [identifier] [source] [priority] \
+ --slave [destination] [identifier] [source] \
+ ...
+ --slave [destination] [identifier] [source]
+{% endcodeblock %}</p>
+
+<p>{% codeblock Change active package lang:sh %}
+update-alternatives --config [identifier]
+{% endcodeblock %}</p>
+
+<p>{% codeblock Remove all lang:sh %}
+update-alternatives --remove [identifier]
+{% endcodeblock %}</p>
+
+<p>{% gist 2898928 %}</p>
 
 <p>Read on for why...</p>
 
