@@ -4,7 +4,7 @@
   <title><![CDATA[Category: jvm | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/blog/categories/jvm/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T18:21:03-07:00</updated>
+  <updated>2012-06-08T18:23:16-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc Packages in Debian with Update Alternatives]]></title>
+    <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives]]></title>
     <link href="http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/"/>
     <updated>2012-06-08T13:53:00-07:00</updated>
     <id>http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java</id>
