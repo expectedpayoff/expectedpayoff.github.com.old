@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.github.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-08T23:59:11-07:00</updated>
+  <updated>2012-06-09T00:23:34-07:00</updated>
   <id>http://expectedpayoff.github.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[America's Greatest 21st Century Challenge]]></title>
+    <link href="http://expectedpayoff.github.com/blog/2012/06/09/americas-greatest-21st-century-challenge/"/>
+    <updated>2012-06-09T00:00:00-07:00</updated>
+    <id>http://expectedpayoff.github.com/blog/2012/06/09/americas-greatest-21st-century-challenge</id>
+    <content type="html"><![CDATA[<p>There is a lot of <a href="https://news.ycombinator.com/item?id=4086251">discussion</a> in tech circles recently on the sorry state of US immigration and the dire need for more qualified engineers, computer scientists, matheticians, etc., but much of it misses the bigger picture.  The big picture is that the dominant socioeconomic dynamic of the 21st century will be the competition between the US system and China&#8217;s massive population (and India&#8217;s to a lesser extent) for global economic ascendance.</p>
+
+<p>The US population is ~300 million, China&#8217;s is ~1.2 billion, 4x our size. (India&#8217;s is over 1 billion and the EU is ~400 million, for comparison).  For every engineer, scientist, genius, etc in the US, there are ~4 in China.  Over the long term the US has no hope whatsoever of competing against that without significant structural changes.</p>
+
+<p>Those structural changes include fixing our educational system, fighting tooth and nail for skilled immigrants, offering them better incentives to stay rather than return home to make their fortunes in fast growing developing economies, fixing the broken financial and patent/IP systems, etc.</p>
+
+<p>Judge Posner sums up our strengths and failings well in a <a href="http://www.becker-posner-blog.com/2012/06/capitalismposner.html">recent blog post</a>. It <em>is</em> possible to compete against numbers, but against a numerical as overwhelming as China&#8217;s, the US system will need to be operating at an order of magnitude greater efficiency than it currently is.</p>
+
+<p>Immigration is one of the few crucial advantages the US can exploit in that competition, but right now we&#8217;re shooting ourselves in the foot so hard there we&#8217;re blowing our leg off.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My Main Problem With Google Plus So Far]]></title>
