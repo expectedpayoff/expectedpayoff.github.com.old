@@ -13,7 +13,7 @@ The US population is ~300 million, China's is ~1.2 billion, 4x our size. (India'
 
 Those structural changes include fixing our educational system, fighting tooth and nail for skilled immigrants, offering them better incentives to stay rather than return home to make their fortunes in fast growing developing economies, fixing the broken financial and patent/IP systems, etc.
 
-Judge Posner sums up our strengths and failings well in a [recent blog post][2]. It *is* possible to compete against numbers, but against a numerical as overwhelming as China's, the US system will need to be operating at an order of magnitude greater efficiency than it currently is.  
+Judge Posner sums up our strengths and failings well in a [recent blog post][2]. It *is* possible to compete against numbers, but against a numerical advantage as overwhelming as China's, the US system will need to be operating at an order of magnitude greater efficiency than it currently is.  
 
 Immigration is one of the few crucial advantages the US can exploit in that competition, but right now we're shooting ourselves in the foot so hard there we're blowing our leg off.
 

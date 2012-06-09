@@ -7,7 +7,11 @@ comments: true
 published: true
 author: Byron Gibson
 ---
-One of the many problems caused by the ongoing financial crisis is renewed criticisms of the capitalist system in general.  Our current system is deeply flawed and certainly deserves some of it - increasing fragility, instability, and systemic risk; regulatory, institutional, and govermental capture; crony capitalism; privatized profits and socialized losses; increasing financialization of the economy -> increasing concentration of paper wealth -> outsourcing of real wealth creation -> increasing concentration of political power -> tyranny of the minority, etc.  However, other criticisms come from a lack of understanding and/or appreciation of the core mechanic of capitalism - real wealth creation.
+One of the many problems caused by the ongoing financial crisis is renewed criticisms of the capitalist system in general.  Our current system is deeply flawed and certainly deserves some of it, however there is bathwater and there is the baby, and we conflate the two at the risk of exacerbating the financial crisis rather than mitigating it or preventing a recurrence.
+
+**Bathwater** = increasing fragility, instability, and systemic risk; regulatory, institutional, and govermental capture; crony capitalism; privatized profits and socialized losses; too big to fail; increasing financialization of the economy -> increasing concentration of paper wealth -> outsourcing of real wealth creation -> increasing concentration of political power -> tyranny of the minority, etc.
+
+**Baby** = the core mechanic of capitalism - real wealth creation.
 
 Paul Graham wrote an [excellent essay][3] on how to create wealth as an entrepreneur.  That's the micro take on it, and I'd like to add the macro take:
 
