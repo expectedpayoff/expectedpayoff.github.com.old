@@ -107,7 +107,7 @@ task :new_post, :title do |t, args|
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "categories: "
     post.puts "comments: true"
-    post.puts "published: false"
+    post.puts "published: true"
     post.puts "author: Byron Gibson"
     post.puts "---"
   end

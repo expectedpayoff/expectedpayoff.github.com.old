@@ -4,8 +4,7 @@
 
 url: http://expectedpayoff.github.com
 title: E(X)PECTED P(A)YOFF
-#subtitle: "identify understand solve make do"
-subtitle: "probabalistic thinking, complexity management, software evolution, abstraction"
+subtitle: "probabalistic thinking, complexity anticipation, software evolution, abstraction"
 author: Byron Gibson
 simple_search: http://www.duckduckgo.com/
 description:
@@ -36,7 +35,6 @@ code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
 pygments: false # default python pygments have been replaced by pygments.rb
-
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
