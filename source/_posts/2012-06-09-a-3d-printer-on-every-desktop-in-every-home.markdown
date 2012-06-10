@@ -17,7 +17,7 @@ The dream of the 70s and 80s Silicon Valley visionaries like Steve Jobs, Bill Ga
 
 However, the revolution isn't over, it's just getting started, and the next phase is going to be *"a factory on every desk in every home"*.  Or, more specifically *"A 3D Printer on every desk in every home."*  Parents and schools will be buying their kids home 3D printers to go along with their computers, tablets, and smart phones.
 
-But the nexus of the virtual world of design ([software][5]) + the meat space of manufacturing (3D printing) on every desktop in every home will result in a synthesis worth much more than the sum of its parts.  Individuals will be able to conceive of an item that solves a particular problem they have (say a [wrench][2] or a [bicycle][3]), design it themselves if they know how, or download a design[1][7],[2][8],[3][9], and make it on the spot.
+But the nexus of the virtual world of design ([software][5]) + the meat space of manufacturing (3D printing) on every desktop in every home will result in a synthesis worth much more than the sum of its parts.  Individuals will be able to conceive of an item that solves a particular problem they have (say a [wrench][2] or a [bicycle][3]), design it themselves if they know how, download a design[1][7],[2][8],[3][9], or scan an object with a [handheld][17] [laser][16] into a CAD/CAM file, and make it on the spot.
 
 The Internet democratized access to information, and along with it any domain that consisted of pure information - journalism (blogs, data journalism, twitter, etc.), media and entertainment production (user-generated content, youtube, bittorrent, etc), financial markets (Etrade, day trading, etc.), government (very much in its nascence with the [Government 2.0][10] movement, but happening inexorably).  
 
@@ -43,7 +43,7 @@ The estimation and forecasting will shift to the production of raw materials for
 
 Retail consumers can hoard, overstock, resell, or even borrow and lend unused raw materials in ways that don't make sense with manufactured items, knowing the raw materials will get used eventually, if not when.  This lean, custom, just-in-time, distributed, mass manufacturing will change business planning and forecasting fundamentally.
 
-5.  T. Rowe Price has a [good article covering other uses][12] - most importantly is the development of handheld lasers that let one scan an object (or even another person) and generate a real-time CAD/CAM file that can then be 3D Printed.  That makes the CAD/CAM design process faster - say you're designing a prostethic leg for a an amputee, you just scan their remaining leg and use the computer to mirror-image it, then chisel the prosthetic parts from that template.  This makes the iterative design process significantly faster and more effecient, and more immediately accessible to children and others just getting started with the technology.
+T. Rowe Price has a [good article covering other uses][12] - most importantly is the development of handheld lasers that let one scan an object (or even another person) and generate a real-time CAD/CAM file that can then be 3D Printed.  That makes the CAD/CAM design process faster - say you're designing a prostethic leg for a an amputee, you just scan their remaining leg and use the computer to mirror-image it, then chisel the prosthetic parts from that template.  This makes the iterative design process significantly faster and more effecient, and more immediately accessible to children and others just getting started with the technology.
 
 In this new revolution, what's foreseeable is exciting, but what's unforeseeable is even moreso.
 
@@ -64,3 +64,5 @@ So, to all those parents (and schools) out there looking to do great things for 
 [13]:   http://krugman.blogs.nytimes.com/2009/07/01/the-malthusian-insult/
 [14]:   http://www.linuxfoundation.org/ 
 [15]:   http://www.mozilla.org
+[16]:   http://www.nextengine.com/
+[17]:   http://www.zcorp.com/en/Products/3D-Scanners/spage.aspx
