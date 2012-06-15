@@ -17,6 +17,8 @@ The dream of the 70s and 80s Silicon Valley visionaries like Steve Jobs, Bill Ga
 
 However, the revolution isn't over, it's just getting started, and the next phase is going to be *"a factory on every desk in every home"*.  Or, more specifically *"A 3D Printer on every desk in every home."*  Parents and schools will be buying their kids home 3D printers to go along with their computers, tablets, and smart phones.
 
+<!-- more -->
+
 But the nexus of the virtual world of design ([software][5]) + the meat space of manufacturing (3D printing) on every desktop in every home will result in a synthesis worth much more than the sum of its parts.  Individuals will be able to conceive of an item that solves a particular problem they have (say a [wrench][2] or a [bicycle][3]), design it themselves if they know how, download a design[1][7],[2][8],[3][9], or scan an object with a [handheld][17] [laser][16] into a CAD/CAM file, and make it on the spot.
 
 The Internet democratized access to information, and along with it any domain that consisted of pure information - journalism (blogs, data journalism, twitter, etc.), media and entertainment production (user-generated content, youtube, bittorrent, etc), financial markets (Etrade, day trading, etc.), government (very much in its nascence with the [Government 2.0][10] movement, but happening inexorably).  

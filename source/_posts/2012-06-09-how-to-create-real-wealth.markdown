@@ -13,6 +13,8 @@ One of the many problems caused by the ongoing financial crisis is renewed criti
 
 **Baby** = the core mechanic of capitalism - real wealth creation.
 
+<!-- more -->
+
 Paul Graham wrote an [excellent essay][3] on how to create wealth as an entrepreneur.  That's the micro take on it, and I'd like to add the macro take:
 
 There are only two ways of creating real wealth:

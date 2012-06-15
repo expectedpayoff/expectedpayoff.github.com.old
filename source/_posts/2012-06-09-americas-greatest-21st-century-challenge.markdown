@@ -11,6 +11,8 @@ There is a lot of [discussion][1] in tech circles recently on the sorry state of
 
 The US population is ~300 million, China's is ~1.2 billion, 4x our size. (India's is over 1 billion and the EU is ~400 million, for comparison).  For every engineer, scientist, genius, etc in the US, there are ~4 in China.  Over the long term the US has no hope whatsoever of competing against that without significant structural changes.
 
+<!-- more -->
+
 Those structural changes include fixing our educational system, fighting tooth and nail for skilled immigrants, offering them better incentives to stay rather than return home to make their fortunes in fast growing developing economies, fixing the broken financial and patent/IP systems, etc.
 
 Judge Posner sums up our strengths and failings well in a [recent blog post][2]. It *is* possible to compete against numbers, but against a numerical advantage as overwhelming as China's, the US system will need to be operating at an order of magnitude greater efficiency than it currently is.  
