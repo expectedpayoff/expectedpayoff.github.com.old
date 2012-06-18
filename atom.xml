@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/atom.xml" rel="self"/>
-  <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-17T19:36:55-07:00</updated>
-  <id>http://expectedpayoff.github.com/</id>
+  <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2012-06-17T20:40:45-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A 3D Printer On Every Desktop In Every Home]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/"/>
     <updated>2012-06-09T02:23:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home</id>
+    <id>http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been meaning to write this post for a while, but Vice-President Biden <a href="http://www.3dprinter.net/joe-biden-plugs-3d-printing-commencement-address">just gave me the kick in the rear to finally get it done</a>.</p>
 
 <p>My mom and dad are wonderful parents who have done a many great things for my sister and I along the way.  One of the most important was that when we were wee little tykes they got us started early with the nascent computer revolution by buying us a series of cutting edge home computers - Tandy TRS-80, Apple IIc, Apple IIgs, and a series of PCs.  I still remember learning BASIC on the TRS-80 and connecting to the Internet&#8217;s precursors - CompuServe, Prodigy, AOL, and random BBS&#8217;s via fast 56k baud modem.</p>
@@ -67,9 +67,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to create real wealth]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/09/how-to-create-real-wealth/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/"/>
     <updated>2012-06-09T00:31:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/09/how-to-create-real-wealth</id>
+    <id>http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth</id>
     <content type="html"><![CDATA[<p>One of the many problems caused by the ongoing financial crisis is renewed criticisms of the capitalist system in general.  Our current system is deeply flawed and certainly deserves some of it, however there is bathwater and there is the baby, and we conflate the two at the risk of exacerbating the financial crisis rather than mitigating it or preventing a recurrence.</p>
 
 <p><strong>Bathwater</strong> = increasing fragility, instability, and systemic risk; regulatory, institutional, and govermental capture; crony capitalism; privatized profits and socialized losses; too big to fail; increasing financialization of the economy -> increasing concentration of paper wealth -> outsourcing of real wealth creation -> increasing concentration of political power -> tyranny of the minority, etc.</p>
@@ -103,9 +103,9 @@
   
   <entry>
     <title type="html"><![CDATA[America's Greatest 21st Century Challenge]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/09/americas-greatest-21st-century-challenge/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge/"/>
     <updated>2012-06-09T00:00:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/09/americas-greatest-21st-century-challenge</id>
+    <id>http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge</id>
     <content type="html"><![CDATA[<p>There is a lot of <a href="https://news.ycombinator.com/item?id=4086251">discussion</a> in tech circles recently on the sorry state of US immigration and the dire need for more qualified engineers, computer scientists, matheticians, etc., but much of it misses the bigger picture.  The big picture is that the dominant socioeconomic dynamic of the 21st century will be the competition between the US system and China&#8217;s massive population (and India&#8217;s to a lesser extent) for global economic ascendance.</p>
 
 <p>The US population is ~300 million, China&#8217;s is ~1.2 billion, 4x our size. (India&#8217;s is over 1 billion and the EU is ~400 million, for comparison).  For every engineer, scientist, genius, etc in the US, there are ~4 in China.  Over the long term the US has no hope whatsoever of competing against that without significant structural changes.</p>
@@ -123,9 +123,9 @@
   
   <entry>
     <title type="html"><![CDATA[My Main Problem With Google Plus So Far]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/"/>
     <updated>2012-06-08T23:44:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far</id>
+    <id>http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far</id>
     <content type="html"><![CDATA[<p>Google+ got a <a href="http://googleblog.blogspot.com/2012/04/toward-simpler-more-beautiful-google.html">redesign two months ago</a>.  It&#8217;s nice, I have no major complaints about the new look (except for the huge whitespace beneath the aside portrait/info, but that&#8217;s more aestetic than usability).</p>
 
 <p>However, I do have a major complaint about the fundamental functionality.  The problem with G+ is that you can&#8217;t fine-tune the signal:noise ratio enough.</p>
@@ -151,9 +151,9 @@
   
   <entry>
     <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks locally with git]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
     <updated>2012-06-08T18:24:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
+    <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
     <content type="html"><![CDATA[<p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
 
 <p>Well there&#8217;s an easy way to do this with a software version control control system like Git, Mercurial, Subversion, etc.  I use Linux and Git, but this technique should work on any operating system with any version control system.</p>
@@ -282,9 +282,9 @@ Primary browser (Chromium, for this example):</li>
   
   <entry>
     <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java/"/>
     <updated>2012-06-08T13:53:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java</id>
+    <id>http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java</id>
     <content type="html"><![CDATA[<p>Sun/Oracle Java was <a href="http://askubuntu.com/questions/67909/how-do-i-install-oracle-jdk-6">removed from Linux distros</a> in 2011 due to licensing issues.<br/>
 It can only be downloaded directly from Oracle&#8217;s website now and installed manually.
 There are many different ways of doing that, but for Debian and Debian-derivatives,
@@ -416,9 +416,9 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[How to set up DrRacket for The Little Schemer]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
     <updated>2012-06-07T21:57:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
     <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
 
 <ol>
@@ -440,18 +440,18 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[Best soccer/futbol site ever]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
     <updated>2012-06-07T21:52:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
     <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
     <updated>2012-06-07T21:42:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
     <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
 
 <ol>
@@ -476,36 +476,36 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
     <updated>2012-06-07T21:40:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
     <updated>2012-06-07T21:36:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Steve Yegge on the value of Polyglot Programming]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
     <updated>2012-06-07T21:29:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
     <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
     <updated>2012-06-07T21:13:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
     <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
 
 <ol>
@@ -527,9 +527,9 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[Solitude, Leadership, and Creativity]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/solitude-leadership-and-creativity/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity/"/>
     <updated>2012-06-07T21:07:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/solitude-leadership-and-creativity</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity</id>
     <content type="html"><![CDATA[<p>One of the <a href="http://theamericanscholar.org/solitude-and-leadership/">best essays</a> I&#8217;ve ever read.</p>
 
 <p>TLDR: Leadership requires depth of understanding, intospection, and capacity for creativity, all of which require solitude to cultivate.</p>
@@ -540,9 +540,9 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[The Complex Costs of War]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/the-complex-costs-of-war/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war/"/>
     <updated>2012-06-07T20:54:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/the-complex-costs-of-war</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war</id>
     <content type="html"><![CDATA[<p><a href="http://nancysherman.com/">Nancy Sherman</a> was the first Distinguished Chair in Ethics at the U.S. Naval Academy andis currently University Professor of Philosophy at Georgetown. <a href="http://opinionator.blogs.nytimes.com/2010/05/30/a-crack-in-the-stoic-armor/?src=me&amp;amp;ref=homepage%22">Her article</a> in the NY Times today discusses the subtle, complex, confusing costs to civilized people tasked to fight our modern wars.</p>
 
 <p>&#8220;In the military, even those who have never laid eyes on a page of <a href="http://en.wikipedia.org/wiki/Epictetus">Epictetus</a>, still live as if they have. To suck it up is to move beyond grieving and keep fighting; it is to stare death down in a death-saturated place; it is to face one more deployment after two or three or four already. It is hard to imagine a popular philosophy better suited to deprivation and constant subjection to stressors [than <a href="http://en.wikipedia.org/wiki/Stoicism">Stoicism</a>].</p>
@@ -553,9 +553,9 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[Humanity's greatest danger: our inability to understand the exponential function]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
     <updated>2012-06-07T20:50:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function</id>
     <content type="html"><![CDATA[<p><a href="http://www.youtube.com/watch?v=F-QA2rkpBSY">Excellent video lecture</a> from University of Colorado professor Albert Bartlett on the exponential growth function and its real world implications. This should be taught and retaught every year of elementary school through undergraduate education.</p>
 
 <p>In a nutshell, exponential growth occurs anytime an amount increases by n% per t time period. Finance and economics are obvious culprits: 2% inflation per year, 3% economic grown per year, 2% interest on bonds, 20% interest on credit card debt, etc.</p>
@@ -576,18 +576,18 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[Information Theory]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/information-theory/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/information-theory/"/>
     <updated>2012-06-07T20:44:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/information-theory</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/information-theory</id>
     <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Programmingbooks.org]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/programmingbooks-dot-org/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org/"/>
     <updated>2012-06-07T20:33:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/programmingbooks-dot-org</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org</id>
     <content type="html"><![CDATA[<p><a href="http://Programmingbooks.org">Programmingbooks.org</a> is one of my favorite websites, despite being offline since a failed disk and lack of backup lost the data some time ago. Fortunately, <a href="http://web.archive.org/web/20080822052443/http://www.programmingbooks.org/">archive.org preserved it</a>, and the owner intends to get it <a href="http://stackoverflow.com/questions/2779740/what-happened-to-programming-books-com">back online sometime soon.</a></p>
 
 <p>Any kind of technical book generally takes longer to read than other books, since you not only have to work through the problem sets to understand the material, but also reread most of it multiple times, either as part of a <a href="http://www.ewrd.com/ewrd/index.asp">speed-reading method</a> or as you review the material while working on the problems.</p>
@@ -598,9 +598,9 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[Advice to Young Engineer/Entrepreneur]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur/"/>
     <updated>2012-06-07T19:17:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur</id>
     <content type="html"><![CDATA[<p>Just reposting a <a href="http://news.ycombinator.com/item?id=1747713">little gem from HackerNews</a>&#8230;</p>
 
 <blockquote><ol>
@@ -616,9 +616,9 @@ filesystem][7] by putting full package distributions in a single location, like
   
   <entry>
     <title type="html"><![CDATA[A Dead Simple Way to Get Up and Running with Lisp in Vim]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/"/>
     <updated>2012-06-07T15:15:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim</id>
     <content type="html"><![CDATA[<p>The <a href="http://www.google.com/search?q=how+to+use+lisp+with+vim">web is replete</a> with people trying to create, or learn, an efficient workflow for programming Lisp in Vim.  I&#8217;m the latter.  A vim amateur/intermediate, a Lisp noob.<br/>
 I want a quick and easy way to hack Lisp in Vim, save it in a file, load it into the REPL, hack some more in the REPL, and push the file to Github, without having to take the time to learn Emacs and <a href="http://common-lisp.net/project/slime/">SLIME</a>, or even <a href="http://www.vim.org/scripts/script.php?script_id=2531">SLIMV</a> (I&#8217;ll get around to these later after I&#8217;ve learned the language somewhat).</p>
 

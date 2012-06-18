@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: science | E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/blog/categories/science/atom.xml" rel="self"/>
-  <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-17T19:36:55-07:00</updated>
-  <id>http://expectedpayoff.github.com/</id>
+  <link href="http://expectedpayoff.com/blog/categories/science/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2012-06-17T20:40:45-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Humanity's greatest danger: our inability to understand the exponential function]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
     <updated>2012-06-07T20:50:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function</id>
     <content type="html"><![CDATA[<p><a href="http://www.youtube.com/watch?v=F-QA2rkpBSY">Excellent video lecture</a> from University of Colorado professor Albert Bartlett on the exponential growth function and its real world implications. This should be taught and retaught every year of elementary school through undergraduate education.</p>
 
 <p>In a nutshell, exponential growth occurs anytime an amount increases by n% per t time period. Finance and economics are obvious culprits: 2% inflation per year, 3% economic grown per year, 2% interest on bonds, 20% interest on credit card debt, etc.</p>

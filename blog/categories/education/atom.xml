@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: education | E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/blog/categories/education/atom.xml" rel="self"/>
-  <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-17T19:36:55-07:00</updated>
-  <id>http://expectedpayoff.github.com/</id>
+  <link href="http://expectedpayoff.com/blog/categories/education/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2012-06-17T20:40:45-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
     <updated>2012-06-07T21:40:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
     <updated>2012-06-07T21:36:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
 ]]></content>
   </entry>

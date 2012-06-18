@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: vim | E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/blog/categories/vim/atom.xml" rel="self"/>
-  <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-17T19:36:55-07:00</updated>
-  <id>http://expectedpayoff.github.com/</id>
+  <link href="http://expectedpayoff.com/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2012-06-17T20:40:45-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Dead Simple Way to Get Up and Running with Lisp in Vim]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/"/>
     <updated>2012-06-07T15:15:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim</id>
     <content type="html"><![CDATA[<p>The <a href="http://www.google.com/search?q=how+to+use+lisp+with+vim">web is replete</a> with people trying to create, or learn, an efficient workflow for programming Lisp in Vim.  I'm the latter.  A vim amateur/intermediate, a Lisp noob.<br/>
 I want a quick and easy way to hack Lisp in Vim, save it in a file, load it into the REPL, hack some more in the REPL, and push the file to Github, without having to take the time to learn Emacs and <a href="http://common-lisp.net/project/slime/">SLIME</a>, or even <a href="http://www.vim.org/scripts/script.php?script_id=2531">SLIMV</a> (I'll get around to these later after I've learned the language somewhat).</p>
 

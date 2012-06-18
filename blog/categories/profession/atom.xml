@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: profession | E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/blog/categories/profession/atom.xml" rel="self"/>
-  <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-17T19:36:55-07:00</updated>
-  <id>http://expectedpayoff.github.com/</id>
+  <link href="http://expectedpayoff.com/blog/categories/profession/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2012-06-17T20:40:45-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
     <updated>2012-06-07T21:40:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
     <updated>2012-06-07T21:13:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
     <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
 
 <ol>

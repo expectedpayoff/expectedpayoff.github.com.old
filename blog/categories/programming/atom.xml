@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: programming | E(X)PECTED P(A)YOFF]]></title>
-  <link href="http://expectedpayoff.github.com/blog/categories/programming/atom.xml" rel="self"/>
-  <link href="http://expectedpayoff.github.com/"/>
-  <updated>2012-06-17T19:36:55-07:00</updated>
-  <id>http://expectedpayoff.github.com/</id>
+  <link href="http://expectedpayoff.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2012-06-17T20:40:45-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to set up DrRacket for The Little Schemer]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
     <updated>2012-06-07T21:57:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
     <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
 
 <ol>
@@ -38,27 +38,27 @@
   
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
     <updated>2012-06-07T21:40:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Steve Yegge on the value of Polyglot Programming]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
     <updated>2012-06-07T21:29:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
     <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
     <updated>2012-06-07T21:13:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
     <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
 
 <ol>
@@ -80,9 +80,9 @@
   
   <entry>
     <title type="html"><![CDATA[Programmingbooks.org]]></title>
-    <link href="http://expectedpayoff.github.com/blog/2012/06/07/programmingbooks-dot-org/"/>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org/"/>
     <updated>2012-06-07T20:33:00-07:00</updated>
-    <id>http://expectedpayoff.github.com/blog/2012/06/07/programmingbooks-dot-org</id>
+    <id>http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org</id>
     <content type="html"><![CDATA[<p><a href="http://Programmingbooks.org">Programmingbooks.org</a> is one of my favorite websites, despite being offline since a failed disk and lack of backup lost the data some time ago. Fortunately, <a href="http://web.archive.org/web/20080822052443/http://www.programmingbooks.org/">archive.org preserved it</a>, and the owner intends to get it <a href="http://stackoverflow.com/questions/2779740/what-happened-to-programming-books-com">back online sometime soon.</a></p>
 
 <p>Any kind of technical book generally takes longer to read than other books, since you not only have to work through the problem sets to understand the material, but also reread most of it multiple times, either as part of a <a href="http://www.ewrd.com/ewrd/index.asp">speed-reading method</a> or as you review the material while working on the problems.</p>

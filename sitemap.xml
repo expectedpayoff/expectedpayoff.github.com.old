@@ -2,120 +2,112 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/
+            http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/
         </loc>
         <lastmod>2012-06-08T00:25:39-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur/
+            http://expectedpayoff.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur/
         </loc>
         <lastmod>2012-06-08T00:26:41-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/blog/2012/06/07/programmingbooks-dot-org/</loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org/</loc>
         <lastmod>2012-06-08T00:42:44-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/blog/2012/06/07/information-theory/</loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/information-theory/</loc>
         <lastmod>2012-06-08T00:38:24-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/
+            http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/
         </loc>
         <lastmod>2012-06-08T00:37:31-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/blog/2012/06/07/the-complex-costs-of-war/</loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war/</loc>
         <lastmod>2012-06-08T00:49:03-07:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/solitude-leadership-and-creativity/
-        </loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity/</loc>
         <lastmod>2012-06-08T00:44:21-07:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/top-programming-lessons-in-ten-years/
-        </loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/</loc>
         <lastmod>2012-06-08T00:49:39-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/
+            http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/
         </loc>
         <lastmod>2012-06-08T00:48:20-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/
+            http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/
         </loc>
         <lastmod>2012-06-08T00:41:43-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/
+            http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/
         </loc>
         <lastmod>2012-06-08T00:39:23-07:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/why-linux-is-better-than-windows/
-        </loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/</loc>
         <lastmod>2012-06-08T00:50:04-07:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/
-        </loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/</loc>
         <lastmod>2012-06-08T00:30:51-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/
+            http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/
         </loc>
         <lastmod>2012-06-08T00:32:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/blog/2012/06/08/manage-multiple-java/</loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java/</loc>
         <lastmod>2012-06-08T19:34:50-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/
+            http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/
         </loc>
         <lastmod>2012-06-08T19:34:41-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/
+            http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/
         </loc>
         <lastmod>2012-06-08T23:57:30-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/09/americas-greatest-21st-century-challenge/
+            http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge/
         </loc>
         <lastmod>2012-06-15T00:54:21-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/blog/2012/06/09/how-to-create-real-wealth/</loc>
+        <loc>http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/</loc>
         <lastmod>2012-06-15T00:53:33-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://expectedpayoff.github.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/
+            http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/
         </loc>
         <lastmod>2012-06-15T00:52:12-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/blog/archives/</loc>
+        <loc>http://expectedpayoff.com/blog/archives/</loc>
         <lastmod>2012-06-15T00:54:21-07:00</lastmod>
     </url>
     <url>
-        <loc>http://expectedpayoff.github.com/</loc>
+        <loc>http://expectedpayoff.com/</loc>
         <lastmod>2012-06-15T00:54:21-07:00</lastmod>
     </url>
 </urlset>
