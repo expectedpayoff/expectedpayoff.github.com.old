@@ -51,7 +51,7 @@ Additional clarification in the comments:
 
 >It is related to your post on spurrious correlations. These guys reply to a paper "claiming"climate change is the cause of some amphibian extinctions. They found better correlation of the extinctions with beer production and local production of bananas.
 
-See next post for Nate's take.
+See [next post for Nate's orthogonal take][18].
 
 [1]:    https://www.facebook.com/photo.php?fbid=10150935763253375&set=a.10150109720973375.279515.13012333374&type=1
 [2]:    http://www.fooledbyrandomness.com/NEJM.pdf
@@ -60,7 +60,7 @@ See next post for Nate's take.
 [5]:    http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html
 [6]:    https://www.facebook.com/bob.sundahl
 [7]:    https://www.facebook.com/kimmo.vehkalahti
-[8]:    http://www.deirdremccloskey.com/articles/stats/preface\_ziliak.php
+[8]:    http://www.deirdremccloskey.com/articles/stats/preface_ziliak.php
 [9]:    http://www.niss.org/sites/default/files/Young%20Karr%20Obs%20Study%20Problem.pdf
 [10]:   https://www.facebook.com/GuruAnaerobic
 [11]:   https://www.facebook.com/nick.teague
@@ -72,3 +72,4 @@ See next post for Nate's take.
 [17]:   http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/
 [16]:   http://fivethirtyeight.com
 [17]:   http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/
+[18]:   http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/
