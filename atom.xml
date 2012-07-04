@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2012-07-04T13:48:17-07:00</updated>
+  <updated>2012-07-04T13:49:17-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Problems of Forecasting]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/"/>
+    <updated>2012-07-04T13:12:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Pathology of Big Data]]></title>
@@ -647,19 +656,6 @@ filesystem][7] by putting full package distributions in a single location, like
     <updated>2012-06-07T20:44:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/information-theory</id>
     <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Programmingbooks.org]]></title>
-    <link href="http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org/"/>
-    <updated>2012-06-07T20:33:00-07:00</updated>
-    <id>http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org</id>
-    <content type="html"><![CDATA[<p><a href="http://Programmingbooks.org">Programmingbooks.org</a> is one of my favorite websites, despite being offline since a failed disk and lack of backup lost the data some time ago. Fortunately, <a href="http://web.archive.org/web/20080822052443/http://www.programmingbooks.org/">archive.org preserved it</a>, and the owner intends to get it <a href="http://stackoverflow.com/questions/2779740/what-happened-to-programming-books-com">back online sometime soon.</a></p>
-
-<p>Any kind of technical book generally takes longer to read than other books, since you not only have to work through the problem sets to understand the material, but also reread most of it multiple times, either as part of a <a href="http://www.ewrd.com/ewrd/index.asp">speed-reading method</a> or as you review the material while working on the problems.</p>
-
-<p>A site like this one is invaluable in cutting down the time required to find the books most highly regarded among professional programmers, software engineers, and hackers. Additionally, less noise (marginal and non-programming books) than Amazon and more trustworthy reviews provide an essentially industry-certified curriculum that&#8217;s better than what some schools offer (the <a href="http://www.urbandictionary.com/define.php?term=diploma%20factory">diploma factories</a> and <a href="http://en.wikipedia.org/wiki/Diploma_mill">mills</a>, at least).</p>
 ]]></content>
   </entry>
   
