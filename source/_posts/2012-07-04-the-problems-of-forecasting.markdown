@@ -4,7 +4,7 @@ title: "The Problems of Forecasting"
 date: 2012-07-04 13:12
 categories: [big data, data science, statistics, forecasting, critiques]
 comments: true
-published: false
+published: true
 author: Byron Gibson
 ---
 Followup to the [previous post][10].  Nate's [extensive article][2] is too wide-ranging to paraphrase or summarize, but is a great overview of the problems of forecasting.

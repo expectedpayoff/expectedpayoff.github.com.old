@@ -29,7 +29,7 @@ Additional clarification in the comments:
 
 >[Kimmo Vehkalahti][7] Recommended reading: "The Cult of Statistical Significance", see: [http://www.deirdremccloskey.com/articles/stats/preface\_ziliak.php][8].
 
->[Bob Sundahl][6] Here is a useful link to the article identified by Mark Weaver (with excellent cartoons) [http://www.niss.org/sites/default/files/Young%20Karr%20Obs%20Study%20Problem.pdf][9].
+>[Bob Sundahl][6] Here is a useful link to the article identified by Mark Weaver (with excellent cartoons) [http://www.niss.org/sites/default/files/Young\ Karr\ Obs\ Study\ Problem.pdf][9].
 
 >[Bob Sundahl][6] The phenomenon we are describing was diagnoses as "apophenia" By William Gibson is one of his books.  Humans have an inate predisposition to look for patterns, and often find them where none exist. This tendency is strongly enhanced when rewards are given for discovering trends. And, as Nassim points out, the lack of punishment for finding false trends is also encouragement. Apophenia is a critical attribute for success in many professions - sports reporters, economists, stock market analysts, astrologers (but I repeat myself).
 
@@ -61,7 +61,7 @@ See [next post for Nate's orthogonal take][18].
 [6]:    https://www.facebook.com/bob.sundahl
 [7]:    https://www.facebook.com/kimmo.vehkalahti
 [8]:    http://www.deirdremccloskey.com/articles/stats/preface_ziliak.php
-[9]:    http://www.niss.org/sites/default/files/Young%20Karr%20Obs%20Study%20Problem.pdf
+[9]:    http://www.niss.org/sites/default/files/Young\ Karr\ Obs\ Study\ Problem.pdf
 [10]:   https://www.facebook.com/GuruAnaerobic
 [11]:   https://www.facebook.com/nick.teague
 [12]:   http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card
