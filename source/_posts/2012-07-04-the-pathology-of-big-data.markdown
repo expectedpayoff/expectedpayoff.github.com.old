@@ -7,7 +7,7 @@ comments: true
 published: true
 author: Byron Gibson
 ---
-Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  [The first][1] by [Nassime Taleb][3], [the second][17] by [Nate Silver][16].  Two good posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.
+Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  [The first][1] by [Nassim Taleb][3], [the second][17] by [Nate Silver][16].  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.
 
 >[Nassim Nicholas Taleb][3] The pathology of Big Data: the more variables, the DISPROPORTIONATELY higher the number of spurious results that appear "statistically significant". For a real-life application see [this busted article in The N E Journal of Medicine][2].
 
@@ -45,13 +45,13 @@ Additional clarification in the comments:
 
 >[Pedro Peloso][14] MORE ON CORRELATIONS. 
 
-Think you will like this: 
+>Think you will like this: 
 
-[http://www.pnas.org/content/105/45/17436][15]
+>[http://www.pnas.org/content/105/45/17436][15]
 
-It is related to your post on spurrious correlations. These guys reply to a paper "claiming"climate change is the cause of some amphibian extinctions. They found better correlation of the extinctions with beer production and local production of bananas.
+>It is related to your post on spurrious correlations. These guys reply to a paper "claiming"climate change is the cause of some amphibian extinctions. They found better correlation of the extinctions with beer production and local production of bananas.
 
-See next post for Nate's.
+See next post for Nate's take.
 
 [1]:    https://www.facebook.com/photo.php?fbid=10150935763253375&set=a.10150109720973375.279515.13012333374&type=1
 [2]:    http://www.fooledbyrandomness.com/NEJM.pdf
