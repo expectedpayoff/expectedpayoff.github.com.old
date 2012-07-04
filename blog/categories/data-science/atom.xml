@@ -4,7 +4,7 @@
   <title><![CDATA[Category: data science | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/blog/categories/data-science/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2012-07-04T16:39:52-07:00</updated>
+  <updated>2012-07-04T16:40:31-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -74,7 +74,15 @@ I'm not so sure that predictions can't be made without statistics. I wasn't at a
 In the interest of fairness to numbers, political scientist Jay Ufelder has a post on using certain numbers and criteria to predict the nations most likely to have coups.
 <a href="http://dartthrowingchimp.wordpress.com/2012/01/30/assessing-coup-risk-in-2012/">http://dartthrowingchimp.wordpress.com/2012/01/30/assessing-coup-risk-in-2012/</a>
 Also political scientist Daniel Drezner has an article in response to Stevens. He's not impressed.
-<a href="http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate">http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate</a></p></blockquote>
+<a href="http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate">http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate</a></p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=6">Richard</a>, NY
+Some context from the physical sciences might be useful: Weather forecasts have been probably the most successful predictions in the context of large unavoidable uncertainty. It is interesting to look histocially at their skill and the reasons for its slow improvement over decades. Initially (50s-70s) this occured due to better model formulation. Such models were very firmly grounded in well established physics. Later (80s-present) it was due to more complete observational data for prediction initialization.
+So the lessons would appear to be:
+1. Work out the basic rules governing the dynamics of the system of interest.
+2. Once step 1) has been achieved, hit the system with tons of data.
+My sense as a physical scientist is that social/political scientists have a lot of trouble with point 1) and resort to point 2) almost in desperation.
+Personally I would think a lot more about the basic behavioural dynamics that set political opinion. Economic factors are pretty clearly important but not completely explanatory.....</p></blockquote>
 ]]></content>
   </entry>
   
