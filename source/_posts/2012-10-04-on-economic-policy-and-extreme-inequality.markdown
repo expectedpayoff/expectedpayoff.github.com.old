@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "On Economic Policy And Extreme Inequality"
-date: 2012-10-03 23:51
+title: "On Economic Policy and Extreme Inequality"
+date: 2012-10-04 02:38
 categories: [economics, policy, inequality, power laws, demographics, conservatism, libertarianism]
 comments: true
 published: true
@@ -43,6 +43,7 @@ I haven't read political blogs in a few years, having chalked them all up to mos
 [3]:    http://www.nationaljournal.com/next-economy/essay-the-growing-income-gap-in-the-u-s-harms-the-economy-20120927
 [4]:    https://en.wikipedia.org/wiki/California_electricity_crisis
 [5]:    https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932010
-[6]:    https://en.wikipedia.org/wiki/Fractal#Characteristics
-[7]:    
-[8]:    https://en.wikipedia.org/wiki/Long-range_dependency
+[6]:    http://market-ticker.org/akcs-www?post=212306
+[7]:    https://en.wikipedia.org/wiki/Fractal#Characteristics
+[8]:    
+[9]:    https://en.wikipedia.org/wiki/Long-range_dependency
