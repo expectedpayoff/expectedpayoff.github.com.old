@@ -82,12 +82,12 @@ googleplus_user: 105507345434893922031
 googleplus_hidden: false
 
 # Pinboard
-pinboard_user: byrongibson
-pinboard_count: 3
+#pinboard_user: byrongibson
+#pinboard_count: 3
 
 # Delicious
-delicious_user:
-delicious_count: 3
+#delicious_user:
+#delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: byrongibson
