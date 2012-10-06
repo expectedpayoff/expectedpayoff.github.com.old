@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2012-10-01T19:25:03-07:00</updated>
+  <updated>2012-10-05T21:05:11-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[On Economic Policy and Extreme Inequality]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/10/04/on-economic-policy-and-extreme-inequality/"/>
+    <updated>2012-10-04T02:38:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/10/04/on-economic-policy-and-extreme-inequality</id>
+    <content type="html"><![CDATA[<p>One of the intellectual benefits of computer programming is that your mind is constantly trained to wrestle and wrangle with incredibly complex and - uniquely - immediateley unforgiving systems on a daily basis.  Multi-layered side effects and unintended consequences are not just an academic excercise but a daily problem to solve.  Entire <a href="http://www.haskell.org/">languages</a> have even been designed from scratch to eliminate or constrain major sources of non-deterministic behavior.</p>
+
+<p>But at least perfectly literal computer systems provide a relatively instant feedback loop, helping one to more clearly see the links between tweaks, changes, and corrections and their various effects on the system - you don&#8217;t have to wait several years or decades to see the all consequences, both intended and unintended.  Further, analysing them is a more tractable problem than analysing public policy effects (not least because you can effectively isolate the system and its variables).</p>
+
+<p>Over time this rapid feedback loop develops in one a sense or intuition about side effects and unintended consequences, and a more bottom-up empirical, less top-down theoretical bent of mind.  More specifically, while theory is necessary to understanding a system, it is not sufficient, and is more fragile to contradictory data and evidence, and more suspect for unintentional outcomes.</p>
+
+<p>As such, over the past decade, I have come to suspect that some political theories to which I subscribed in youth actually lead to highly undesirable outcomes, despite their 1) best intentions, 2) accounting for side-effects and unintended consequences, 3) congruence with my own beliefs, and 4) apparent common sense.</p>
+
+<p>Today I randomly came across an article in which Andrew Sullivan, a noted conservative/libertarian political commentator, expresses some of the same concerns and misgivings.</p>
+
+<p>In a nutshell, my concerns are:</p>
+
+<ol>
+<li>Across-the-board deregulation of all industries may not be wise or optimal after all.  In some cases, most notably <a href="http://www.nationaljournal.com/next-economy/essay-the-growing-income-gap-in-the-u-s-harms-the-economy-20120927">Energy</a> and <a href="https://en.wikipedia.org/wiki/California_electricity_crisis">Banking</a>, it may even be destructive overall.  If the industry is both inherently unstable and systemically risky, as both Energy and Banking are, and regulation provides stability that would not otherwise be possible, then overall that regulation is more beneficial than harmful.</li>
+</ol>
+
+
+<p>Some argue that stability from regulation is an illusion, that instead of providing stability it hides a buildup of massive instability that is eventually unleashed when regulations fail, or are repealed, or regulatory institutions are captured, etc.  These are valid concerns, but I believe their proposed alternative is worse.  Their proposed alternative is that we should completely deregulate these industries so that they can fail early and fail fast, thus avoiding massive buildups and Great Depression-level crashes.</p>
+
+<p>The problem there is, the underlying assumption is that natural instability is normally distributed, and that a completely deregulated system, even systemically risky ones like banking or energy, will only ever experience frequent but little crashes, never major buildups and systemic collapses.  Eg, an unregulated system will vent and blow off steam frequetly enough that major buildups of risk and instability that lead to systemic collapses never happen, and all crashes are relatively small and localized.</p>
+
+<p>But in recent years we have come to understand that complex systems like human society and economies are not normally distributed, they are power-law distributed.  More worryingly the randomness inherent in these systems is fractal randomness, the characteristics of which were described by Benoit Mandelbrot as:</p>
+
+<p>a) <a href="http://market-ticker.org/akcs-www?post=212306">scalable</a> - fine or detailed structure at arbitrarily small (or large) scales
+b) <a href="http://market-ticker.org/akcs-www?post=212306">self similar</a> - identical at all scales (exact); approximates the same pattern at all scales (quasi); statistically the same at all scales (stochastic)
+c) <a href="https://en.wikipedia.org/wiki/Fractal#Characteristics">clustered</a> - punctuated by massive spikes from which 99% or more of the total variance of the data is derived.  These spikes occur in clusters, never isolated.  Where there is one, there will be more.
+d) <a href="">long memory</a> -</p>
+
+<p>&#8230;Contrary to popular Conservative beliefs, banks (and big business in general) don&#8217;t &#8216;like&#8217; regulation, else they wouldn&#8217;t have spent the past several decades lobbying for less of it.  When regulation is enforced on them, they make the best of it, game it, hack it, lobby against it, etc.  But they don&#8217;t <em>like</em> it.</p>
+
+<p>&#8230;</p>
+
+<p>I haven&#8217;t read political blogs in a few years, having chalked them all up to mostly sound and fury of the &#8216;chattering classes&#8217;, but recently came across blog post by Conservative/Libertarian pundit Andrew Sullivan, <a href="http://andrewsullivan.thedailybeast.com/2012/10/extreme-inequality-threatens-americas-portfolio.html">echoing exactly my same concerns about current Republican dogma</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Problems of Forecasting]]></title>
@@ -711,15 +752,6 @@ filesystem][7] by putting full package distributions in a single location, like
 <p>This little rule of thumb is immensely useful for interpreting news reports, government proclamations, managing personal finances, and understanding a host of other problems facing the human race over the next century, which Professor Bartlett elaborates on.</p>
 
 <p>Well worth the time to watch it.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Information Theory]]></title>
-    <link href="http://expectedpayoff.com/blog/2012/06/07/information-theory/"/>
-    <updated>2012-06-07T20:44:00-07:00</updated>
-    <id>http://expectedpayoff.com/blog/2012/06/07/information-theory</id>
-    <content type="html"><![CDATA[<p>Excellent primer on <a href="https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy">information theory</a> from <a href="http://www.eff.org/">EFF</a>.</p>
 ]]></content>
   </entry>
   
