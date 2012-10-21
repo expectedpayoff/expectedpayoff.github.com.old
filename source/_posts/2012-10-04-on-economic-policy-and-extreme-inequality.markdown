@@ -4,7 +4,7 @@ title: "On Economic Policy and Extreme Inequality"
 date: 2012-10-04 02:38
 categories: [economics, policy, inequality, power laws, demographics, conservatism, libertarianism]
 comments: true
-published: true
+published: false
 author: Byron Gibson
 ---
 One of the intellectual benefits of computer programming is that your mind is constantly trained to wrestle and wrangle with incredibly complex and - uniquely - immediateley unforgiving systems on a daily basis.  Multi-layered side effects and unintended consequences are not just an academic excercise but a daily problem to solve.  Entire [languages][1] have even been designed from scratch to eliminate or constrain major sources of non-deterministic behavior.
