@@ -2,9 +2,9 @@
 layout: post
 title: "The Other Election 2012 Contest:  The Pollsters vs the Data Scientists vs the Political Markets"
 date: 2012-10-25 12:57
-categories: 
+categories: [politics, election, data science]
 comments: true
-published: false
+published: true
 author: Byron Gibson
 ---
 
