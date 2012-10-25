@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Other Election 2012 Contest:  The Pollsters vs the Data Scientists vs the Political Markets - E(X)PECTED P(A)YOFF</title>
+  <meta name="author" content="Byron Gibson">
+
+  
+  <meta name="description" content="&#8220;Election administrators go to bed at night and say, &#8220;dear Lord, let it be a landslide.&#8221; -Trevor Potter, former commissioner and &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="E(X)PECTED P(A)YOFF" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32249640-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">E(X)PECTED P(A)YOFF</a></h1>
+  
+    <h2>on economics, software, uncertainty, and sometimes their intersection.  by Byron Gibson.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://www.duckduckgo.com/" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:expectedpayoff.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The Other Election 2012 Contest: The Pollsters vs the Data Scientists vs the Political Markets</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-25T12:57:00-07:00" pubdate data-updated="true">Oct 25<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><em>&#8220;Election administrators go to bed at night and say, &#8220;dear Lord, let it be a landslide.&#8221;</em> -Trevor Potter, former commissioner and chairman of the FEC</p>
+
+<p>Election 2012 is shaping up to be interesting for a variety of reasons, but not least because of two reasons involving forecasting:</p>
+
+<ol>
+<li>This will be the first election that sophisticated and relatively mature data science forecasting/modelling techniques are available.</li>
+<li>This is the first closely contested election since said techniques became available, and as a result we&#8217;re seeing high variance among difference forecasting methodologies.</li>
+</ol>
+
+
+<p>There are roughly three categories of data-driven, systematic forecasting methodologies:</p>
+
+<ol>
+<li>Traditional (but highly tuned) polls like <a href="http://www.gallup.com/poll/154559/US-Presidential-Election-Center.aspx?ref=interactive">Gallup</a>, <a href="http://pewresearch.org/topics/election'12/">Pew</a>, <a href="http://www.rasmussenreports.com/public_content/politics/political_updates/daily_presidential_tracking_poll">Rassmussen</a>, both of the national popular vote, state popular votes, and of both registered and &#8216;likely&#8217; voters.</li>
+<li>Electoral college probability models/simulations run by data scientists like <a href="https://en.wikipedia.org/wiki/Nate_Silver">Nate Silver</a><a href="http://fivethirtyeight.com">1</a>, <a href="https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew Tannenbaum</a><a href="http://www.electoral-vote.com/">2</a>, and <a href="https://twitter.com/DrewLinzer">Drew Linzer</a><a href="http://votamatic.org/">3</a>, that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.</li>
+<li><a href="http://www.macroeconomicwoes.com/uncategorized/the-policy-wonks-guide-to-the-presidential-betting-market.html">Political betting markets</a> like <a href="http://www.pinnaclesports.com/ContestCategory/Politics/Lines.aspx">Pinnacle Sports</a>, <a href="http://www.matchbook.com/matchbook/events/market/?category=138157">Matchbook</a>, <a href="http://www.intrade.com/v4/misc/scoreboard/">Intrade</a>.</li>
+</ol>
+
+
+<p>This is the first US election since 2000 that is 1) actually close and contested, and 2) features tuned, tweaked, evolved and relatively sophisticated polls, probability models, and betting markets all attempting to divine the outcome.  One of the consequences of the close election is that there are relatively higher variances across these different forecasting methodologies and implementations.  Whereas a landslide election would result in all the forecasting methods roughly agreeing with each other, a close election results in disagreement, and hence a moment of truth - who is most accurate (or to put it in statistician&#8217;s terms, who is least wrong).</p>
+
+<p>As of writing this, the major national polls generally show Romney eeking out a slight lead in the national popular vote, the electoral college models show a stubborn lead for Obama, and the betting markets generally show Obama ahead but with some <a href="http://fivethirtyeight.blogs.nytimes.com/2012/10/24/oct-23-the-virtues-and-vices-of-election-prediction-markets/">unusual activity</a> (which could hurt their credibility even if they correctly predict the election).</p>
+
+<p>So who is least wrong?  We&#8217;ll know in about two weeks, and can look forward to plenty of postmortem analysies of the analysies afterwards.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Byron Gibson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-25T12:57:00-07:00" pubdate data-updated="true">Oct 25<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/data-science/'>data science</a>, <a class='category' href='/blog/categories/election/'>election</a>, <a class='category' href='/blog/categories/politics/'>politics</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/" data-via="byrongibson" data-counturl="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/07/04/the-problems-of-forecasting/" title="Previous Post: The Problems of Forecasting">&laquo; The Problems of Forecasting</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/">The Other Election 2012 Contest:  The Pollsters vs the Data Scientists vs the Political Markets</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/04/the-problems-of-forecasting/">The Problems of Forecasting</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/04/the-pathology-of-big-data/">The Pathology of Big Data</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/03/computer-science-a-medium-for-expression/">Computer Science: A medium for expression</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/">A 3D Printer On Every Desktop In Every Home</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("byrongibson", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/byrongibson" class="twitter-follow-button" data-show-count="false">Follow @byrongibson</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/byrongibson">@byrongibson</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'byrongibson',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105507345434893922031?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Byron Gibson -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'byrongibson';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/';
+        var disqus_url = 'http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
