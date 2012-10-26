@@ -23,9 +23,9 @@ There are roughly three categories of data-driven, systematic forecasting method
 
 This is the first US presidential election since 2000 that is actually close and contested, and hence the first ever closely contested presidential election that features mature probability models of the electoral college - alongside tuned, tweaked, evolved and relatively sophisticated polls and betting markets - all attempting to divine the outcome.  
 
-One of the consequences of the close election is that there is  higher variance across these different forecasting methodologies and implementations than in the past two presidential election cycles.  
+One characteristic of this close election is that idiosyncracies, and perhaps flaws and biases, in these forecasting methods are more likely to be exposed under the higher general uncertainty than in the past two presidential election cycles.  
 
-Whereas landslide elections tend to result in all the forecasting methods roughly agreeing with each other, close elections can result in disagreement among them - as is happening now - and hence a moment of truth: who is most accurate (or to put it in statistician's terms, who is [less wrong][17]).  
+Whereas uncontested or landslide elections tend to result in all the forecasting methods roughly agreeing with each other, close elections can result in disagreement among them - as is happening now - and hence a moment of truth: who is most accurate (or to put it in more scientific terms, who is [less wrong][17]).  
 
 As of writing this, the major national polls generally show Romney eeking out a slight lead in the national popular vote, the electoral college models show a stubborn lead for Obama, and the betting markets generally favor Obama while trending Romney (with some [unusual activity][12] which could hurt their credibility even if they correctly predict the election).
 
