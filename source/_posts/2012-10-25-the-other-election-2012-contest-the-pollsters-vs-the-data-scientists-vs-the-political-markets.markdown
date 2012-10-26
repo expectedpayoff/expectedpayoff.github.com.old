@@ -12,7 +12,7 @@ author: Byron Gibson
 
 Election 2012 is shaping up to be interesting for a variety of reasons, but not least because of two reasons involving forecasting:
 
-1.  Sophisticated probabalistic electoral college forecast models first seen in the mid 2000s have had a few election cycles to mature and evolve.
+1.  Sophisticated probabalistic electoral college forecast models first seen in the early-mid 2000s have had a few election cycles to mature and evolve.
 2.  This is the first *closely contested* presidential election since said techniques hit mainstream, and for the first time since then we're seeing statistically and qualitatively significant disagreement among difference forecasting methodologies.
 
 There are roughly three categories of data-driven, systematic forecasting methodologies:
