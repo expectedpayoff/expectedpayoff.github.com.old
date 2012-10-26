@@ -12,8 +12,8 @@ author: Byron Gibson
 
 Election 2012 is shaping up to be interesting for a variety of reasons, but not least because of two reasons involving forecasting:
 
-1.  This will be the first election that sophisticated and relatively mature data science forecasting/modelling techniques are available.
-2.  This is the first closely contested election since said techniques became available, and as a result we're seeing high variance among difference forecasting methodologies.
+1.  Sophisticated probabalistic electoral college forecast models first seen in the mid 2000s have had a few election cycles to mature and evolve.
+2.  This is the first *closely contested* election since said techniques became available, and as a result we're seeing high variance among difference forecasting methodologies.
 
 There are roughly three categories of data-driven, systematic forecasting methodologies:
 
