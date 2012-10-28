@@ -18,7 +18,7 @@ Election 2012 is shaping up to be interesting for a variety of reasons, but not 
 There are roughly three categories of data-driven, systematic forecasting methodologies:
 
 1.  Traditional (but highly tuned) polls like [Gallup][2], [Pew][14], [Rassmussen][1], both of the national popular vote, state popular votes, and of registered and 'likely' voters.
-2.  Electoral college probability models/simulations run by data scientists like [Nate Silver][3] [[1][4]], [Andrew Tannenbaum][5] [[2][6]], and [Drew Linzer][7] [[3][8]], that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.
+2.  Electoral college probability models/simulations run by data scientists like [Nate Silver][3] ([fivethirtyeight.com][4]), [Andrew Tannenbaum][5] ([electoral-vote.com][6]), and [Drew Linzer][7] ([votamatic.com][8]), that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.
 3.  [Political betting markets][13] like [Pinnacle Sports][10], [Matchbook][11], [Intrade][9]. 
 
 This is the first US presidential election since 2000 that is actually close and contested, and hence the first ever closely contested presidential election that features mature probability models of the electoral college - alongside tuned, tweaked, evolved and relatively sophisticated polls and betting markets - all attempting to divine the outcome.  
