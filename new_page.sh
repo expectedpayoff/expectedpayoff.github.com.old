@@ -1,6 +1,6 @@
 #!/usr/bin/env bash -
 
-# usage:  sh new_post.sh "A Dead Simple Way to Get Up and Running With Lisp and Vim"
+# usage:  sh new_page.sh "TITLE"
 
 TITLE="Test Post"
 TITLE=$1

@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: page
 title: "Development Ebooks"
 date: 2012-10-27 21:31
 categories: 
 comments: true
-published: true
+published: false
 author: Byron Gibson
 ---
 Recently some very interesting free ebooks on web development, startups, and other topics have caught my eye.  This post is an ongoing record of them.  In no particular order:
