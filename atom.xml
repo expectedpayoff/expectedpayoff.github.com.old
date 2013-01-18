@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2012-12-12T19:36:57-08:00</updated>
+  <updated>2013-01-18T15:30:54-05:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -14,9 +14,18 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Government Spending Deconstructed]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/01/18/government-spending-deconstructed/"/>
+    <updated>2013-01-18T15:27:00-05:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/01/18/government-spending-deconstructed</id>
+    <content type="html"><![CDATA[<p>An brief but clarifying <a href="http://fivethirtyeight.blogs.nytimes.com/2013/01/16/what-is-driving-growth-in-government-spending/#more-38257">look at US government spending</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Other Election 2012 Contest:  The Pollsters vs the Data Scientists vs the Political Markets]]></title>
     <link href="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/"/>
-    <updated>2012-10-25T12:57:00-07:00</updated>
+    <updated>2012-10-25T12:57:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets</id>
     <content type="html"><![CDATA[<p><em>&#8220;Election administrators go to bed at night and say, &#8216;dear Lord, let it be a landslide.&#8217;&#8221;</em> -Trevor Potter, former commissioner and chairman of the FEC</p>
 
@@ -52,7 +61,7 @@
   <entry>
     <title type="html"><![CDATA[The Problems of Forecasting]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/"/>
-    <updated>2012-07-04T13:12:00-07:00</updated>
+    <updated>2012-07-04T13:12:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting</id>
     <content type="html"><![CDATA[<p>Followup to the <a href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/">previous post</a>.  Nate&#8217;s <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">extensive article</a> is too wide-ranging to paraphrase or summarize, but is a great overview of the problems of forecasting.</p>
 
@@ -130,7 +139,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[The Pathology of Big Data]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/"/>
-    <updated>2012-07-04T12:17:00-07:00</updated>
+    <updated>2012-07-04T12:17:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data</id>
     <content type="html"><![CDATA[<p>Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  <a href="https://www.facebook.com/photo.php?fbid=10150935763253375&amp;set=a.10150109720973375.279515.13012333374&amp;type=1">The first</a> by <a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Taleb</a>, <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">the second</a> by <a href="http://fivethirtyeight.com">Nate Silver</a>.  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.</p>
 
@@ -184,7 +193,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[Computer Science: A medium for expression]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression/"/>
-    <updated>2012-07-03T13:04:00-07:00</updated>
+    <updated>2012-07-03T13:04:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression</id>
     <content type="html"><![CDATA[<p><a href="http://betabeat.com/2012/06/real-tales-of-learning-computer-science-as-a-high-school-girl-stuyvesant/#slide2">A very well-articulated reason for learning programming and computer science:</a></p>
 
@@ -197,7 +206,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[A 3D Printer On Every Desktop In Every Home]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/"/>
-    <updated>2012-06-09T02:23:00-07:00</updated>
+    <updated>2012-06-09T02:23:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been meaning to write this post for a while, but Vice-President Biden <a href="http://www.3dprinter.net/joe-biden-plugs-3d-printing-commencement-address">just gave me the kick in the rear to finally get it done</a>.</p>
 
@@ -249,7 +258,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[How to create real wealth]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/"/>
-    <updated>2012-06-09T00:31:00-07:00</updated>
+    <updated>2012-06-09T00:31:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth</id>
     <content type="html"><![CDATA[<p>One of the many problems caused by the ongoing financial crisis is renewed criticisms of the capitalist system in general.  Our current system is deeply flawed and certainly deserves some of it, however there is bathwater and there is the baby, and we conflate the two at the risk of exacerbating the financial crisis rather than mitigating it or preventing a recurrence.</p>
 
@@ -280,7 +289,7 @@ For example, there is great economic value in a government and legal system that
   <entry>
     <title type="html"><![CDATA[America's Greatest 21st Century Challenge]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge/"/>
-    <updated>2012-06-09T00:00:00-07:00</updated>
+    <updated>2012-06-09T00:00:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge</id>
     <content type="html"><![CDATA[<p>There is a lot of <a href="https://news.ycombinator.com/item?id=4086251">discussion</a> in tech circles recently on the sorry state of US immigration and the dire need for more qualified engineers, computer scientists, matheticians, etc., but much of it misses the bigger picture.  The big picture is that the dominant socioeconomic dynamic of the 21st century will be the competition between the US system and China&#8217;s massive population (and India&#8217;s to a lesser extent) for global economic ascendance.</p>
 
@@ -300,7 +309,7 @@ For example, there is great economic value in a government and legal system that
   <entry>
     <title type="html"><![CDATA[My Main Problem With Google Plus So Far]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/"/>
-    <updated>2012-06-08T23:44:00-07:00</updated>
+    <updated>2012-06-08T23:44:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far</id>
     <content type="html"><![CDATA[<p>Google+ got a <a href="http://googleblog.blogspot.com/2012/04/toward-simpler-more-beautiful-google.html">redesign two months ago</a>.  It&#8217;s nice, I have no major complaints about the new look (except for the huge whitespace beneath the aside portrait/info, but that&#8217;s more aestetic than usability).</p>
 
@@ -328,7 +337,7 @@ For example, there is great economic value in a government and legal system that
   <entry>
     <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks locally with git]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
-    <updated>2012-06-08T18:24:00-07:00</updated>
+    <updated>2012-06-08T18:24:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
     <content type="html"><![CDATA[<p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
 
@@ -459,7 +468,7 @@ Primary browser (Chromium, for this example):</li>
   <entry>
     <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java/"/>
-    <updated>2012-06-08T13:53:00-07:00</updated>
+    <updated>2012-06-08T13:53:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java</id>
     <content type="html"><![CDATA[<p>Sun/Oracle Java was <a href="http://askubuntu.com/questions/67909/how-do-i-install-oracle-jdk-6">removed from Linux distros</a> in 2011 due to licensing issues.<br/>
 It can only be downloaded directly from Oracle&#8217;s website now and installed manually.
@@ -522,7 +531,7 @@ should be clear how it works upon closer inspection of those scripts.</p>
 
 
 
-<div><script src='https://gist.github.com/2898928.js?file='></script>
+<div><script src='https://gist.github.com/2898928.js'></script>
 <noscript><pre><code>#!/usr/bin/env bash -
 
 # install haskell GHC to the system via Debian update-alternatives
@@ -593,7 +602,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[How to set up DrRacket for The Little Schemer]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
-    <updated>2012-06-07T21:57:00-07:00</updated>
+    <updated>2012-06-07T21:57:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
     <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
 
@@ -617,7 +626,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Best soccer/futbol site ever]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
-    <updated>2012-06-07T21:52:00-07:00</updated>
+    <updated>2012-06-07T21:52:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
     <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
 ]]></content>
@@ -626,7 +635,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
-    <updated>2012-06-07T21:42:00-07:00</updated>
+    <updated>2012-06-07T21:42:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
     <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
 
@@ -653,7 +662,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
-    <updated>2012-06-07T21:40:00-07:00</updated>
+    <updated>2012-06-07T21:40:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
@@ -662,7 +671,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
-    <updated>2012-06-07T21:36:00-07:00</updated>
+    <updated>2012-06-07T21:36:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
 ]]></content>
@@ -671,7 +680,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Steve Yegge on the value of Polyglot Programming]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
-    <updated>2012-06-07T21:29:00-07:00</updated>
+    <updated>2012-06-07T21:29:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
     <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
 ]]></content>
@@ -680,7 +689,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
-    <updated>2012-06-07T21:13:00-07:00</updated>
+    <updated>2012-06-07T21:13:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
     <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
 
@@ -704,7 +713,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Solitude, Leadership, and Creativity]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity/"/>
-    <updated>2012-06-07T21:07:00-07:00</updated>
+    <updated>2012-06-07T21:07:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity</id>
     <content type="html"><![CDATA[<p>One of the <a href="http://theamericanscholar.org/solitude-and-leadership/">best essays</a> I&#8217;ve ever read.</p>
 
@@ -717,36 +726,13 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[The Complex Costs of War]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war/"/>
-    <updated>2012-06-07T20:54:00-07:00</updated>
+    <updated>2012-06-07T20:54:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war</id>
     <content type="html"><![CDATA[<p><a href="http://nancysherman.com/">Nancy Sherman</a> was the first Distinguished Chair in Ethics at the U.S. Naval Academy andis currently University Professor of Philosophy at Georgetown. <a href="http://opinionator.blogs.nytimes.com/2010/05/30/a-crack-in-the-stoic-armor/?src=me&amp;amp;ref=homepage%22">Her article</a> in the NY Times today discusses the subtle, complex, confusing costs to civilized people tasked to fight our modern wars.</p>
 
 <p>&#8220;In the military, even those who have never laid eyes on a page of <a href="http://en.wikipedia.org/wiki/Epictetus">Epictetus</a>, still live as if they have. To suck it up is to move beyond grieving and keep fighting; it is to stare death down in a death-saturated place; it is to face one more deployment after two or three or four already. It is hard to imagine a popular philosophy better suited to deprivation and constant subjection to stressors [than <a href="http://en.wikipedia.org/wiki/Stoicism">Stoicism</a>].</p>
 
 <p>And yet in the more than 30 interviews I conducted with soldiers who have returned from the long current wars, what I heard was the wish to let go of the Stoic armor. They wanted to feel and process the loss. They wanted to register the complex inner moral landscape of war by finding some measure of empathy with their own emotions.&#8221;</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Humanity's greatest danger: our inability to understand the exponential function]]></title>
-    <link href="http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function/"/>
-    <updated>2012-06-07T20:50:00-07:00</updated>
-    <id>http://expectedpayoff.com/blog/2012/06/07/humanitys-greatest-danger-our-inability-to-understand-the-exponential-function</id>
-    <content type="html"><![CDATA[<p><a href="http://www.youtube.com/watch?v=F-QA2rkpBSY">Excellent video lecture</a> from University of Colorado professor Albert Bartlett on the exponential growth function and its real world implications. This should be taught and retaught every year of elementary school through undergraduate education.</p>
-
-<p>In a nutshell, exponential growth occurs anytime an amount increases by n% per t time period. Finance and economics are obvious culprits: 2% inflation per year, 3% economic grown per year, 2% interest on bonds, 20% interest on credit card debt, etc.</p>
-
-<p>The crux of the lecture is that it is easy to calculate the rate at which an amount with constant growth will double: Simply divide 70 by the absolute percent.</p>
-
-<p>For example, GDP growth is 3% per year, how soon till the GDP doubles? 70/3 = 23.3, so 23.3 years until the GDP doubles.</p>
-
-<p>Say population growth is 7% per year, how soon till the population doubles? 70/7 = 10 years.</p>
-
-<p>Say your credit card interest rate is 20%, how soon till the amount you owe doubles? 70/20 = 3.5 years.</p>
-
-<p>This little rule of thumb is immensely useful for interpreting news reports, government proclamations, managing personal finances, and understanding a host of other problems facing the human race over the next century, which Professor Bartlett elaborates on.</p>
-
-<p>Well worth the time to watch it.</p>
 ]]></content>
   </entry>
   

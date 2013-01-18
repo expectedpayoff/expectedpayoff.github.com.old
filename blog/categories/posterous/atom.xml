@@ -4,7 +4,7 @@
   <title><![CDATA[Category: posterous | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/blog/categories/posterous/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2012-12-12T19:36:57-08:00</updated>
+  <updated>2013-01-18T15:30:54-05:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[How to set up DrRacket for The Little Schemer]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
-    <updated>2012-06-07T21:57:00-07:00</updated>
+    <updated>2012-06-07T21:57:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
     <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
 
@@ -39,7 +39,7 @@
   <entry>
     <title type="html"><![CDATA[Best soccer/futbol site ever]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
-    <updated>2012-06-07T21:52:00-07:00</updated>
+    <updated>2012-06-07T21:52:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
     <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
 ]]></content>
@@ -48,7 +48,7 @@
   <entry>
     <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
-    <updated>2012-06-07T21:42:00-07:00</updated>
+    <updated>2012-06-07T21:42:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
     <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
 
@@ -75,7 +75,7 @@
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
-    <updated>2012-06-07T21:40:00-07:00</updated>
+    <updated>2012-06-07T21:40:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
@@ -84,7 +84,7 @@
   <entry>
     <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
-    <updated>2012-06-07T21:36:00-07:00</updated>
+    <updated>2012-06-07T21:36:00-04:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
 ]]></content>
