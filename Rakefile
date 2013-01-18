@@ -8,15 +8,15 @@ ssh_user       = "user@domain.com"
 ssh_port       = "22"
 document_root  = "~/website.com/"
 #<<<<<<< HEAD
-#rsync_delete   = true
-#deploy_default = "push"
+rsync_delete   = true
+deploy_default = "push"
 #||||||| merged common ancestors
 #rsync_delete   = true
 #deploy_default = "rsync"
 #=======
-rsync_delete   = false
-rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "rsync"
+#rsync_delete   = false
+#rsync_args     = ""  # Any extra arguments to pass to rsync
+#deploy_default = "rsync"
 #>>>>>>> 5b887fef97fe2fcabe5b7482ca3f9ba62a5eb03e
 
 # This will be configured for you when you run config_deploy
