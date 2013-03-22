@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-01-18T15:31:54-05:00</updated>
+  <updated>2013-03-22T13:05:13-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -14,9 +14,85 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Bitcoin &amp; the Byzantine Generals Problem]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/"/>
+    <updated>2013-03-22T12:52:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem</id>
+    <content type="html"><![CDATA[<p>Whenever I need to explain what is so special about Bitcoin to someone unfamiliar with it, particularly non-technical people, I explain it in terms of accounting ledgers and the Byzantine Generals Problem.  This is that explanation, so I can just link it to folks instead of having to rewrite it every time.</p>
+
+<p>First, don&#8217;t think of bitcoin as a currency, but rather as a ledger.  It is an electronic ledger, of which a copy is kept on every participant&#8217;s computer in the network, and all of which are continually updated in real-time.  Every participant can make entries in this ledger, which record transactions of a certain amount of currency from one participant to another participant, and every one of those entries is then propagated to the network in realtime, so that every copy on every computer is updated near simultaneously and all copies of the ledger are kept synchronized.  The official term for this public, distributed ledger is the &#8216;blockchain&#8217;, and it uses Bittorrent technology to keep all copies synchronized.</p>
+
+<p>You can also think of Bitcoin not as a currency but as a general solution to a difficult algorithmic problem in the field of distributed systems, colloquially known as Byzantine Fault Tolerance, the Byzantine Generals Problem, or the Two Generals Problem:</p>
+
+<p>http://en.wikipedia.org/wiki/Byzantine_Generals%27_Problem</p>
+
+<p>http://en.wikipedia.org/wiki/Two_Generals&#8217;_Problem</p>
+
+<p>The fun, informal statement of the problem is this:  Imagine during the Byzantine era, there is a fortified city-state, Byzantium, that contains within its walls wealth beyond the wildest dreams and avarice of its neighbors.  It is surrounded by ten other city-states, each of which is also wealthy, but nowhere near as wealthy as Byzantium.  All ten neighbors covet Byzantium&#8217;s wealth, and wish to invade and take it for their own.</p>
+
+<p>However, the problem is that Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader&#8217;s army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other&#8217;s wealth and constantly scheme against each other.  Moreover, Byzantium&#8217;s defenses are so strong, that it will take more than half the of the ten neighbors&#8217; armies attacking simultaneously to overcome.</p>
+
+<p>So, if six or more neighboring armies attack together, they will succeed and gain the riches of Byzantium.  However, if one or more betrays the rest of the group by agreeing to invade and then holding back while the others attack, so that only five or less armies attack simultaneously, then all the attacking armies will be annihilated, and then pillaged by the remaining neighbors, including the ones that betrayed them.  It is a network of untrusting parties that must nevertheless work together to accomplish a shared mission.</p>
+
+<p>Moreover, the only way that the ten neighbors can communicate and coordinate the attack time is by sending messengers on horseback amongst themselves.  They can&#8217;t all meet in one place for a conference (for various reasons, none of the kings trust the others outside his own fortress).  However, they can send as many messengers, as frequently as they want, and to whomever they want, at any time.  Each message contains something like &#8220;I will attack on Day 4 at 0600, will you join me?&#8221;.</p>
+
+<p>If the recipient agrees, they attach a signed/certified/sealed/verified response to the original message, then send out copies of the newly combined message to all 9 neighbors again, asking each of them to do the same.  The eventual objective is to have them all agreeing to the same time by adding all ten of their seals onto the same message chain.  The result will be a message chain with ten seals all agreeing to the same time, and probably several discarded message chains that contained a few seals but not all.</p>
+
+<p>However, the problem is that if each city-state sends one messenger apiece to each of the other nine, then that&#8217;s 10 cities sending 9 messages each, 90 total in transit at any one time, and each city receiving 9 messages each, ostensibly each with different attack times.  Further, some of the cities will agree to more than one attack time, intending to betray the originator, so they will rebroadcast more than one message chain.  This system quickly degenerates into a completely untrustworthy tangle of conflicting messages and attack times.</p>
+
+<p>Bitcoin solves this problem with a simple (in hindsight) modification to the system - it adds a cost to sending messages, which slows down the rate of message passing, and does so with an element of randomness that ensures that only one city-state will be able to broadcast at a time.  The cost that it adds is a &#8216;proof of work&#8217;, and it is based on calculating a random hash algorithm.  A hash is an algorithm that does nothing more than takes some input data and performs a calculation on it that results in a 64-digit string of random numbers and letters, like this:</p>
+
+<p>d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b</p>
+
+<p>In the case of bitcoin, the input data consists of the entire ledger/blockchain up to the current point in time.  And while a single hash value can be calculated nearly instantaneously with today&#8217;s computers, only a hash value where the first thirteen characters are zero is accepted by bitcoin as the &#8216;proof of work&#8217;.  Such a thirteen-zero hash code is extremely improbable and rare, and currently takes the entire bitcoin network about 10 minutes of searching for such a hash code before one if found.  Billions of invalid hash codes are generated before one machine in the network randomly lands on a valid one, and this is the &#8216;proof of work&#8217; that slows down the rate of message passing and makes the whole system viable.  Here&#8217;s what they look like:</p>
+
+<p>f51d0199c4a6d9f6da230b579d850698dff6f695b47d868cc1165c0ce74df5e1
+d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
+119c506ceaa18a973a5dbcfbf23253bc970114edd1063bd1288fbba468dcb7f8
+&#8230; millions or billions more like this until finally a valid one &#8230;
+000000000000084b6550604bf21ad8a955b945a0f78c3408c5002af3cdcc14f5</p>
+
+<p>The machine that discovers the next valid hash code is the one that gets to take all previous messages, append its own, along with its signature/seal/etc, and broadcast out to the rest of the network.  As soon as the other machines in the network receive and verify this new thirteen-zero hash code and attached messages, they stop their current calculations, update their copy of the ledger with new version, and start calculating the hash again by feeding the newly updated ledger/blockchain to the hashing algorithm.  Thus the network constantly syncs itself so that all computers on it are using the same version of the ledger for their hashing calculations.</p>
+
+<p>In the meantime, there are about 10 minutes in between successful hash code discoveries and blockchain updates (this is intentional, and the algorithm difficulty is adjusted every two weeks to make sure it takes the network a constant 10 minutes to find a new valid hash code).  During that 10m, participants on the network are sending messages and making transactions, and since every machine on the network is using the same ledger, all those transactions and messages are entered into every copy of the ledger across the entire network.  When the blockchain is updated and synced across the network, all transactions that were entered into the blockchain during the previous 10 minutes are also updated and synced.  Hence the distributed transaction record is reconciled and synchronized among all participants.</p>
+
+<p>Finally, when individuals enter a transaction into the network, they use standard public key cryptography tools built into the bitcoin client program to sign it with their public key and the public key of the recipient.  This is the counterpart to the &#8216;seal&#8217; that the Byzantine Generals signed and verified their messages with.  Hence the hash calculation rate limiter combined with public key cryptography, turn an untrusting network into a trusting one, allowing all the participants to agree (on an attack time, or a series of transactions, or anything else that needs distributed agreement).</p>
+
+<p>So that&#8217;s the crux of it, an apparently difficult problem solved by adding a simple time delay into the system, along with public key cryptography to verify individual transactions.  If some of the most brilliant ideas are simple in hindsight, Bitcoin certainly qualifies.</p>
+
+<p>Of course, having said all that, I wouldn&#8217;t recommend investing in it to anyone other than technophiles and early adopters just yet.  While the system was designed by some pretty smart cryptographers (possibly the brainiest field in all of the software side of computer science), there are a couple of risks:</p>
+
+<ol>
+<li>At least one known vulnerability - groups of early adopters have pooled their computing resources into &#8216;mining pools&#8217;, which they are using to calculate hash codes.  Every successful thirteen-zero hash code discovered is currently rewarded with 50 bitcoins (just an entry in the electronic ledger, not too unlike how the Fed creates dollars these days).  This is done as an incentive for people to contribute computing power and expand the currency supply, and which the mining pools redistribute to their members proportionately to the amount of calculating cycles they supplied.</li>
+</ol>
+
+
+<p>However, if several of the big mining pools were to join forces, they could control more than 50% of the computing power on the network, which would theoretically allow them to falsify and reroute transactions of other participants, effectively hijacking the network and stealing bitcoins.  A solution is being implemented, but is not out yet.</p>
+
+<ol>
+<li><p>Governments and central banks might not take too kindly to being undermined and might try to shut bitcoin down.  If the US is allegedly prepared to go to war to protect the dollar&#8217;s status as world reserve currency, who knows to what extent it may go to combat bitcoin.  Shutting it down might be difficult since it&#8217;s a global network with no central authority, but they could potentially pass laws that outlaw it&#8217;s use in the US, which would drive bitcoin into the black market.</p></li>
+<li><p>An EMP pulse, say from a solar flare or high-altitude nuclear detonation, that fries electronics all over the world, could cause problems.  On the one hand, the bitcoin network is like a Starfish, in that if you cut off a large chunk it can grow back.  Since Bitcoin stores a complete copy of the ledger/blockchain on every node in the network, even if 90% of the nodes got erased, the it could be regenerated from remaining 10%.  Only problem there is if the remaining 10% somehow conspired to modify the blockchain and falsify transactions to steal bitcoins before re-seeding it to the rest of the network.</p></li>
+</ol>
+
+
+<p>Another interesting aspect of bitcoin is that as a currency it is deflationary.  Only 21 million will ever be created, sometime around the year 2100, and the rate of creation is decelerating.  That could result in an interesting paradox - a purely virtual asset that is a better store of wealth than current inflationary physical currencies (although government-backed fiat currencies are probably more virtual than physical these days anyway).</p>
+
+<p>However, since Bitcoin is technically infinitely divisible, there is no liquidity problem with it being deflationary.  Currently the smallest possible unit is 8 decimal places, 0.00000001, known as a &#8216;Satoshi&#8217;, after the mysteriously anonymous author of the original paper that specified how it would work.  However, that could be extended indefinitely with relatively easy changes to the code, so even a bitcoin unit of 100 or more decimals is possible, if ever needed (say if the currency appreciated so much that you could buy a coffee with 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 BTC, though they&#8217;d probably have to switch to scientific notation for that.)</p>
+
+<p>As for investing in it, here&#8217;s what Fred Wilson, one of the most well known tech VC&#8217;s wrote about it last November:</p>
+
+<p>http://www.avc.com/a_vc/2011/11/bitcoin.html</p>
+
+<p>Quick but good read.  I agree with it all.</p>
+
+<p>Finally, this solution to the Byzantine Generals Problem can be repurposed to any domain where lack of trust on a distributed network is the core problem.  Already people are building a distributed Domain Name System for the Internet (http://dot-bit.org/) and a distributed voting system for use in political elections (no website yet), for starters.  If people thought that mere filesharing disrupted the world, they haven&#8217;t seen anything yet.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Government Spending Deconstructed]]></title>
     <link href="http://expectedpayoff.com/blog/2013/01/18/government-spending-deconstructed/"/>
-    <updated>2013-01-18T15:27:00-05:00</updated>
+    <updated>2013-01-18T15:27:00-08:00</updated>
     <id>http://expectedpayoff.com/blog/2013/01/18/government-spending-deconstructed</id>
     <content type="html"><![CDATA[<p>A brief but clarifying <a href="http://fivethirtyeight.blogs.nytimes.com/2013/01/16/what-is-driving-growth-in-government-spending/#more-38257">look at US government spending</a>.</p>
 ]]></content>
@@ -25,7 +101,7 @@
   <entry>
     <title type="html"><![CDATA[The Other Election 2012 Contest:  The Pollsters vs the Data Scientists vs the Political Markets]]></title>
     <link href="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/"/>
-    <updated>2012-10-25T12:57:00-04:00</updated>
+    <updated>2012-10-25T12:57:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets</id>
     <content type="html"><![CDATA[<p><em>&#8220;Election administrators go to bed at night and say, &#8216;dear Lord, let it be a landslide.&#8217;&#8221;</em> -Trevor Potter, former commissioner and chairman of the FEC</p>
 
@@ -61,7 +137,7 @@
   <entry>
     <title type="html"><![CDATA[The Problems of Forecasting]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/"/>
-    <updated>2012-07-04T13:12:00-04:00</updated>
+    <updated>2012-07-04T13:12:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting</id>
     <content type="html"><![CDATA[<p>Followup to the <a href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/">previous post</a>.  Nate&#8217;s <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">extensive article</a> is too wide-ranging to paraphrase or summarize, but is a great overview of the problems of forecasting.</p>
 
@@ -139,7 +215,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[The Pathology of Big Data]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/"/>
-    <updated>2012-07-04T12:17:00-04:00</updated>
+    <updated>2012-07-04T12:17:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data</id>
     <content type="html"><![CDATA[<p>Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  <a href="https://www.facebook.com/photo.php?fbid=10150935763253375&amp;set=a.10150109720973375.279515.13012333374&amp;type=1">The first</a> by <a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Taleb</a>, <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">the second</a> by <a href="http://fivethirtyeight.com">Nate Silver</a>.  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.</p>
 
@@ -193,7 +269,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[Computer Science: A medium for expression]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression/"/>
-    <updated>2012-07-03T13:04:00-04:00</updated>
+    <updated>2012-07-03T13:04:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression</id>
     <content type="html"><![CDATA[<p><a href="http://betabeat.com/2012/06/real-tales-of-learning-computer-science-as-a-high-school-girl-stuyvesant/#slide2">A very well-articulated reason for learning programming and computer science:</a></p>
 
@@ -206,7 +282,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[A 3D Printer On Every Desktop In Every Home]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/"/>
-    <updated>2012-06-09T02:23:00-04:00</updated>
+    <updated>2012-06-09T02:23:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been meaning to write this post for a while, but Vice-President Biden <a href="http://www.3dprinter.net/joe-biden-plugs-3d-printing-commencement-address">just gave me the kick in the rear to finally get it done</a>.</p>
 
@@ -258,7 +334,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[How to create real wealth]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/"/>
-    <updated>2012-06-09T00:31:00-04:00</updated>
+    <updated>2012-06-09T00:31:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth</id>
     <content type="html"><![CDATA[<p>One of the many problems caused by the ongoing financial crisis is renewed criticisms of the capitalist system in general.  Our current system is deeply flawed and certainly deserves some of it, however there is bathwater and there is the baby, and we conflate the two at the risk of exacerbating the financial crisis rather than mitigating it or preventing a recurrence.</p>
 
@@ -289,7 +365,7 @@ For example, there is great economic value in a government and legal system that
   <entry>
     <title type="html"><![CDATA[America's Greatest 21st Century Challenge]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge/"/>
-    <updated>2012-06-09T00:00:00-04:00</updated>
+    <updated>2012-06-09T00:00:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge</id>
     <content type="html"><![CDATA[<p>There is a lot of <a href="https://news.ycombinator.com/item?id=4086251">discussion</a> in tech circles recently on the sorry state of US immigration and the dire need for more qualified engineers, computer scientists, matheticians, etc., but much of it misses the bigger picture.  The big picture is that the dominant socioeconomic dynamic of the 21st century will be the competition between the US system and China&#8217;s massive population (and India&#8217;s to a lesser extent) for global economic ascendance.</p>
 
@@ -309,7 +385,7 @@ For example, there is great economic value in a government and legal system that
   <entry>
     <title type="html"><![CDATA[My Main Problem With Google Plus So Far]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/"/>
-    <updated>2012-06-08T23:44:00-04:00</updated>
+    <updated>2012-06-08T23:44:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far</id>
     <content type="html"><![CDATA[<p>Google+ got a <a href="http://googleblog.blogspot.com/2012/04/toward-simpler-more-beautiful-google.html">redesign two months ago</a>.  It&#8217;s nice, I have no major complaints about the new look (except for the huge whitespace beneath the aside portrait/info, but that&#8217;s more aestetic than usability).</p>
 
@@ -337,7 +413,7 @@ For example, there is great economic value in a government and legal system that
   <entry>
     <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks locally with git]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
-    <updated>2012-06-08T18:24:00-04:00</updated>
+    <updated>2012-06-08T18:24:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
     <content type="html"><![CDATA[<p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
 
@@ -468,7 +544,7 @@ Primary browser (Chromium, for this example):</li>
   <entry>
     <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java/"/>
-    <updated>2012-06-08T13:53:00-04:00</updated>
+    <updated>2012-06-08T13:53:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java</id>
     <content type="html"><![CDATA[<p>Sun/Oracle Java was <a href="http://askubuntu.com/questions/67909/how-do-i-install-oracle-jdk-6">removed from Linux distros</a> in 2011 due to licensing issues.<br/>
 It can only be downloaded directly from Oracle&#8217;s website now and installed manually.
@@ -602,7 +678,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[How to set up DrRacket for The Little Schemer]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
-    <updated>2012-06-07T21:57:00-04:00</updated>
+    <updated>2012-06-07T21:57:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
     <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
 
@@ -626,7 +702,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Best soccer/futbol site ever]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
-    <updated>2012-06-07T21:52:00-04:00</updated>
+    <updated>2012-06-07T21:52:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
     <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
 ]]></content>
@@ -635,7 +711,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
-    <updated>2012-06-07T21:42:00-04:00</updated>
+    <updated>2012-06-07T21:42:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
     <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
 
@@ -662,7 +738,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
-    <updated>2012-06-07T21:40:00-04:00</updated>
+    <updated>2012-06-07T21:40:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
     <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
 ]]></content>
@@ -671,7 +747,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
-    <updated>2012-06-07T21:36:00-04:00</updated>
+    <updated>2012-06-07T21:36:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
 ]]></content>
@@ -680,7 +756,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Steve Yegge on the value of Polyglot Programming]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
-    <updated>2012-06-07T21:29:00-04:00</updated>
+    <updated>2012-06-07T21:29:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
     <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
 ]]></content>
@@ -689,7 +765,7 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
-    <updated>2012-06-07T21:13:00-04:00</updated>
+    <updated>2012-06-07T21:13:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
     <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
 
@@ -713,26 +789,13 @@ filesystem][7] by putting full package distributions in a single location, like
   <entry>
     <title type="html"><![CDATA[Solitude, Leadership, and Creativity]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity/"/>
-    <updated>2012-06-07T21:07:00-04:00</updated>
+    <updated>2012-06-07T21:07:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/solitude-leadership-and-creativity</id>
     <content type="html"><![CDATA[<p>One of the <a href="http://theamericanscholar.org/solitude-and-leadership/">best essays</a> I&#8217;ve ever read.</p>
 
 <p>TLDR: Leadership requires depth of understanding, intospection, and capacity for creativity, all of which require solitude to cultivate.</p>
 
 <p>Also <a href="http://news.ycombinator.com/item?id=3627606">reaffirmed by Steve Wozniak</a>, on creativity.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Complex Costs of War]]></title>
-    <link href="http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war/"/>
-    <updated>2012-06-07T20:54:00-04:00</updated>
-    <id>http://expectedpayoff.com/blog/2012/06/07/the-complex-costs-of-war</id>
-    <content type="html"><![CDATA[<p><a href="http://nancysherman.com/">Nancy Sherman</a> was the first Distinguished Chair in Ethics at the U.S. Naval Academy andis currently University Professor of Philosophy at Georgetown. <a href="http://opinionator.blogs.nytimes.com/2010/05/30/a-crack-in-the-stoic-armor/?src=me&amp;amp;ref=homepage%22">Her article</a> in the NY Times today discusses the subtle, complex, confusing costs to civilized people tasked to fight our modern wars.</p>
-
-<p>&#8220;In the military, even those who have never laid eyes on a page of <a href="http://en.wikipedia.org/wiki/Epictetus">Epictetus</a>, still live as if they have. To suck it up is to move beyond grieving and keep fighting; it is to stare death down in a death-saturated place; it is to face one more deployment after two or three or four already. It is hard to imagine a popular philosophy better suited to deprivation and constant subjection to stressors [than <a href="http://en.wikipedia.org/wiki/Stoicism">Stoicism</a>].</p>
-
-<p>And yet in the more than 30 interviews I conducted with soldiers who have returned from the long current wars, what I heard was the wish to let go of the Stoic armor. They wanted to feel and process the loss. They wanted to register the complex inner moral landscape of war by finding some measure of empathy with their own emotions.&#8221;</p>
 ]]></content>
   </entry>
   

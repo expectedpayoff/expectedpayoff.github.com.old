@@ -4,7 +4,7 @@
   <title><![CDATA[Category: big data | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/blog/categories/big-data/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-01-18T15:31:54-05:00</updated>
+  <updated>2013-03-22T13:05:13-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[The Problems of Forecasting]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/"/>
-    <updated>2012-07-04T13:12:00-04:00</updated>
+    <updated>2012-07-04T13:12:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting</id>
     <content type="html"><![CDATA[<p>Followup to the <a href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/">previous post</a>.  Nate's <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">extensive article</a> is too wide-ranging to paraphrase or summarize, but is a great overview of the problems of forecasting.</p>
 
@@ -94,7 +94,7 @@ the network of wicked problem solvers.
   <entry>
     <title type="html"><![CDATA[The Pathology of Big Data]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/"/>
-    <updated>2012-07-04T12:17:00-04:00</updated>
+    <updated>2012-07-04T12:17:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data</id>
     <content type="html"><![CDATA[<p>Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  <a href="https://www.facebook.com/photo.php?fbid=10150935763253375&amp;set=a.10150109720973375.279515.13012333374&amp;type=1">The first</a> by <a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Taleb</a>, <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">the second</a> by <a href="http://fivethirtyeight.com">Nate Silver</a>.  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.</p>
 

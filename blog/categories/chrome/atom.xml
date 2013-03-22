@@ -4,7 +4,7 @@
   <title><![CDATA[Category: chrome | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/blog/categories/chrome/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-01-18T15:31:54-05:00</updated>
+  <updated>2013-03-22T13:05:13-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks locally with git]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
-    <updated>2012-06-08T18:24:00-04:00</updated>
+    <updated>2012-06-08T18:24:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
     <content type="html"><![CDATA[<p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
 
