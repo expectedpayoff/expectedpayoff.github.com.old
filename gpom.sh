@@ -1,3 +1,3 @@
 #!/usr/bin/env bash -
 
-git push source source
+git push -u source source
