@@ -122,19 +122,22 @@
 
 <p>Bitcoin solves this problem with a simple (in hindsight) modification to the system - it adds a cost to sending messages, which slows down the rate of message passing, and does so with an element of randomness that ensures that only one city-state will be able to broadcast at a time.  The cost that it adds is a <a href="https://en.bitcoin.it/wiki/Proof_of_work">&#8216;proof of work&#8217;</a>, and it is based on calculating a random hash algorithm.  A hash is an algorithm that does nothing more than takes some input data and performs a calculation on it that results in a 64-digit string of random numbers and letters, like this:</p>
 
-<p>d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b</p>
+<pre><code>d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
+</code></pre>
 
 <p>In the case of bitcoin, the input data consists of the entire ledger/blockchain up to the current point in time.  And while a single hash value can be calculated nearly instantaneously with today&#8217;s computers, only a hash value where the first thirteen characters are zero is accepted by bitcoin as the &#8216;proof of work&#8217;.  Such a thirteen-zero hash code is extremely improbable and rare, and currently takes the entire bitcoin network about 10 minutes of searching before one is found.  Billions of invalid hash codes are generated before one machine in the network randomly lands on a valid one, and this is the &#8216;proof of work&#8217; that slows down the rate of message passing and makes the whole system viable.  Here&#8217;s what they look like:</p>
 
-<p>f51d0199c4a6d9f6da230b579d850698dff6f695b47d868cc1165c0ce74df5e1</p>
+<pre><code>f51d0199c4a6d9f6da230b579d850698dff6f695b47d868cc1165c0ce74df5e1
 
-<p>d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b</p>
+d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
 
-<p>119c506ceaa18a973a5dbcfbf23253bc970114edd1063bd1288fbba468dcb7f8</p>
+119c506ceaa18a973a5dbcfbf23253bc970114edd1063bd1288fbba468dcb7f8
+</code></pre>
 
 <p>&#8230; millions or billions more like this until finally a valid one &#8230;</p>
 
-<p>000000000000084b6550604bf21ad8a955b945a0f78c3408c5002af3cdcc14f5</p>
+<pre><code>000000000000084b6550604bf21ad8a955b945a0f78c3408c5002af3cdcc14f5
+</code></pre>
 
 <p>The machine (or city state in our analogy) that discovers the next valid hash code is the one that gets to take all previous messages, append its own, along with its signature/seal/etc, and broadcast out to the rest of the network.  As soon as the other machines in the network receive and verify this new thirteen-zero hash code and attached messages, they stop their current calculations, update their copy of the ledger with new version, and start calculating the hash again by feeding the newly updated ledger/blockchain to the hashing algorithm.  The hash calculation race is reset from a new starting point and begun anew.  Thus the network constantly syncs itself so that all computers on it are using the same version of the ledger for their hashing calculations.</p>
 
@@ -204,8 +207,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/03/22/bitcoins-intrinsic-value/" title="Previous Post: Bitcoin's Intrinsic Value?">&laquo; Bitcoin's Intrinsic Value?</a>
+        <a class="basic-alignment left" href="/blog/2013/01/18/government-spending-deconstructed/" title="Previous Post: Government Spending Deconstructed">&laquo; Government Spending Deconstructed</a>
       
+      
+        <a class="basic-alignment right" href="/blog/2013/03/22/bitcoins-intrinsic-value/" title="Next Post: Bitcoin's Intrinsic Value?">Bitcoin's Intrinsic Value? &raquo;</a>
       
     </p>
   </footer>
@@ -226,11 +231,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">Bitcoin &amp; the Byzantine Generals Problem</a>
+        <a href="/blog/2013/03/22/bitcoins-intrinsic-value/">Bitcoin's Intrinsic Value?</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/03/22/bitcoins-intrinsic-value/">Bitcoin's Intrinsic Value?</a>
+        <a href="/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">Bitcoin &amp; the Byzantine Generals Problem</a>
       </li>
     
       <li class="post">
