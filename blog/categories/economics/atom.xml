@@ -4,7 +4,7 @@
   <title><![CDATA[Category: economics | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/blog/categories/economics/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-03-22T20:29:10-07:00</updated>
+  <updated>2013-03-23T12:03:45-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -31,15 +31,15 @@ demand takes.</p>
 <p>But her guests were another story.  I'll give them the benefit of the doubt and assume
 they were playing some kind of foil to help skeptics in the audience relate, but there
 are better ways of spending your limited air time informing your audience.  Below are
-some choice quotes from the discussion, along with responses that should have hypothetical
-responses that would have obviated the question:</p>
+some choice quotes from the discussion, along with hypothetical responses that would
+have obviated the question:</p>
 
 <!-- more -->
 
 
-<p>Q:  <em>[Bitcoin has] no power to tax</em></p>
+<p><strong>Q:</strong>  <em>[Bitcoin has] no power to tax</em></p>
 
-<p>A:  The implicit assumption of this statement is that currencies gain value because
+<p><strong>A:</strong>  The implicit assumption of this statement is that currencies gain value because
 they are the exclusive means of remitting taxes to the issuing government.  If
 all citizens are required by law to pay taxes in this currency, then come tax
 time they must convert wealth from other forms into this currency to pay taxes,
@@ -59,8 +59,8 @@ dollar, and hence its value.</p>
 
 <p>Another way in which value is imparted to the US Dollar, it is the only currency by
 which one may purchase what has for the past half century (until the recent financial
-crisis at least) been considered the risk-free rate of return - short-term <a href="http://financial-dictionary.thefreedictionary.com/Risk-Free+Rate+of+Return">US
-Treasury Bills</a>.</p>
+crisis at least) been considered the risk-free rate of return - short-term
+<a href="http://financial-dictionary.thefreedictionary.com/Risk-Free+Rate+of+Return">US Treasury Bills</a>.</p>
 
 <p>Financial instability in Europe or other parts of the world tends to result in the
 movement of wealth from investment in riskier assets to investment in US Treasuries
@@ -101,7 +101,7 @@ pertinent questions, that the Bloomberg presenters could have been asking here:<
 value.</p></li>
 <li><p>Will it appreciate over time?  Depreciation is generally not associated with store
 of value.  However, this is a test every debt-backed, inflationary currency,
-including US Federal Reserve Notes, fails.</p></li>
+including US Federal Reserve Notes, fails, at least as measured per unit of currency.</p></li>
 <li><p>What are the long-term technical risks of relying completely on the Internet as
 both system and database?  The Internet is remarkably technically resilient, and
 bitcoin is designed to be so as well, but are there systemic risks that could
@@ -111,9 +111,9 @@ What are the safeguards and redundancies against such events?</p></li>
 </ol>
 
 
-<p>Q:  <em>Who finances it?</em></p>
+<p><strong>Q:</strong>  <em>Who finances it?</em></p>
 
-<p>A:  No one.  It doesn't work like traditional banks and currencies, so stop thinking
+<p><strong>A:</strong>  No one.  It doesn't work like traditional banks and currencies, so stop thinking
 of it in those terms.  Bitcoin is <a href="https://en.wikipedia.org/wiki/Free_and_Open_Source_Software">FOSS - Free Open Source Software</a>.  It is
 created by hobbyists and concerned citizens working together over the internet, the
 same as <a href="https://en.wikipedia.org/wiki/Linux">GNU/Linux</a>, <a href="https://en.wikipedia.org/wiki/BSD_UNIX">BSD Unix</a>, and scads of other highly successful open
@@ -164,18 +164,19 @@ some at the expense of others.</p>
 <p>Whereas prevailing national currency regimes are run by obfuscated operations of the
 world's central banks and <a href="https://en.wikipedia.org/wiki/Bank_for_International_Settlements">their parent organization</a>, all of which are privately
 owned institutions (though usually government-chartered, with the exception of the BIS)
-whose interests may conflict which the those of the citizens of the countries in which
+whose interests may conflict with the those of the citizens of the countries in which
 they operate.  The recent financial crisis has highlighted this inherent conflict of
 interest, in which national currencies, national debt, and <a href="http://www.bloomberg.com/news/2013-03-22/merkel-vents-anger-at-cyprus-over-bailout-plan-as-deadline-looms.html">national savings</a> are
-all being used/sacrificed to "socialize private losses".</p>
+all being risked to "socialize private losses".</p>
 
 <p>As a result, despite bitcoin's relative immaturity and current price volatility,
 some people perceive it as an option for a long term store of value relative to
-the debt-backed government currencies being weakened to compensate against the ongoing
-banking crisis.  Bitcoin's intrinsic math and mechanisms are set, and are the same
-now as they will be 20 years from now, making it a viable long term bet.  These
-people have been early adopters, driving up demand for bitcoin, and as a result its
-value and appeal to others.</p>
+the debt-backed government currencies in which they no longer trust the issuer to
+act in citizens' best interest.  Bitcoin's intrinsic math and mechanisms are set, and
+are the same now as they will be 20 years from now, making it a viable long term bet
+for those who understand the algorithm, the infrastructure, and the general risks.<br/>
+These people have been early adopters, driving up demand for bitcoin, and as a result
+its value and appeal to others.</p>
 
 <p>Q:  <em>I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense</em></p>
 
@@ -197,7 +198,7 @@ critics of HFT, and they talk about you don't want to be in a situation where yo
 dependent on an algorithm, and we're talking about actual currency here.</em></p>
 
 <p>A:  We're dependent on algorithms all the time.  What do you think runs the entire Internet,
-financial exchanges, the power grid, mobile phone systems, etc.  HFT is a special case
+financial exchanges, the power grid, mobile phone systems, etc.  <a href="https://en.wikipedia.org/wiki/High-frequency_trading">HFT</a> is a special case
 of many disparate, complex, opaque, proprietary algorithms competing against each
 other, interacting in sometimes emergent, unpredictable ways (Flash Crashes).</p>
 

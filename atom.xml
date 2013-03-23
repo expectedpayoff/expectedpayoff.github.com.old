@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-03-22T14:42:44-07:00</updated>
+  <updated>2013-03-23T12:03:45-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -31,12 +31,15 @@ demand takes.</p>
 <p>But her guests were another story.  I&#8217;ll give them the benefit of the doubt and assume
 they were playing some kind of foil to help skeptics in the audience relate, but there
 are better ways of spending your limited air time informing your audience.  Below are
-some choice quotes from the discussion, along with responses that should have hypothetical
-responses that would have obviated the question:</p>
+some choice quotes from the discussion, along with hypothetical responses that would
+have obviated the question:</p>
 
-<p>Q:  <em>[Bitcoin has] no power to tax</em></p>
+<!-- more -->
 
-<p>A:  The implicit assumption of this statement is that currencies gain value because
+
+<p><strong>Q:</strong>  <em>[Bitcoin has] no power to tax</em></p>
+
+<p><strong>A:</strong>  The implicit assumption of this statement is that currencies gain value because
 they are the exclusive means of remitting taxes to the issuing government.  If
 all citizens are required by law to pay taxes in this currency, then come tax
 time they must convert wealth from other forms into this currency to pay taxes,
@@ -56,8 +59,8 @@ dollar, and hence its value.</p>
 
 <p>Another way in which value is imparted to the US Dollar, it is the only currency by
 which one may purchase what has for the past half century (until the recent financial
-crisis at least) been considered the risk-free rate of return - short-term <a href="http://financial-dictionary.thefreedictionary.com/Risk-Free+Rate+of+Return">US
-Treasury Bills</a>.</p>
+crisis at least) been considered the risk-free rate of return - short-term
+<a href="http://financial-dictionary.thefreedictionary.com/Risk-Free+Rate+of+Return">US Treasury Bills</a>.</p>
 
 <p>Financial instability in Europe or other parts of the world tends to result in the
 movement of wealth from investment in riskier assets to investment in US Treasuries
@@ -98,7 +101,7 @@ pertinent questions, that the Bloomberg presenters could have been asking here:<
 value.</p></li>
 <li><p>Will it appreciate over time?  Depreciation is generally not associated with store
 of value.  However, this is a test every debt-backed, inflationary currency,
-including US Federal Reserve Notes, fails.</p></li>
+including US Federal Reserve Notes, fails, at least as measured per unit of currency.</p></li>
 <li><p>What are the long-term technical risks of relying completely on the Internet as
 both system and database?  The Internet is remarkably technically resilient, and
 bitcoin is designed to be so as well, but are there systemic risks that could
@@ -108,9 +111,9 @@ What are the safeguards and redundancies against such events?</p></li>
 </ol>
 
 
-<p>Q:  <em>Who finances it?</em></p>
+<p><strong>Q:</strong>  <em>Who finances it?</em></p>
 
-<p>A:  No one.  It doesn&#8217;t work like traditional banks and currencies, so stop thinking
+<p><strong>A:</strong>  No one.  It doesn&#8217;t work like traditional banks and currencies, so stop thinking
 of it in those terms.  Bitcoin is <a href="https://en.wikipedia.org/wiki/Free_and_Open_Source_Software">FOSS - Free Open Source Software</a>.  It is
 created by hobbyists and concerned citizens working together over the internet, the
 same as <a href="https://en.wikipedia.org/wiki/Linux">GNU/Linux</a>, <a href="https://en.wikipedia.org/wiki/BSD_UNIX">BSD Unix</a>, and scads of other highly successful open
@@ -161,18 +164,19 @@ some at the expense of others.</p>
 <p>Whereas prevailing national currency regimes are run by obfuscated operations of the
 world&#8217;s central banks and <a href="https://en.wikipedia.org/wiki/Bank_for_International_Settlements">their parent organization</a>, all of which are privately
 owned institutions (though usually government-chartered, with the exception of the BIS)
-whose interests may conflict which the those of the citizens of the countries in which
+whose interests may conflict with the those of the citizens of the countries in which
 they operate.  The recent financial crisis has highlighted this inherent conflict of
 interest, in which national currencies, national debt, and <a href="http://www.bloomberg.com/news/2013-03-22/merkel-vents-anger-at-cyprus-over-bailout-plan-as-deadline-looms.html">national savings</a> are
-all being used/sacrificed to &#8220;socialize private losses&#8221;.</p>
+all being risked to &#8220;socialize private losses&#8221;.</p>
 
 <p>As a result, despite bitcoin&#8217;s relative immaturity and current price volatility,
 some people perceive it as an option for a long term store of value relative to
-the debt-backed government currencies being weakened to compensate against the ongoing
-banking crisis.  Bitcoin&#8217;s intrinsic math and mechanisms are set, and are the same
-now as they will be 20 years from now, making it a viable long term bet.  These
-people have been early adopters, driving up demand for bitcoin, and as a result its
-value and appeal to others.</p>
+the debt-backed government currencies in which they no longer trust the issuer to
+act in citizens&#8217; best interest.  Bitcoin&#8217;s intrinsic math and mechanisms are set, and
+are the same now as they will be 20 years from now, making it a viable long term bet
+for those who understand the algorithm, the infrastructure, and the general risks.<br/>
+These people have been early adopters, driving up demand for bitcoin, and as a result
+its value and appeal to others.</p>
 
 <p>Q:  <em>I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense</em></p>
 
@@ -194,7 +198,7 @@ critics of HFT, and they talk about you don&#8217;t want to be in a situation wh
 dependent on an algorithm, and we&#8217;re talking about actual currency here.</em></p>
 
 <p>A:  We&#8217;re dependent on algorithms all the time.  What do you think runs the entire Internet,
-financial exchanges, the power grid, mobile phone systems, etc.  HFT is a special case
+financial exchanges, the power grid, mobile phone systems, etc.  <a href="https://en.wikipedia.org/wiki/High-frequency_trading">HFT</a> is a special case
 of many disparate, complex, opaque, proprietary algorithms competing against each
 other, interacting in sometimes emergent, unpredictable ways (Flash Crashes).</p>
 
@@ -224,9 +228,12 @@ share price that reflects people&#8217;s lack of confidence in &#8220;virtual&#8
 
 <p>You can also think of Bitcoin not as a currency but as a general solution to a <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)">difficult algorithmic problem</a> in the field of distributed systems, colloquially known as <a href="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance">Byzantine Fault Tolerance</a>, the <a href="http://en.wikipedia.org/wiki/Byzantine_Generals%27_Problem">Byzantine Generals Problem</a>, or the <a href="https://en.wikipedia.org/wiki/Two_Generals%27_Problem">Two Generals Problem</a>.</p>
 
+<!-- more -->
+
+
 <p>The fun, informal statement of the problem is this:  Imagine during the Byzantine era, there is a fortified city-state, Byzantium, that contains within its walls wealth beyond the wildest dreams and avarice of its neighbors.  It is surrounded by ten other city-states, each of which is also wealthy, but nowhere near as wealthy as Byzantium.  All ten neighbors covet Byzantium&#8217;s wealth, and wish to invade and take it for their own.</p>
 
-<p>However, the problem is that Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader&#8217;s army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other&#8217;s wealth and constantly scheme against each other.  Moreover, Byzantium&#8217;s defenses are so strong, that it will take more than half the of the ten neighbors&#8217; armies attacking simultaneously to overcome.</p>
+<p>However, Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader&#8217;s army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other&#8217;s wealth and constantly scheme against each other.  Moreover, Byzantium&#8217;s defenses are so strong, that it will take more than half the of the ten neighbors&#8217; armies attacking simultaneously to overcome.</p>
 
 <p>So, if six or more neighboring armies attack together, they will succeed and gain the riches of Byzantium.  However, if one or more betrays the rest of the group by agreeing to invade and then holding back while the others attack, so that only five or less armies attack simultaneously, then all the attacking armies will be annihilated, and then pillaged by the remaining neighbors, including the ones that betrayed them.  It is a network of untrusting parties that must nevertheless work together to accomplish a shared mission.</p>
 
@@ -302,6 +309,9 @@ d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
 
 
 <p>There are roughly three categories of data-driven, systematic forecasting methodologies:</p>
+
+<!-- more -->
+
 
 <ol>
 <li>Traditional (but highly tuned) polls like <a href="http://www.gallup.com/poll/154559/US-Presidential-Election-Center.aspx?ref=interactive">Gallup</a>, <a href="http://pewresearch.org/topics/election'12/">Pew</a>, <a href="http://www.rasmussenreports.com/public_content/politics/political_updates/daily_presidential_tracking_poll">Rassmussen</a>, both of the national popular vote, state popular votes, and of registered and &#8216;likely&#8217; voters.</li>
