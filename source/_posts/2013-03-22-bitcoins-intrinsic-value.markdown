@@ -24,6 +24,8 @@ are better ways of spending your limited air time informing your audience.  Belo
 some choice quotes from the discussion, along with responses that should have hypothetical
 responses that would have obviated the question:
 
+<!-- more -->
+
 Q:  *[Bitcoin has] no power to tax*
 
 A:  The implicit assumption of this statement is that currencies gain value because 

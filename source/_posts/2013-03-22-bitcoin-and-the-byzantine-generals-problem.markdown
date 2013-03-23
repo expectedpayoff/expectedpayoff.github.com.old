@@ -14,9 +14,11 @@ First, don't think of bitcoin as a currency, but rather as a ledger.  It is an e
 
 You can also think of Bitcoin not as a currency but as a general solution to a [difficult algorithmic problem][6] in the field of distributed systems, colloquially known as [Byzantine Fault Tolerance][3], the [Byzantine Generals Problem][4], or the [Two Generals Problem][5].
 
+<!-- more -->
+
 The fun, informal statement of the problem is this:  Imagine during the Byzantine era, there is a fortified city-state, Byzantium, that contains within its walls wealth beyond the wildest dreams and avarice of its neighbors.  It is surrounded by ten other city-states, each of which is also wealthy, but nowhere near as wealthy as Byzantium.  All ten neighbors covet Byzantium's wealth, and wish to invade and take it for their own.
 
-However, the problem is that Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader's army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other's wealth and constantly scheme against each other.  Moreover, Byzantium's defenses are so strong, that it will take more than half the of the ten neighbors' armies attacking simultaneously to overcome.  
+However, Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader's army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other's wealth and constantly scheme against each other.  Moreover, Byzantium's defenses are so strong, that it will take more than half the of the ten neighbors' armies attacking simultaneously to overcome.  
 
 So, if six or more neighboring armies attack together, they will succeed and gain the riches of Byzantium.  However, if one or more betrays the rest of the group by agreeing to invade and then holding back while the others attack, so that only five or less armies attack simultaneously, then all the attacking armies will be annihilated, and then pillaged by the remaining neighbors, including the ones that betrayed them.  It is a network of untrusting parties that must nevertheless work together to accomplish a shared mission.
 

@@ -17,6 +17,8 @@ Election 2012 is shaping up to be interesting for a variety of reasons, but not 
 
 There are roughly three categories of data-driven, systematic forecasting methodologies:
 
+<!-- more -->
+
 1.  Traditional (but highly tuned) polls like [Gallup][2], [Pew][14], [Rassmussen][1], both of the national popular vote, state popular votes, and of registered and 'likely' voters.
 2.  Electoral college probability models/simulations run by data scientists like [Nate Silver][3] ([fivethirtyeight.com][4]), [Andrew Tannenbaum][5] ([electoral-vote.com][6]), and [Drew Linzer][7] ([votamatic.com][8]), that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.
 3.  [Political betting markets][13] like [Pinnacle Sports][10], [Matchbook][11], [Intrade][9]. 
