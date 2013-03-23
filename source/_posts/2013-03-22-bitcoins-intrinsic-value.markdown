@@ -21,14 +21,14 @@ demand takes.
 But her guests were another story.  I'll give them the benefit of the doubt and assume
 they were playing some kind of foil to help skeptics in the audience relate, but there 
 are better ways of spending your limited air time informing your audience.  Below are 
-some choice quotes from the discussion, along with responses that should have hypothetical
-responses that would have obviated the question:
+some choice quotes from the discussion, along with hypothetical responses that would 
+have obviated the question:
 
 <!-- more -->
 
-Q:  *[Bitcoin has] no power to tax*
+**Q:**  *[Bitcoin has] no power to tax*
 
-A:  The implicit assumption of this statement is that currencies gain value because 
+**A:**  The implicit assumption of this statement is that currencies gain value because 
 they are the exclusive means of remitting taxes to the issuing government.  If 
 all citizens are required by law to pay taxes in this currency, then come tax 
 time they must convert wealth from other forms into this currency to pay taxes,
@@ -48,8 +48,8 @@ dollar, and hence its value.
 
 Another way in which value is imparted to the US Dollar, it is the only currency by 
 which one may purchase what has for the past half century (until the recent financial 
-crisis at least) been considered the risk-free rate of return - short-term [US 
-Treasury Bills][10].  
+crisis at least) been considered the risk-free rate of return - short-term 
+[US Treasury Bills][10].  
 
 Financial instability in Europe or other parts of the world tends to result in the 
 movement of wealth from investment in riskier assets to investment in US Treasuries 
@@ -87,7 +87,7 @@ value.
 
 2.  Will it appreciate over time?  Depreciation is generally not associated with store
 of value.  However, this is a test every debt-backed, inflationary currency, 
-including US Federal Reserve Notes, fails.
+including US Federal Reserve Notes, fails, at least as measured per unit of currency.
 
 3.  What are the long-term technical risks of relying completely on the Internet as
 both system and database?  The Internet is remarkably technically resilient, and
@@ -96,9 +96,9 @@ undermine it?  For example, wide-scale power outages due to solar storms, or
 control by malicious actor of more than 50% of the computing power of the network.
 What are the safeguards and redundancies against such events?
 
-Q:  *Who finances it?*
+**Q:**  *Who finances it?*
 
-A:  No one.  It doesn't work like traditional banks and currencies, so stop thinking 
+**A:**  No one.  It doesn't work like traditional banks and currencies, so stop thinking 
 of it in those terms.  Bitcoin is [FOSS - Free Open Source Software][14].  It is 
 created by hobbyists and concerned citizens working together over the internet, the 
 same as [GNU/Linux][12], [BSD Unix][13], and scads of other highly successful open 
@@ -148,18 +148,19 @@ some at the expense of others.
 Whereas prevailing national currency regimes are run by obfuscated operations of the 
 world's central banks and [their parent organization][11], all of which are privately 
 owned institutions (though usually government-chartered, with the exception of the BIS) 
-whose interests may conflict which the those of the citizens of the countries in which 
+whose interests may conflict with the those of the citizens of the countries in which 
 they operate.  The recent financial crisis has highlighted this inherent conflict of 
 interest, in which national currencies, national debt, and [national savings][15] are 
-all being used/sacrificed to "socialize private losses".
+all being risked to "socialize private losses".
 
 As a result, despite bitcoin's relative immaturity and current price volatility, 
 some people perceive it as an option for a long term store of value relative to 
-the debt-backed government currencies being weakened to compensate against the ongoing 
-banking crisis.  Bitcoin's intrinsic math and mechanisms are set, and are the same 
-now as they will be 20 years from now, making it a viable long term bet.  These 
-people have been early adopters, driving up demand for bitcoin, and as a result its 
-value and appeal to others.
+the debt-backed government currencies in which they no longer trust the issuer to
+act in citizens' best interest.  Bitcoin's intrinsic math and mechanisms are set, and 
+are the same now as they will be 20 years from now, making it a viable long term bet
+for those who understand the algorithm, the infrastructure, and the general risks.  
+These people have been early adopters, driving up demand for bitcoin, and as a result 
+its value and appeal to others.
 
 
 Q:  *I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense*
@@ -183,7 +184,7 @@ critics of HFT, and they talk about you don't want to be in a situation where yo
 dependent on an algorithm, and we're talking about actual currency here.*
 
 A:  We're dependent on algorithms all the time.  What do you think runs the entire Internet,
-financial exchanges, the power grid, mobile phone systems, etc.  HFT is a special case 
+financial exchanges, the power grid, mobile phone systems, etc.  [HFT][18] is a special case 
 of many disparate, complex, opaque, proprietary algorithms competing against each 
 other, interacting in sometimes emergent, unpredictable ways (Flash Crashes).  
 
@@ -218,4 +219,4 @@ Again, see answer above re: Farmville.
 [15]:   http://www.bloomberg.com/news/2013-03-22/merkel-vents-anger-at-cyprus-over-bailout-plan-as-deadline-looms.html
 [16]:   https://en.bitcoin.it/wiki/Units
 [17]:   http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/
-    
+[18]:   https://en.wikipedia.org/wiki/High-frequency_trading
