@@ -9,9 +9,9 @@ author: Byron Gibson
 ---
 
 Yesterday I watched an uncharacteristically [cringe-inducing Bloomberg News 
-segment][1] on Bitcoin, permeated with an air of confidently ignorant dismissal more 
-likely to be found among social news websites comments, rather than at a professional 
-media organization.
+segment][1] on Bitcoin.  Bitcoin has been around since 2009, on the radar of the general
+tech scene since 2011, so by now I expect the debate around it to be a bit more informed
+and less flippantly dismissive.
 
 In the host's defense (Sara Eisen), she appears to have done her homework and groks both 
 Bitcoin's technical basics and the fact that the value of anything, including even 
@@ -95,6 +95,9 @@ bitcoin is designed to be so as well, but are there systemic risks that could
 undermine it?  For example, wide-scale power outages due to solar storms, or
 control by malicious actor of more than 50% of the computing power of the network.
 What are the safeguards and redundancies against such events?
+
+4.  What are the long-term regulatory risks?  Will governments find ways to regulate
+bitcoin into uselessness to protect their monopoly on currency issuence?
 
 **Q:**  *Who finances it?*
 
