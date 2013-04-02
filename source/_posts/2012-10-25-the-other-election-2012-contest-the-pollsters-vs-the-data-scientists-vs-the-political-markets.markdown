@@ -20,8 +20,8 @@ There are roughly three categories of data-driven, systematic forecasting method
 <!-- more -->
 
 1.  Traditional (but highly tuned) polls like [Gallup][2], [Pew][14], [Rassmussen][1], both of the national popular vote, state popular votes, and of registered and 'likely' voters.
-2.  Electoral college probability models/simulations run by data scientists like [Nate Silver][3] ([fivethirtyeight.com][4]), [Andrew Tannenbaum][5] ([electoral-vote.com][6]), and [Drew Linzer][7] ([votamatic.com][8]), that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.
-3.  [Political betting markets][13] like [Pinnacle Sports][10], [Matchbook][11], [Intrade][9]. 
+2.  Electoral college probability models/simulations run by data scientists like [Nate Silver][3] ([fivethirtyeight.com][4]), [Andrew Tannenbaum][5] ([electoral-vote.com][6]), [Drew Linzer][7] ([votamatic.com][8]), [David de Rothschild][20] ([predictwise.com][21]), and [Sam Wang][18] ([Princeton Election Consortium][19]) that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.
+3.  [Political betting markets][13] like [Pinnacle Sports][10], [Matchbook][11], [Intrade][9], and the [Iowa Electronic Markets][22].
 
 This is the first US presidential election since 2000 that is actually close and contested, and hence the first ever closely contested presidential election that features mature probability models of the electoral college - alongside tuned, tweaked, evolved and relatively sophisticated polls and betting markets - all attempting to divine the outcome.  
 
@@ -50,3 +50,8 @@ So who is least wrong?  We'll know in about two weeks, and can look forward to p
 [15]:   http://www.oddschecker.com/specials/politics-and-election/us-presidential-election/winner
 [16]:   http://archaeology.about.com/od/quotations/qt/quote95.htm
 [17]:   http://serendip.brynmawr.edu/sci_cult/lesswrong/lesswrong/
+[18]:   https://en.wikipedia.org/wiki/Sam_Wang_(neuroscientist)
+[19]:   http://election.princeton.edu/
+[20]:   http://researchdmr.com/
+[21]:   http://www.predictwise.com/
+[22]:   http://tippie.uiowa.edu/iem/

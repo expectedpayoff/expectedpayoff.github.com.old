@@ -196,7 +196,7 @@ in the same system to solve a [well-defined mathematical problem][17] that just 
 solvable until the invention of the Internet, public key crytpography, and the Bittorrent 
 distributed communication protocol.
 
-Again, just becauese two things are "algorithms" does not mean they have anything else
+Again, just because two things are "algorithms" does not mean they have anything else
 remotely in common.
 
 Q:  *We will hear a lot more about it, but will it be in the context of things like Zynga's 
