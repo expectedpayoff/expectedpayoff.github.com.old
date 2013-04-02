@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-04-02T09:08:52-07:00</updated>
+  <updated>2013-04-02T09:32:42-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -317,8 +317,8 @@ d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
 
 <ol>
 <li>Traditional (but highly tuned) polls like <a href="http://www.gallup.com/poll/154559/US-Presidential-Election-Center.aspx?ref=interactive">Gallup</a>, <a href="http://pewresearch.org/topics/election'12/">Pew</a>, <a href="http://www.rasmussenreports.com/public_content/politics/political_updates/daily_presidential_tracking_poll">Rassmussen</a>, both of the national popular vote, state popular votes, and of registered and &#8216;likely&#8217; voters.</li>
-<li>Electoral college probability models/simulations run by data scientists like <a href="https://en.wikipedia.org/wiki/Nate_Silver">Nate Silver</a> (<a href="http://fivethirtyeight.com">fivethirtyeight.com</a>), <a href="https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew Tannenbaum</a> (<a href="http://www.electoral-vote.com/">electoral-vote.com</a>), and <a href="https://twitter.com/DrewLinzer">Drew Linzer</a> (<a href="http://votamatic.org/">votamatic.com</a>), that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.</li>
-<li><a href="http://www.macroeconomicwoes.com/uncategorized/the-policy-wonks-guide-to-the-presidential-betting-market.html">Political betting markets</a> like <a href="http://www.pinnaclesports.com/ContestCategory/Politics/Lines.aspx">Pinnacle Sports</a>, <a href="http://www.matchbook.com/matchbook/events/market/?category=138157">Matchbook</a>, <a href="http://www.intrade.com/v4/misc/scoreboard/">Intrade</a>.</li>
+<li>Electoral college probability models/simulations run by data scientists like <a href="https://en.wikipedia.org/wiki/Nate_Silver">Nate Silver</a> (<a href="http://fivethirtyeight.com">fivethirtyeight.com</a>), <a href="https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew Tannenbaum</a> (<a href="http://www.electoral-vote.com/">electoral-vote.com</a>), <a href="https://twitter.com/DrewLinzer">Drew Linzer</a> (<a href="http://votamatic.org/">votamatic.com</a>), <a href="http://researchdmr.com/">David de Rothschild</a> (<a href="http://www.predictwise.com/">predictwise.com</a>), and <a href="https://en.wikipedia.org/wiki/Sam_Wang_(neuroscientist)">Sam Wang</a> (<a href="http://election.princeton.edu/">Princeton Election Consortium</a>) that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.</li>
+<li><a href="http://www.macroeconomicwoes.com/uncategorized/the-policy-wonks-guide-to-the-presidential-betting-market.html">Political betting markets</a> like <a href="http://www.pinnaclesports.com/ContestCategory/Politics/Lines.aspx">Pinnacle Sports</a>, <a href="http://www.matchbook.com/matchbook/events/market/?category=138157">Matchbook</a>, <a href="http://www.intrade.com/v4/misc/scoreboard/">Intrade</a>, and the <a href="http://tippie.uiowa.edu/iem/">Iowa Electronic Markets</a>.</li>
 </ol>
 
 
