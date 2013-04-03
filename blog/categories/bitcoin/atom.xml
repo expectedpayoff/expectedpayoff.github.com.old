@@ -4,7 +4,7 @@
   <title><![CDATA[Category: bitcoin | E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/blog/categories/bitcoin/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2013-04-02T17:25:51-07:00</updated>
+  <updated>2013-04-02T17:55:07-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -93,7 +93,7 @@ in a matter of minutes and locked in (confirmed) in just a few hours.</p>
 <p>Bitcoin provides units of <a href="https://en.bitcoin.it/wiki/Units">account</a>, the smallest being the Satoshi, or
 0.00000001 BTC (eight decimal places, or in scientific notation, 1.0 x 10<sup>-8).</sup></p>
 
-<p>Finally, is Bitcoin a store of value?  Truthfully the jury is stil out on that.  Some
+<p>Finally, is Bitcoin a store of value?  Truthfully the jury is still out on that.  Some
 pertinent questions, that the Bloomberg presenters could have been asking here:</p>
 
 <ol>
@@ -112,6 +112,9 @@ What are the safeguards and redundancies against such events?</p></li>
 bitcoin into uselessness to protect their monopoly on currency issuence?</p></li>
 </ol>
 
+
+<p>These are all pertinent critques that a professional news organization like Bloomberg
+<em>should</em> be asking of Bitcoin right now.</p>
 
 <p><strong>Q:</strong>  <em>Who finances it?</em></p>
 
@@ -150,14 +153,14 @@ to find).</p>
 <p>So, if Bitcoin is "financed" by anyone, it is the total computing effort of all
 participants mining bitcoins, from individuals to <a href="https://en.bitcoin.it/wiki/Pooled_mining">pools</a>.</p>
 
-<p>Q:  <em>sounds like an ameoba</em></p>
+<p><strong>Q:</strong>  <em>sounds like an ameoba</em></p>
 
-<p>R:  An amoeba?  Srsly bro?  You're on  <em>Bloomberg News</em>, not Fox News.  Lets try to
+<p><strong>R:</strong>  An amoeba?  Srsly bro?  You're on  <em>Bloomberg News</em>, not Fox News.  Lets try to
 maintain a little higher standard of rigor here.</p>
 
-<p>Q:  <em>Is there any fundamental justifcation for appeal of bitcoin</em></p>
+<p><strong>Q:</strong>  <em>Is there any fundamental justifcation for appeal of bitcoin</em></p>
 
-<p>R:  Yes, that its value is derived in such a way that it can't be compromised by a central
+<p><strong>R:</strong>  Yes, that its value is derived in such a way that it can't be compromised by a central
 bank bailing out a fraudulent banking system.  The mechanism by which Bitcoin is
 created and operates is transparent, open, and F/free to the entire world, and more
 difficult for any one entity or cartel to control and manipulate for the benefit of
@@ -166,7 +169,7 @@ some at the expense of others.</p>
 <p>Whereas prevailing national currency regimes are run by obfuscated operations of the
 world's central banks and <a href="https://en.wikipedia.org/wiki/Bank_for_International_Settlements">their parent organization</a>, all of which are privately
 owned institutions (though usually government-chartered, with the exception of the BIS)
-whose interests may conflict with the those of the citizens of the countries in which
+whose interests may conflict with those of the citizens of the countries in which
 they operate.  The recent financial crisis has highlighted this inherent conflict of
 interest, in which national currencies, national debt, and <a href="http://www.bloomberg.com/news/2013-03-22/merkel-vents-anger-at-cyprus-over-bailout-plan-as-deadline-looms.html">national savings</a> are
 all being risked to "socialize private losses".</p>
@@ -180,9 +183,9 @@ for those who understand the algorithm, the infrastructure, and the general risk
 These people have been early adopters, driving up demand for bitcoin, and as a result
 its value and appeal to others.</p>
 
-<p>Q:  <em>I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense</em></p>
+<p><strong>Q:</strong>  <em>I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense</em></p>
 
-<p>R:  I never played Farmville, so can't comment extensively on it.  But, Farmville's virtual
+<p><strong>R:</strong>  I never played Farmville, so can't comment extensively on it.  But, Farmville's virtual
 currency is issued by a for-profit private company, on a for-profit social network,
 for the purpose of making those companies a profit.</p>
 
@@ -192,30 +195,28 @@ along with it, at least up until the last bitcoin is created at 21 million).</p>
 
 <p>And, can you even buy anything outside of Farmville with Farmville's currency?</p>
 
-<p>Just because two things are "virtual" does not mean they have anything else remotely
-in common.</p>
+<p>Just because two things are "virtual" does not mean they are comparable.</p>
 
-<p>Q:  <em>And the fear of the algorithm, think of all the problems we've seen, if you talk to any
+<p><strong>Q:</strong>  <em>"And the fear of the algorithm, think of all the problems we've seen, if you talk to any
 critics of HFT, and they talk about you don't want to be in a situation where you're
-dependent on an algorithm, and we're talking about actual currency here.</em></p>
+dependent on an algorithm, and we're talking about actual currency here."</em></p>
 
-<p>A:  We're dependent on algorithms all the time.  What do you think runs the entire Internet,
+<p><strong>A:</strong>  We're dependent on algorithms all the time.  What do you think runs the entire Internet,
 financial exchanges, the power grid, mobile phone systems, etc.  <a href="https://en.wikipedia.org/wiki/High-frequency_trading">HFT</a> is a special case
 of many disparate, complex, opaque, proprietary algorithms competing against each
-other, interacting in sometimes emergent, unpredictable ways (Flash Crashes).</p>
+other, interacting in sometimes <a href="https://en.wikipedia.org/wiki/Emergence">emergent</a>, unpredictable ways (Flash Crashes).</p>
 
 <p>Bitcoin is a case of a single (or few), relatively simple algorithm/s, working together
 in the same system to solve a <a href="http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">well-defined mathematical problem</a> that just wasn't
 solvable until the invention of the Internet, public key crytpography, and the Bittorrent
 distributed communication protocol.</p>
 
-<p>Again, just because two things are "algorithms" does not mean they have anything else
-remotely in common.</p>
+<p>Again, just because two things are "algorithms" does not mean they are comparable.</p>
 
-<p>Q:  <em>We will hear a lot more about it, but will it be in the context of things like Zynga's
+<p><strong>Q:</strong>  <em>We will hear a lot more about it, but will it be in the context of things like Zynga's
 share price that reflects people's lack of confidence in "virtual" things?</em></p>
 
-<p>Again, see answer above re: Farmville.</p>
+<p><strong>A:</strong>  Again, see answer above re: Farmville.</p>
 ]]></content>
   </entry>
   
@@ -226,7 +227,7 @@ share price that reflects people's lack of confidence in "virtual" things?</em><
     <id>http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem</id>
     <content type="html"><![CDATA[<p>Whenever I need to explain what is so special about Bitcoin to someone unfamiliar with it, I explain it in terms of accounting ledgers and the Byzantine Generals Problem.  This is that explanation, so I can just link it to folks instead of having to rewrite it every time.</p>
 
-<p>First, don't think of bitcoin as a currency, but rather as a ledger.  It is an electronic ledger, of which a copy is kept on every participant's computer in the network, and all of which are continually updated, reconciled, and synchronized in real-time.  Every participant can make entries in this ledger, which record transactions of a certain amount of currency from one participant to another participant, and every one of those entries is then propagated to the network in realtime, so that every copy on every computer is updated near simultaneously and all copies of the ledger are kept synchronized.  The official term for this public, distributed ledger is the <a href="https://en.bitcoin.it/wiki/Blockchain">'blockchain'</a> (which <a href="http://blockchain.info/">you can see here</a>), and it uses <a href="https://en.wikipedia.org/wiki/BitTorrent">Bittorrent</a> technology to keep all copies synchronized.</p>
+<p>First, don't think of bitcoin as a currency, but rather as a ledger.  It is an electronic ledger, of which a copy is kept on every participant's computer in the network, and all of which are continually updated, reconciled, and synchronized in real-time.  Every participant can make entries in this ledger, which records transactions of a certain amount of currency from one participant to another participant, and every one of those entries is then propagated to the network in realtime, so that every copy on every computer is updated near simultaneously and all copies of the ledger are kept synchronized.  The official term for this public, distributed ledger is the <a href="https://en.bitcoin.it/wiki/Blockchain">'blockchain'</a> (which <a href="http://blockchain.info/">you can see here</a>), and it uses <a href="https://en.wikipedia.org/wiki/BitTorrent">Bittorrent</a> technology to keep all copies synchronized.</p>
 
 <p>You can also think of Bitcoin not as a currency but as a general solution to a <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)">difficult algorithmic problem</a> in the field of distributed systems, colloquially known as <a href="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance">Byzantine Fault Tolerance</a>, the <a href="http://en.wikipedia.org/wiki/Byzantine_Generals%27_Problem">Byzantine Generals Problem</a>, or the <a href="https://en.wikipedia.org/wiki/Two_Generals%27_Problem">Two Generals Problem</a>.</p>
 
