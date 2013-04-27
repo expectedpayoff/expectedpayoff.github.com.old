@@ -10,19 +10,17 @@ author: Byron Gibson
 
 Yesterday I watched an uncharacteristically [cringe-inducing Bloomberg News 
 segment][1] on Bitcoin.  Bitcoin has been around since 2009, on the radar of the general
-tech scene since 2011, so by now I expect the debate around it to be a bit more informed
-and less flippantly dismissive.
+tech scene since 2011, so by now I expect serious news organizations to be a bit more 
+informed.
 
 In the host's defense (Sara Eisen), she appears to have done her homework and groks both 
 Bitcoin's technical basics and the fact that the value of anything, including even 
 currencies, is derived from its demand relative to supply, regardless what form that 
 demand takes.
 
-But her guests were another story.  I'll give them the benefit of the doubt and assume
-they were playing some kind of foil to help skeptics in the audience relate, but there 
-are better ways of spending your limited air time informing your audience.  Below are 
-some choice quotes from the discussion, along with hypothetical responses that would 
-have obviated the question:
+But her guests were another story.  Bitcoin has real issues worthy of debate, but none
+were covered in this round table.  Following are some choice quotes from the discussion, 
+along with hypothetical responses that would have obviated the question:
 
 <!-- more -->
 
