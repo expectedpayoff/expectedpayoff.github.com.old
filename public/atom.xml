@@ -4,7 +4,7 @@
   <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
   <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
   <link href="http://expectedpayoff.com/"/>
-  <updated>2014-04-01T03:48:30-07:00</updated>
+  <updated>2014-04-01T05:56:09-07:00</updated>
   <id>http://expectedpayoff.com/</id>
   <author>
     <name><![CDATA[Byron Gibson]]></name>
@@ -352,7 +352,7 @@ d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[The Other Election 2012 Contest: The Pollsters vs the Data Scientists vs the Political Markets]]></title>
+    <title type="html"><![CDATA[The Other Election 2012 Contest:  The Pollsters vs the Data Scientists vs the Political Markets]]></title>
     <link href="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/"/>
     <updated>2012-10-25T12:57:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets</id>
@@ -387,6 +387,38 @@ d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
 <p>As of writing this, the major national polls generally show Romney eeking out a slight lead in the national popular vote, the electoral college models show a stubborn lead for Obama, and the betting markets generally favor Obama while trending Romney (with some <a href="http://fivethirtyeight.blogs.nytimes.com/2012/10/24/oct-23-the-virtues-and-vices-of-election-prediction-markets/">unusual activity</a> which could hurt their credibility even if they correctly predict the election).</p>
 
 <p>So who is least wrong?  We&rsquo;ll know in about two weeks, and can look forward to plenty of postmortem analysies of the analysies afterwards.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The problem with Pingdom]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/22/the-problem-with-pingdom/"/>
+    <updated>2012-07-22T19:13:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/22/the-problem-with-pingdom</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'><figcaption><span>Time to be Awesome - awesome.rb </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='rb'><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Awesome!&quot;</span> <span class="k">unless</span> <span class="n">lame</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><a href="http://www.pingdom.com%20Pingdom">The problem with pingdom.</a></p>
+
+<p>My money&rsquo;s in that office, right? If she start giving me some bullshit about it ain&rsquo;t there, and we got to go someplace else and get it, I&rsquo;m gonna shoot you in the head then and there. Then I&rsquo;m gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I&rsquo;m talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</p>
+
+<blockquote><p>Blockquote is what goes
+inside this block here
+would you believe that
+bullshit?</p></blockquote>
+
+<p>Well, the way they make shows is, they make one show. That show&rsquo;s called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they&rsquo;re going to make more shows. Some pilots get picked and become television programs. Some don&rsquo;t, become nothing. She starred in one of the ones that became nothing.</p>
+
+<p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother&rsquo;s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
+
+<p>Your bones don&rsquo;t break, mine do. That&rsquo;s clear. Your cells react to bacteria and viruses differently than mine. You don&rsquo;t get sick, I do. That&rsquo;s also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We&rsquo;re on the same curve, just on opposite ends.</p>
+
+<p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that&rsquo;s what you see at a toy store. And you must think you&rsquo;re in a toy store, because you&rsquo;re here shopping for an infant named Jeb.</p>
 ]]></content>
   </entry>
   
@@ -523,7 +555,7 @@ the network of wicked problem solvers.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Computer Science: A Medium for Expression]]></title>
+    <title type="html"><![CDATA[Computer Science: A medium for expression]]></title>
     <link href="http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression/"/>
     <updated>2012-07-03T13:04:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression</id>
@@ -536,7 +568,7 @@ the network of wicked problem solvers.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[A 3D Printer on Every Desktop in Every Home]]></title>
+    <title type="html"><![CDATA[A 3D Printer On Every Desktop In Every Home]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/"/>
     <updated>2012-06-09T02:23:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home</id>
@@ -591,7 +623,7 @@ the network of wicked problem solvers.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[How to Create Real Wealth]]></title>
+    <title type="html"><![CDATA[How to create real wealth]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/"/>
     <updated>2012-06-09T00:31:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth</id>
@@ -670,7 +702,7 @@ For example, there is great economic value in a government and legal system that
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks Locally With Git]]></title>
+    <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks locally with git]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
     <updated>2012-06-08T18:24:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
@@ -801,7 +833,7 @@ Primary browser (Chromium, for this example):</li>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, Etc. Packages in Debian With Update Alternatives]]></title>
+    <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java/"/>
     <updated>2012-06-08T13:53:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java</id>
@@ -935,7 +967,7 @@ filesystem][7] by putting full package distributions in a single location, like
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[How to Set Up DrRacket for the Little Schemer]]></title>
+    <title type="html"><![CDATA[How to set up DrRacket for The Little Schemer]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
     <updated>2012-06-07T21:57:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
@@ -959,7 +991,7 @@ filesystem][7] by putting full package distributions in a single location, like
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Best Soccer/futbol Site Ever]]></title>
+    <title type="html"><![CDATA[Best soccer/futbol site ever]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
     <updated>2012-06-07T21:52:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
@@ -968,7 +1000,7 @@ filesystem][7] by putting full package distributions in a single location, like
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Why Linux Is Better Than Windows]]></title>
+    <title type="html"><![CDATA[Why Linux is better than Windows]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
     <updated>2012-06-07T21:42:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
@@ -995,7 +1027,7 @@ filesystem][7] by putting full package distributions in a single location, like
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Paul Graham Explaining Computer Programming to a 7th Grader]]></title>
+    <title type="html"><![CDATA[Paul Graham explaining computer programming to a 7th grader]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
     <updated>2012-06-07T21:40:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
@@ -1004,20 +1036,11 @@ filesystem][7] by putting full package distributions in a single location, like
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Philip Greenspun on the Value of College]]></title>
+    <title type="html"><![CDATA[Philip Greenspun on the value of college]]></title>
     <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
     <updated>2012-06-07T21:36:00-07:00</updated>
     <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
     <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Steve Yegge on the Value of Polyglot Programming]]></title>
-    <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
-    <updated>2012-06-07T21:29:00-07:00</updated>
-    <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
-    <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
 ]]></content>
   </entry>
   
