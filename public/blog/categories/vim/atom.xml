@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Vim | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Dead Simple Way to Get Up and Running With Lisp in Vim]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim/"/>
+    <updated>2012-06-07T15:15:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/a-dead-simple-way-to-get-up-and-running-with-lisp-in-vim</id>
+    <content type="html"><![CDATA[<p>The <a href="http://www.google.com/search?q=how+to+use+lisp+with+vim">web is replete</a> with people trying to create, or learn, an efficient workflow for programming Lisp in Vim.  I&rsquo;m the latter.  A vim amateur/intermediate, a Lisp noob.<br/>
+I want a quick and easy way to hack Lisp in Vim, save it in a file, load it into the REPL, hack some more in the REPL, and push the file to Github, without having to take the time to learn Emacs and <a href="http://common-lisp.net/project/slime/">SLIME</a>, or even <a href="http://www.vim.org/scripts/script.php?script_id=2531">SLIMV</a> (I&rsquo;ll get around to these later after I&rsquo;ve learned the language somewhat).</p>
+
+<p>My solution:  two terminal windows (three if you want one for vcs commits).  One with vim and your code, the second with a REPL, the third with command prompt in your working/project directory for git commits.</p>
+
+<ol>
+<li><p>In vim, make your changes and save :w.  Leave the editor open.</p></li>
+<li><p>Alt-tab to the REPL terminal, use (load &lsquo;filename.lisp) to reload your code after changing it.</p></li>
+<li><p>In the third terminal, add, commit, and push to vcs as necessary.</p></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

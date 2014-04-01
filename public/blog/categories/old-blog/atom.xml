@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Old Blog | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/old-blog/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Set Up DrRacket for the Little Schemer]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
+    <updated>2012-06-07T21:57:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
+    <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
+
+<ol>
+<li><p>Start DrRacket</p></li>
+<li><p>Change the language to Module. In the Language menu at the top (or the bottom left):</p>
+
+<p> <blockquote><p>Language &ndash;&gt; Choose Language &ndash;&gt; Module &ndash;&gt; OK</p></blockquote></p></li>
+<li><p>DrRacket lacks the primitive <code>atom?</code> used extensively in The Little Schemer, so you have to define it yourself.  atom? simply returns true if the input is an atom, false if not. In the top window, the Definitions window, add:</p>
+
+<p> <div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>(define atom? (lambda (a)  (not (list? a))))</span></code></pre></td></tr></table></div></figure></notextile></div></p></li>
+</ol>
+
+
+<p>That&rsquo;s all, you&rsquo;re ready to start.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Best Soccer/futbol Site Ever]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
+    <updated>2012-06-07T21:52:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
+    <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Linux Is Better Than Windows]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
+    <updated>2012-06-07T21:42:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
+    <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
+
+<ol>
+<li>More stable</li>
+<li>Less virus, trojan, &amp; security risk</li>
+<li>Security through <a href="http://en.wikipedia.org/wiki/Security_through_transparency">transparency</a> and (for now)<a href="http://en.wikipedia.org/wiki/Security_through_minority#Security_through_minority">minority</a> vs <a href="http://en.wikipedia.org/wiki/Security_through_obscurity">Security through obscurity</a></a></li>
+<li><a href="http://c2.com/cgi/wiki?GratisSoftware">free</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gratis_versus_Libre%22">Free</a></li>
+<li>Update all your software, not just the OS, with one-click</li>
+<li>Tens of thousands ofeasy-to-getf/Free software packages available in the online, repositories</li>
+<li>Next-generation desktops (Compiz Fusion, etc.)</li>
+<li>Never defragment your hard drive again</li>
+<li>Your system never slows down over months and years of useage</li>
+<li>Theme your desktop (with more than just 3 themes)</li>
+<li>Less ecological impact &ndash; no boxed software, no CDs, download everything online.</li>
+<li>Be part of an emerging global community</li>
+<li><a href="http://www.whylinuxisbetter.net/">More&hellip;</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paul Graham Explaining Computer Programming to a 7th Grader]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <updated>2012-06-07T21:40:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Philip Greenspun on the Value of College]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
+    <updated>2012-06-07T21:36:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
+    <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

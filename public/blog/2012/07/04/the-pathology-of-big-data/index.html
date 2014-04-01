@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Pathology of Big Data - E(X)PECTED P(A)YOFF</title>
+  <meta name="author" content="Byron Gibson">
+
+  
+  <meta name="description" content="Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives. The first by Nassim Taleb, the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="E(X)PECTED P(A)YOFF" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32249640-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">E(X)PECTED P(A)YOFF</a></h1>
+  
+    <h2>on economics, software, uncertainty, and sometimes their intersection.  by Byron Gibson.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://www.duckduckgo.com/" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:expectedpayoff.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The Pathology of Big Data</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-04T12:17:00-07:00" pubdate data-updated="true">Jul 4<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  <a href="https://www.facebook.com/photo.php?fbid=10150935763253375&amp;set=a.10150109720973375.279515.13012333374&amp;type=1">The first</a> by <a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Taleb</a>, <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">the second</a> by <a href="http://fivethirtyeight.com">Nate Silver</a>.  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.</p>
+
+<blockquote><p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> The pathology of Big Data: the more variables, the DISPROPORTIONATELY higher the number of spurious results that appear &ldquo;statistically significant&rdquo;. For a real-life application see <a href="http://www.fooledbyrandomness.com/NEJM.pdf">this busted article in The N E Journal of Medicine</a>.</p></blockquote>
+
+<p>Additional clarification in the comments:</p>
+
+<!-- more -->
+
+
+<blockquote><p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> This is called the Wigner Effect in physics: a random matrix with orthogonal components will show a series of declining Principal components&hellip; In the Lebanese dialect, the more data, the more illusion of patterns.</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> Geert, the problem is that nobody corrects for multiple testing in social science and epidemiology.</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> Geert Van Damme, furthermore the researcher is implicitly doing multiple testing throught his career even if he submits to Bonferoni adjustments within a single paper.</p>
+
+<p><a href="https://www.facebook.com/mark.weaver.756">Mark Weaver</a> &hellip; Stan Young rocks! (<a href="http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html">http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html</a>).</p>
+
+<p><a href="https://www.facebook.com/mark.weaver.756">Mark Weaver</a> Iva, just a correction&hellip; ALL statistical analysis is not futile! However, if the analysis was based on a method developed after 1955, say, and does not have one of these names attached (Fisher, Tukey, Kempthorne, Neyman) then it most likely is futile because it&rsquo;s likely based on completely insane assumptions&hellip; and, you shouldn&rsquo;t really need a &ldquo;statistician&rdquo; to understand it!</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> There are two separate types of misuse of statistics to prove a hypothesis. The data dredging fallacy examines a very large set of data to discover possible &ldquo;statistically significant&rdquo; coincidences, ignoring the certainty that a large data set will always have some coincidences, if enough relationships are examined. The second involves the interpretation of these coincidences, real or imaginary. It is common to conclude that coincidence implies causality, ignoring the possibility (likelihood?) that hidden variables affect both of the observed parameters.  When seeing these fallacious arguments used so often, one always asks the same question: Stupidity or mendacity?</p>
+
+<p><a href="https://www.facebook.com/kimmo.vehkalahti">Kimmo Vehkalahti</a> Recommended reading: &ldquo;The Cult of Statistical Significance&rdquo;, see: <a href="http://www.deirdremccloskey.com/articles/stats/preface_ziliak.php">http://goo.gl/yYQXM</a>.</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> Here is a useful link to the article identified by Mark Weaver (with excellent cartoons) <a href="http://goo.gl/vuTIf">http://goo.gl/vuTIf</a>.</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> The phenomenon we are describing was diagnoses as &ldquo;apophenia&rdquo; By William Gibson is one of his books.  Humans have an inate predisposition to look for patterns, and often find them where none exist. This tendency is strongly enhanced when rewards are given for discovering trends. And, as Nassim points out, the lack of punishment for finding false trends is also encouragement. Apophenia is a critical attribute for success in many professions &ndash; sports reporters, economists, stock market analysts, astrologers (but I repeat myself).</p>
+
+<p><a href="https://www.facebook.com/GuruAnaerobic">Guru Anaerobic</a> One manifestation of this are books like &lsquo;The Bible Code&rsquo; [Ed: eg, many false positives of pattern identification in large data, the data in this case being the text of the Bible]</p>
+
+<p><a href="https://www.facebook.com/nick.teague">Nicholas Teague</a> Concept summed up neatly in this simple cartoon: <a href="http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card">http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card</a></p>
+
+<p><a href="https://www.facebook.com/marcelo.schafranski.5">Marcelo Schafranski</a> Which one is more accurate: Bonferroni´s correction or False Discovery Rate?</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> both inaccurate, of course, but same principle</p>
+
+<p><a href="https://www.facebook.com/marcelo.schafranski.5">Marcelo Schafranski</a> I completely lost faith on Fisher´s/Pearson´s p, as long as it refers to the data and not to the hypothesis. It makes the Bonferroni/false discovery rate (which encourages &ldquo;salame-slicing&rdquo;) discussion pointless. But unfortunately, in medical science, which is my field, peolpe seem hypnotized by the p value. I sincerely wish they knew efect sizes. Totally agree with you: hard findings do not need statistics.</p>
+
+<p><a href="https://www.facebook.com/pedropeloso">Pedro Peloso</a> MORE ON CORRELATIONS.</p>
+
+<p>Think you will like this:</p>
+
+<p><a href="http://www.pnas.org/content/105/45/17436">http://www.pnas.org/content/105/45/17436</a></p>
+
+<p>It is related to your post on spurrious correlations. These guys reply to a paper &ldquo;claiming&#8221;climate change is the cause of some amphibian extinctions. They found better correlation of the extinctions with beer production and local production of bananas.</p></blockquote>
+
+<p>See <a href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/">next post for Nate&rsquo;s orthogonal take</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Byron Gibson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-07-04T12:17:00-07:00" pubdate data-updated="true">Jul 4<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/big-data/'>big data</a>, <a class='category' href='/blog/categories/critiques/'>critiques</a>, <a class='category' href='/blog/categories/data-science/'>data science</a>, <a class='category' href='/blog/categories/statistics/'>statistics</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/" data-via="byrongibson" data-counturl="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/07/03/computer-science-a-medium-for-expression/" title="Previous Post: Computer Science: A medium for expression">&laquo; Computer Science: A medium for expression</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/07/04/the-problems-of-forecasting/" title="Next Post: The Problems of Forecasting">The Problems of Forecasting &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/19/wikileaks-on-wikileaks/">Wikileaks on Wikileaks</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/bitcoins-intrinsic-value/">Bitcoin's Intrinsic Value?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">Bitcoin &amp; the Byzantine Generals Problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/18/government-spending-deconstructed/">Government Spending Deconstructed</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/">The Other Election 2012 Contest: The Pollsters vs the Data Scientists vs the Political Markets</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("byrongibson", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/byrongibson" class="twitter-follow-button" data-show-count="false">Follow @byrongibson</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/byrongibson">@byrongibson</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'byrongibson',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105507345434893922031?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Byron Gibson -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'byrongibson';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/';
+        var disqus_url = 'http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

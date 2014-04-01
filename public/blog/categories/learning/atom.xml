@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Learning | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Computer Science: A Medium for Expression]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression/"/>
+    <updated>2012-07-03T13:04:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression</id>
+    <content type="html"><![CDATA[<p><a href="http://betabeat.com/2012/06/real-tales-of-learning-computer-science-as-a-high-school-girl-stuyvesant/#slide2">A very well-articulated reason for learning programming and computer science:</a></p>
+
+<blockquote><p>&ldquo;Before taking the mandated Intro class last year, when I heard &lsquo;computer science,&rsquo; I pictured nerdy boys, who turned into nerdy bearded men, slouched over huge computers and click-clacking out codes that meant nothing to me. There’s nothing wrong with nerdy boys, comp sci just didn’t seem like something I would ever be interested in.</p>
+
+<p>&ldquo;This image was quickly shattered in that first intro class. Computer science started to resonate with me when I worked on my first project, creating a simple animation of a string quartet using Netlogo. It was while I was working on this that I realized comp sci isn’t about nerdy boys sitting at computers and coding out nonsense that turns into violent video games and complicated math problem solvers. No, comp sci isn’t this at all. Comp sci, as I have found in my classes at Stuy, is a medium for expression, a place for creation and creativity.&rdquo;</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Yegge on the Value of Polyglot Programming]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
+    <updated>2012-06-07T21:29:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
+    <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
+    <updated>2012-06-07T21:13:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
+    <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
+
+<ol>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_1">Break it down.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_2">Your requirements will change.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_3">Obey Gall&rsquo;s Law.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_4">Document as you go.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_5">Use version control.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_6">Maintain separate development and production environments.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_7">Backup and restore.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_8">Leave your code in a working state at the end of every day.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_9">If you can&rsquo;t figure out a problem, walk away.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_10">Fix bugs first.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_11">Communicate, communicate, communicate.</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programmingbooks.org]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org/"/>
+    <updated>2012-06-07T20:33:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org</id>
+    <content type="html"><![CDATA[<p><a href="http://Programmingbooks.org">Programmingbooks.org</a> is one of my favorite websites, despite being offline since a failed disk and lack of backup lost the data some time ago. Fortunately, <a href="http://web.archive.org/web/20080822052443/http://www.programmingbooks.org/">archive.org preserved it</a>, and the owner intends to get it <a href="http://stackoverflow.com/questions/2779740/what-happened-to-programming-books-com">back online sometime soon.</a></p>
+
+<p>Any kind of technical book generally takes longer to read than other books, since you not only have to work through the problem sets to understand the material, but also reread most of it multiple times, either as part of a <a href="http://www.ewrd.com/ewrd/index.asp">speed-reading method</a> or as you review the material while working on the problems.</p>
+
+<p>A site like this one is invaluable in cutting down the time required to find the books most highly regarded among professional programmers, software engineers, and hackers. Additionally, less noise (marginal and non-programming books) than Amazon and more trustworthy reviews provide an essentially industry-certified curriculum that&rsquo;s better than what some schools offer (the <a href="http://www.urbandictionary.com/define.php?term=diploma%20factory">diploma factories</a> and <a href="http://en.wikipedia.org/wiki/Diploma_mill">mills</a>, at least).</p>
+]]></content>
+  </entry>
+  
+</feed>

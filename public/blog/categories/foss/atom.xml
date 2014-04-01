@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Foss | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/foss/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why Linux Is Better Than Windows]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
+    <updated>2012-06-07T21:42:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
+    <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
+
+<ol>
+<li>More stable</li>
+<li>Less virus, trojan, &amp; security risk</li>
+<li>Security through <a href="http://en.wikipedia.org/wiki/Security_through_transparency">transparency</a> and (for now)<a href="http://en.wikipedia.org/wiki/Security_through_minority#Security_through_minority">minority</a> vs <a href="http://en.wikipedia.org/wiki/Security_through_obscurity">Security through obscurity</a></a></li>
+<li><a href="http://c2.com/cgi/wiki?GratisSoftware">free</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gratis_versus_Libre%22">Free</a></li>
+<li>Update all your software, not just the OS, with one-click</li>
+<li>Tens of thousands ofeasy-to-getf/Free software packages available in the online, repositories</li>
+<li>Next-generation desktops (Compiz Fusion, etc.)</li>
+<li>Never defragment your hard drive again</li>
+<li>Your system never slows down over months and years of useage</li>
+<li>Theme your desktop (with more than just 3 themes)</li>
+<li>Less ecological impact &ndash; no boxed software, no CDs, download everything online.</li>
+<li>Be part of an emerging global community</li>
+<li><a href="http://www.whylinuxisbetter.net/">More&hellip;</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>

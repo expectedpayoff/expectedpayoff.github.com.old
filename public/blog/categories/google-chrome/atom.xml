@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Google-chrome | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/google-chrome/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks Locally With Git]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
+    <updated>2012-06-08T18:24:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
+    <content type="html"><![CDATA[<p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
+
+<p>Well there&rsquo;s an easy way to do this with a software version control control system like Git, Mercurial, Subversion, etc.  I use Linux and Git, but this technique should work on any operating system with any version control system.</p>
+
+<!-- more -->
+
+
+<p>There are three pertinent filesystem locations &ndash; the Chrome Bookmarks file, the Chromium Bookmarks file, and the Git repo you will create to sync the two:</p>
+
+<p><code>
+~/.config/google-chrome/Default/Bookmarks
+~/.config/chromium/Default/Bookmarks
+~/bin/backup/bookmarks/chromium/Bookmarks.git
+</code></p>
+
+<p>Howto:</p>
+
+<ol>
+<li>Create a bare git repository that will serve as the parent or hub for syncing the two Bookmarks files.</li>
+</ol>
+
+
+<p><code>
+$&gt; mkdir -p ~/bin/backup/bookmarks/chromium/ &amp;&amp; cd ~/bin/backup/bookmarks/chrome-ium
+$&gt; git --bare init Bookmarks.git
+</code></p>
+
+<ol>
+<li>Initialize a child git repository in each of Chrome and Chromium&rsquo;s settings directories where the Bookmarks file resides.<br/>
+Primary browser (Chromium, for this example):</li>
+</ol>
+
+
+<p><code>
+$&gt; $&gt; cd ~/.config/chromium/Default
+$&gt; git init
+</code></p>
+
+<ol>
+<li>Set remote origin to the hub repo for both.</li>
+</ol>
+
+
+<p><code>
+$&gt; git remote add origin ~/bin/backup/bookmarks/chrome-ium/Bookmarks.git
+</code></p>
+
+<ol>
+<li>Include a <code>.gitignore</code> file that ignores everything except &lsquo;Bookmarks&rsquo; and &lsquo;.gitignore&rsquo;.</li>
+</ol>
+
+
+<p><code>
+$&gt; vim .gitignore
+</code>
+<code>
+*
+!Bookmarks
+!.gitignore
+</code></p>
+
+<ol>
+<li>Add, Commit, and Push the Bookmarks repo of your primary browser (say Chromium).  Pull the repo to your secondary browser (Chrome in this case).</li>
+</ol>
+
+
+<p>Primary browser (Chromium for this example):</p>
+
+<p><code>
+$&gt; git add -A  (should only add the files "Bookmarks" and ".gitignore", no others.  Verify with 'git status')
+$&gt; git commit -m 'init'
+$&gt; git pull origin master
+$&gt; git push -u origin master
+</code></p>
+
+<p>Secondary browser (Chrome for this example)</p>
+
+<p><code>
+$&gt; git remote add origin ~/bin/backup/bookmarks/chrome-ium/Bookmarks.git
+$&gt; git add -A  (should only add the files "Bookmarks" and ".gitignore", no others.  Verify with 'git status')
+$&gt; git commit -m 'init'
+$&gt; git pull origin master
+</code></p>
+
+<ol>
+<li>The tricky part &ndash; Chrome and Chromium both calculate the hash of the Bookmark file every time it is changed from within the browser, and add that hash as the first entry in the top of the Bookmarks file.  It is included in every new hash as well.  If that recorded hash does not match the calculated hash when Chrome/ium starts up, it will assume the file is corrupt and fall back to Bookmarks.bak instead.  Hence, you have to be careful when synching &ndash; you can never merge the remote hub repo if you have made changes locally, or it will cause the calculated hash to diverge from the recorded one, and Chrome/ium will think the file is corrupt and will ignore it in favor of the older Bookmarks.bak.  The simple solution is to make sure that when you add new bookmarks to one, you also pull those changes into the other browser before adding new bookmarks to the other.</li>
+</ol>
+
+
+<p>I&rsquo;m working on a post-commit hook that will automatically do this, but not done yet.</p>
+
+<p>Done.  Now whenever you add bookmarks to one browser, keep the parent repo updated with:
+<code>
+$&gt; cd ~/.config/[browser]/Default
+$&gt; git add -A
+$&gt; git commit -m 'update'
+$&gt; git pull origin master
+$&gt; git push -u origin master
+</code></p>
+
+<p>And finally just remember to also do a <code>git pull origin master</code> from the other browser <em>before</em> adding any new bookmarks to it as well.</p>
+]]></content>
+  </entry>
+  
+</feed>

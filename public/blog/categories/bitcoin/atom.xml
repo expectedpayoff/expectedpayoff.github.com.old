@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bitcoin | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/bitcoin/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bitcoin's Intrinsic Value?]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/03/22/bitcoins-intrinsic-value/"/>
+    <updated>2013-03-22T12:59:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/03/22/bitcoins-intrinsic-value</id>
+    <content type="html"><![CDATA[<p>Yesterday I watched a <a href="http://www.bloomberg.com/video/a-look-at-the-world-s-largest-online-currency-cPMjkXT0QB~SWJbQWWaB2g.html">Bloomberg News segment</a> on Bitcoin, which raised a
+number of questions about the cryptocurrency.  All of these have been answered
+before but the journalists apparently weren&rsquo;t aware of that (except perhaps the host,
+Sara Eisen, who seems to have done her homework).</p>
+
+<p>Following are the answers to these questions, as well as some additional, unanswered,
+questions and issues the segment could have raised but didn&rsquo;t.</p>
+
+<!-- more -->
+
+
+<p><strong>Q:</strong>  <em>[Bitcoin has] no power to tax</em></p>
+
+<p><strong>A:</strong>  The implicit assumption of this statement is that currencies gain value because
+they are the exclusive means of remitting taxes to the issuing government.  If
+all citizens are required by law to pay taxes in this currency, then come tax
+time they must convert wealth from other forms into this currency to pay taxes,
+creating demand for that currency.  Since tax time in most developed countries is
+a ubiquitous, ongoing, daily occurence (sales tax), then there is a ubiquitous,
+ongoing, daily demand for that currency, giving it constant steady value.</p>
+
+<p>However, asking that question implies a narrow view of that aspect of currencies.
+While modern, government-issued, government debt-backed currencies typiclly gain
+value from their status as taxation legal tender, that is not the only way.
+Anything that creates demand for a currency can give it value.</p>
+
+<p>For example, the US dollar is also the primary currency for purchasing oil in the
+world.  Any country that needs to buy oil (almost all of them), must convert either
+its own currency or other wealth into dollars to buy oil, increasing demand for the
+dollar, and hence its value.</p>
+
+<p>Another way in which value is imparted to the US Dollar, it is the only currency by
+which one may purchase what has for the past half century (until the recent financial
+crisis at least) been considered the risk-free rate of return &ndash; short-term
+<a href="http://financial-dictionary.thefreedictionary.com/Risk-Free+Rate+of+Return">US Treasury Bills</a>.</p>
+
+<p>Financial instability in Europe or other parts of the world tends to result in the
+movement of wealth from investment in riskier assets to investment in US Treasuries
+for this reason, and this fallback status grants the dollar another source of demand
+and value not available to other currencies.</p>
+
+<p>Another example is gold, simply because it induces a singular psychological response
+in most humans: charitably &ndash; awe at its luster and beauty, uncharitably &ndash; desire,
+avarice.  In either case, gold induces demand among humans purely psychologically,
+independent of any functional use it may have, and this is the source from which its
+value as a currency is hisorically derived.</p>
+
+<p>Bitcoin may not derive value from its status as exclusive medium of tax remitance,
+but that has no bearing on whether it is a currency or not.  Rather, it must meet
+the three criteria for definition of a currency:</p>
+
+<ol>
+<li>A medium of exchange</li>
+<li>A unit of account</li>
+<li>A store of value</li>
+</ol>
+
+
+<p>Bitcoin is certainly a medium of exchange with global scope and efficient payment and
+transfer capabilities, moreso than any traditional currency, the latter part even
+moreso than the US Dollar.  Transactions are, like cash, non-reversible, requiring
+buyers to truly <em>caveat emptor</em>, but transactions anywhere in the world are completed
+in a matter of minutes and locked in (confirmed) in just a few hours.</p>
+
+<p>Bitcoin provides units of <a href="https://en.bitcoin.it/wiki/Units">account</a>, the smallest being the Satoshi, or
+0.00000001 BTC (eight decimal places, or in scientific notation, 1.0 x 10^-8).</p>
+
+<p>Finally, is Bitcoin a store of value?  Truthfully the jury is still out on that.  Some
+pertinent questions, that the Bloomberg presenters could have been asking here:</p>
+
+<ol>
+<li><p>Will its price stablize?  Volatility is generally not associated with store of
+value.</p></li>
+<li><p>Will it appreciate over time?  Depreciation is generally not associated with store
+of value.  However, this is a test every debt-backed, inflationary currency,
+including US Federal Reserve Notes, fails, at least as measured per unit of currency.</p></li>
+<li><p>What are the long-term technical risks of relying completely on the Internet as
+both system and database?  The Internet is remarkably technically resilient, and
+bitcoin is designed to be so as well, but are there systemic risks that could
+undermine it?  For example, wide-scale power outages due to solar storms, or
+control by malicious actor of more than 50% of the computing power of the network.
+What are the safeguards and redundancies against such events?</p></li>
+<li><p>What are the long-term regulatory risks?  Will governments find ways to regulate
+bitcoin into uselessness to protect their monopoly on currency issuence?</p></li>
+</ol>
+
+
+<p>These are all pertinent critques that a professional news organization like Bloomberg
+<em>should</em> be asking of Bitcoin right now.</p>
+
+<p><strong>Q:</strong>  <em>Who finances it?</em></p>
+
+<p><strong>A:</strong>  No one.  It doesn&rsquo;t work like traditional banks and currencies, so stop thinking
+of it in those terms.  Bitcoin is <a href="https://en.wikipedia.org/wiki/Free_and_Open_Source_Software">FOSS &ndash; Free Open Source Software</a>.  It is
+created by hobbyists and concerned citizens working together over the internet, the
+same as <a href="https://en.wikipedia.org/wiki/Linux">GNU/Linux</a>, <a href="https://en.wikipedia.org/wiki/BSD_UNIX">BSD Unix</a>, and scads of other highly successful open
+source software projects that run most of the Internet&rsquo;s infrastructure.</p>
+
+<p>&ldquo;Free&rdquo; has an intentional double meaning here:</p>
+
+<ol>
+<li><p>Free as in Liberty &ndash; you can download the software, modify it, borrow from it,
+redistribute it, whatever you want.  Bitcoin is licensed under the clear,
+simple <a href="http://opensource.org/licenses/MIT">MIT License</a>.  Free as in zero restrictions what you can do with it.</p></li>
+<li><p>free as in no monetary cost &ndash; you pay nothing to download and use it.  No
+upfront fee, no recurring subscription fees, no hidden taxes down the road, not
+even any embedded advertising.  Completely free.</p></li>
+</ol>
+
+
+<p>Having said that, bitcoin does require an infrastructure:  the Internet, plus
+participants in the Bitcoin network who have decided to set up <a href="https://en.wikipedia.org/wiki/Bitcoin#Bitcoin_mining">&ldquo;mining&rdquo;</a>
+operations by which new Bitcoins are created.</p>
+
+<p>The Internet obviously was originally financed by taxpayers, and ongoing financing
+comes from the citizens and organizations who pay fees to connect and use it.</p>
+
+<p>The Bitcoin Mining operations are funded mainly by the <a href="https://en.wikipedia.org/wiki/Technology_adoption_lifecycle">innovators and early
+adopters</a> who saw value in Bitcoin early, and purchased the computer hardware
+necessary for <a href="http://www.businessinsider.com/how-to-mine-bitcoins-2013-3?op=1">calculating the hash algorithm</a> that creates bitcoins.  Their ROI
+for that is a set amount of bitcoins every time their system finds an answer to
+the <a href="https://en.bitcoin.it/wiki/Mining#The_Computationally-Difficult_Problem">hash algorithm</a> (lots of answers possible, all relatively difficult
+to find).</p>
+
+<p>So, if Bitcoin is &ldquo;financed&rdquo; by anyone, it is the total computing effort of all
+participants mining bitcoins, from individuals to <a href="https://en.bitcoin.it/wiki/Pooled_mining">pools</a>.</p>
+
+<p><strong>Q:</strong>  <em>sounds like an ameoba</em></p>
+
+<p><strong>R:</strong>  An amoeba?  Srsly bro?  You&rsquo;re on  <em>Bloomberg News</em>, not Fox News.  Lets try to
+maintain a little higher standard of rigor here.</p>
+
+<p><strong>Q:</strong>  <em>Is there any fundamental justifcation for appeal of bitcoin</em></p>
+
+<p><strong>R:</strong>  Yes, that its value is derived in such a way that it can&rsquo;t be compromised by a central
+bank bailing out a fraudulent banking system.  The mechanism by which Bitcoin is
+created and operates is transparent, open, and F/free to the entire world, and more
+difficult for any one entity or cartel to control and manipulate for the benefit of
+some at the expense of others.</p>
+
+<p>Whereas prevailing national currency regimes are run by obfuscated operations of the
+world&rsquo;s central banks and <a href="https://en.wikipedia.org/wiki/Bank_for_International_Settlements">their parent organization</a>, all of which are privately
+owned institutions (though usually government-chartered, with the exception of the BIS)
+whose interests may conflict with those of the citizens of the countries in which
+they operate.  The recent financial crisis has highlighted this inherent conflict of
+interest, in which national currencies, national debt, and <a href="http://www.bloomberg.com/news/2013-03-22/merkel-vents-anger-at-cyprus-over-bailout-plan-as-deadline-looms.html">national savings</a> are
+all being risked to &ldquo;socialize private losses&rdquo;.</p>
+
+<p>As a result, despite bitcoin&rsquo;s relative immaturity and current price volatility,
+some people perceive it as an option for a long term store of value relative to
+the debt-backed government currencies in which they no longer trust the issuer to
+act in citizens' best interest.  Bitcoin&rsquo;s intrinsic math and mechanisms are set, and
+are the same now as they will be 20 years from now, making it a viable long term bet
+for those who understand the algorithm, the infrastructure, and the general risks.<br/>
+These people have been early adopters, driving up demand for bitcoin, and as a result
+its value and appeal to others.</p>
+
+<p><strong>Q:</strong>  <em>I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense</em></p>
+
+<p><strong>R:</strong>  I never played Farmville, so can&rsquo;t comment extensively on it.  But, Farmville&rsquo;s virtual
+currency is issued by a for-profit private company, on a for-profit social network,
+for the purpose of making those companies a profit.</p>
+
+<p>Bitcoin is issued by an open, transparent network in which anyone in the world can
+freely participate in the creation of the currency (and share in the profits that go
+along with it, at least up until the last bitcoin is created at 21 million).</p>
+
+<p>And, can you even buy anything outside of Farmville with Farmville&rsquo;s currency?</p>
+
+<p>Just because two things are &ldquo;virtual&rdquo; does not mean they are comparable.</p>
+
+<p><strong>Q:</strong>  <em>&ldquo;And the fear of the algorithm, think of all the problems we&rsquo;ve seen, if you talk to any
+critics of HFT, and they talk about you don&rsquo;t want to be in a situation where you&rsquo;re
+dependent on an algorithm, and we&rsquo;re talking about actual currency here.&rdquo;</em></p>
+
+<p><strong>A:</strong>  We&rsquo;re dependent on algorithms all the time.  What do you think runs the entire Internet,
+financial exchanges, the power grid, mobile phone systems, etc.  <a href="https://en.wikipedia.org/wiki/High-frequency_trading">HFT</a> is a special case
+of many disparate, complex, opaque, proprietary algorithms competing against each
+other, interacting in sometimes <a href="https://en.wikipedia.org/wiki/Emergence">emergent</a>, unpredictable ways (Flash Crashes).</p>
+
+<p>Bitcoin is a case of a single (or few), relatively simple algorithm/s, working together
+in the same system to solve a <a href="http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">well-defined mathematical problem</a> that just wasn&rsquo;t
+solvable until the invention of the Internet, public key crytpography, and the Bittorrent
+distributed communication protocol.</p>
+
+<p>Again, just because two things are &ldquo;algorithms&rdquo; does not mean they are comparable.</p>
+
+<p><strong>Q:</strong>  <em>We will hear a lot more about it, but will it be in the context of things like Zynga&rsquo;s
+share price that reflects people&rsquo;s lack of confidence in &ldquo;virtual&rdquo; things?</em></p>
+
+<p><strong>A:</strong>  Again, see answer above re: Farmville.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bitcoin &amp; the Byzantine Generals Problem]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/"/>
+    <updated>2013-03-22T12:52:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem</id>
+    <content type="html"><![CDATA[<p>Whenever I need to explain what is so special about Bitcoin to someone unfamiliar with it, I explain it in terms of accounting ledgers and the Byzantine Generals Problem.  This is that explanation, so I can just link it to folks instead of having to rewrite it every time.</p>
+
+<p>First, don&rsquo;t think of bitcoin as a currency, but rather as a ledger.  It is an electronic ledger, of which a copy is kept on every participant&rsquo;s computer in the network, and all of which are continually updated, reconciled, and synchronized in real-time.  Every participant can make entries in this ledger, which records transactions of a certain amount of currency from one participant to another participant, and every one of those entries is then propagated to the network in realtime, so that every copy on every computer is updated near simultaneously and all copies of the ledger are kept synchronized.  The official term for this public, distributed ledger is the <a href="https://en.bitcoin.it/wiki/Blockchain">&lsquo;blockchain&rsquo;</a> (which <a href="http://blockchain.info/">you can see here</a>), and it uses <a href="https://en.wikipedia.org/wiki/BitTorrent">Bittorrent</a> technology to keep all copies synchronized.</p>
+
+<p>You can also think of Bitcoin not as a currency but as a general solution to a <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)">difficult algorithmic problem</a> in the field of distributed systems, colloquially known as <a href="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance">Byzantine Fault Tolerance</a>, the <a href="http://en.wikipedia.org/wiki/Byzantine_Generals%27_Problem">Byzantine Generals Problem</a>, or the <a href="https://en.wikipedia.org/wiki/Two_Generals%27_Problem">Two Generals Problem</a>.</p>
+
+<!-- more -->
+
+
+<p>The fun, informal statement of the problem is this:  Imagine during the Byzantine era, there is a fortified city-state, Byzantium, that contains within its walls wealth beyond the wildest dreams and avarice of its neighbors.  It is surrounded by ten other city-states, each of which is also wealthy, but nowhere near as wealthy as Byzantium.  All ten neighbors covet Byzantium&rsquo;s wealth, and wish to invade and take it for their own.</p>
+
+<p>However, Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader&rsquo;s army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other&rsquo;s wealth and constantly scheme against each other.  Moreover, Byzantium&rsquo;s defenses are so strong, that it will take more than half the of the ten neighbors' armies attacking simultaneously to overcome.</p>
+
+<p>So, if six or more neighboring armies attack together, they will succeed and gain the riches of Byzantium.  However, if one or more betrays the rest of the group by agreeing to invade and then holding back while the others attack, so that only five or less armies attack simultaneously, then all the attacking armies will be annihilated, and then pillaged by the remaining neighbors, including the ones that betrayed them.  It is a network of untrusting parties that must nevertheless work together to accomplish a shared mission.</p>
+
+<p>Moreover, the only way that the ten neighbors can communicate and coordinate the attack time is by sending messengers on horseback amongst themselves.  They can&rsquo;t all meet in one place for a conference (none of the kings trust the others outside the safety of his own fortress or army).  However, they can send as many messengers, as frequently as they want, and to whomever they want, at any time.  Each message contains something like &ldquo;I will attack on Day 4 at 0600, will you join me?&rdquo;.</p>
+
+<p>If the recipient agrees, they attach a signed/certified/sealed/verified response to the original message, then send out copies of the newly combined message to all 9 neighbors again, asking each of them to do the same.  The eventual objective is to have them all agreeing to the same time by adding all ten of their seals onto the same message chain.  The result will be a message chain with ten seals all agreeing to the same time, and probably several discarded message chains that contained a few seals but not all.</p>
+
+<p>However, the problem is that if each city-state sends one messenger apiece to each of the other nine, then that&rsquo;s 10 cities sending 9 messages each, 90 total in transit at any one time, and each city receiving 9 messages each, ostensibly each with different attack times.  Further, some of the cities will agree to more than one attack time, intending to betray the originator, so they will rebroadcast more than one message chain.  This system quickly degenerates into a completely untrustworthy tangle of conflicting messages and attack times.</p>
+
+<p>Bitcoin solves this problem with a simple (in hindsight) modification to the system &ndash; it adds a cost to sending messages, which slows down the rate of message passing, and does so with an element of randomness that ensures that only one city-state will be able to broadcast at a time.  The cost that it adds is a <a href="https://en.bitcoin.it/wiki/Proof_of_work">&lsquo;proof of work&rsquo;</a>, and it is based on calculating a random hash algorithm.  A hash is an algorithm that does nothing more than takes some input data and performs a calculation on it that results in a 64-digit string of random numbers and letters, like this:</p>
+
+<pre><code>d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
+</code></pre>
+
+<p>In the case of bitcoin, the input data consists of the entire ledger/blockchain up to the current point in time.  And while a single hash value can be calculated nearly instantaneously with today&rsquo;s computers, only a hash value where the first thirteen characters are zero is accepted by bitcoin as the &lsquo;proof of work&rsquo;.  Such a thirteen-zero hash code is extremely improbable and rare, and currently takes the entire bitcoin network about 10 minutes of searching before one is found.  Billions of invalid hash codes are generated before one machine in the network randomly lands on a valid one, and this is the &lsquo;proof of work&rsquo; that slows down the rate of message passing and makes the whole system viable.  Here&rsquo;s what they look like:</p>
+
+<pre><code>f51d0199c4a6d9f6da230b579d850698dff6f695b47d868cc1165c0ce74df5e1
+
+d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
+
+119c506ceaa18a973a5dbcfbf23253bc970114edd1063bd1288fbba468dcb7f8
+</code></pre>
+
+<p>&hellip; millions or billions more like this until finally a valid one &hellip;</p>
+
+<pre><code>000000000000084b6550604bf21ad8a955b945a0f78c3408c5002af3cdcc14f5
+</code></pre>
+
+<p>The machine (or city state in our analogy) that discovers the next valid hash code is the one that gets to take all previous messages, append its own, along with its signature/seal/etc, and broadcast out to the rest of the network.  As soon as the other machines in the network receive and verify this new thirteen-zero hash code and attached messages, they stop their current calculations, update their copy of the ledger with new version, and start calculating the hash again by feeding the newly updated ledger/blockchain to the hashing algorithm.  The hash calculation race is reset from a new starting point and begun anew.  Thus the network constantly syncs itself so that all computers on it are using the same version of the ledger for their hashing calculations.</p>
+
+<p>In the meantime, there are about 10 minutes in between successful hash code discoveries and blockchain updates (this is intentional, and the algorithm difficulty is adjusted every two weeks to make sure it takes the network a constant 10 minutes to find a new valid hash code).  During that 10m, participants on the network are sending messages and making transactions, and since every machine on the network is using the same ledger, all those transactions and messages are entered into every copy of the ledger across the entire network.  When the blockchain is updated and synced across the network, all transactions that were entered into the blockchain during the previous 10 minutes are also updated and synced.  Hence the distributed transaction record is reconciled and synchronized among all participants.</p>
+
+<p>Last, when individuals enter a transaction into the network, they use standard <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">public key cryptography</a> tools built into the bitcoin client program to sign it with their public key and the public key of the recipient.  This is the counterpart to the &lsquo;seal&rsquo; that the Byzantine Generals signed and verified their messages with.  Hence the hash calculation rate limiter combined with public key cryptography, turn an untrusting network into a trusting one, allowing all the participants to agree (on an attack time, or a series of transactions, <a href="https://dot-bit.org/Main_Page">domain name records</a>, political voting system, or anything else that needs distributed agreement).</p>
+
+<p>So the crux of why Bitcoin is special:  It represents a solution to a difficult algorithmic problem that was not possible until a confluence of historical events:</p>
+
+<ol>
+<li><p>The creation of the Internet.</p></li>
+<li><p>The invention of public key cryptography.</p></li>
+<li><p>The invention of the <a href="https://en.wikipedia.org/wiki/Peer_to_peer">P2P</a> <a href="https://en.wikipedia.org/wiki/BitTorrent">Bitorrent Protocol</a>.  Bittorrent was originally developed for sharing many files between relatively small subsets of the users on the network, but Bitcoin repurposes it to share a single file amongst <em>all</em> users.</p></li>
+<li><p>The realization that adding a simple time delay into the system along with public key cryptography to verify individual transactions could solve the problem.</p></li>
+</ol>
+
+
+<p>If some of the most brilliant ideas are simple in hindsight, #4 at least certainly qualifies, though overall the project has stood on the shoulders of giants.</p>
+
+<p>Finally, this solution to the Byzantine Generals Problem can be repurposed to any domain where lack of trust on a distributed network is the core problem.  As already mentioned, people are building a <a href="https://dot-bit.org/Main_Page">distributed Domain Name System</a> for the Internet, and are working distributed voting systems for use in political elections (no website yet), for starters.  If people thought that mere filesharing disrupted the world, the Bitcoin solution and protocol are just beginning to open the floodgates.</p>
+]]></content>
+  </entry>
+  
+</feed>

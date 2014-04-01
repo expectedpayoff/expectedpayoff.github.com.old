@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Programming | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Set Up DrRacket for the Little Schemer]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
+    <updated>2012-06-07T21:57:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
+    <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
+
+<ol>
+<li><p>Start DrRacket</p></li>
+<li><p>Change the language to Module. In the Language menu at the top (or the bottom left):</p>
+
+<p> <blockquote><p>Language &ndash;&gt; Choose Language &ndash;&gt; Module &ndash;&gt; OK</p></blockquote></p></li>
+<li><p>DrRacket lacks the primitive <code>atom?</code> used extensively in The Little Schemer, so you have to define it yourself.  atom? simply returns true if the input is an atom, false if not. In the top window, the Definitions window, add:</p>
+
+<p> <div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>(define atom? (lambda (a)  (not (list? a))))</span></code></pre></td></tr></table></div></figure></notextile></div></p></li>
+</ol>
+
+
+<p>That&rsquo;s all, you&rsquo;re ready to start.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paul Graham Explaining Computer Programming to a 7th Grader]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <updated>2012-06-07T21:40:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Yegge on the Value of Polyglot Programming]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
+    <updated>2012-06-07T21:29:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
+    <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Top Programming Lessons in Ten Years]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years/"/>
+    <updated>2012-06-07T21:13:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/top-programming-lessons-in-ten-years</id>
+    <content type="html"><![CDATA[<p><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years">Good observations</a> on the profession of programming. Summary:</p>
+
+<ol>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_1">Break it down.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_2">Your requirements will change.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_3">Obey Gall&rsquo;s Law.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_4">Document as you go.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_5">Use version control.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_6">Maintain separate development and production environments.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_7">Backup and restore.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_8">Leave your code in a working state at the end of every day.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_9">If you can&rsquo;t figure out a problem, walk away.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_10">Fix bugs first.</a></li>
+<li><a href="http://quandyfactory.com/blog/41/top_10_programming_lessons_in_10_years#toc_11">Communicate, communicate, communicate.</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Programmingbooks.org]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org/"/>
+    <updated>2012-06-07T20:33:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/programmingbooks-dot-org</id>
+    <content type="html"><![CDATA[<p><a href="http://Programmingbooks.org">Programmingbooks.org</a> is one of my favorite websites, despite being offline since a failed disk and lack of backup lost the data some time ago. Fortunately, <a href="http://web.archive.org/web/20080822052443/http://www.programmingbooks.org/">archive.org preserved it</a>, and the owner intends to get it <a href="http://stackoverflow.com/questions/2779740/what-happened-to-programming-books-com">back online sometime soon.</a></p>
+
+<p>Any kind of technical book generally takes longer to read than other books, since you not only have to work through the problem sets to understand the material, but also reread most of it multiple times, either as part of a <a href="http://www.ewrd.com/ewrd/index.asp">speed-reading method</a> or as you review the material while working on the problems.</p>
+
+<p>A site like this one is invaluable in cutting down the time required to find the books most highly regarded among professional programmers, software engineers, and hackers. Additionally, less noise (marginal and non-programming books) than Amazon and more trustworthy reviews provide an essentially industry-certified curriculum that&rsquo;s better than what some schools offer (the <a href="http://www.urbandictionary.com/define.php?term=diploma%20factory">diploma factories</a> and <a href="http://en.wikipedia.org/wiki/Diploma_mill">mills</a>, at least).</p>
+]]></content>
+  </entry>
+  
+</feed>

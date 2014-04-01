@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Social | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/social/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Main Problem With Google Plus So Far]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/"/>
+    <updated>2012-06-08T23:44:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far</id>
+    <content type="html"><![CDATA[<p>Google+ got a <a href="http://googleblog.blogspot.com/2012/04/toward-simpler-more-beautiful-google.html">redesign two months ago</a>.  It&rsquo;s nice, I have no major complaints about the new look (except for the huge whitespace beneath the aside portrait/info, but that&rsquo;s more aestetic than usability).</p>
+
+<p>However, I do have a major complaint about the fundamental functionality.  The problem with G+ is that you can&rsquo;t fine-tune the signal:noise ratio enough.</p>
+
+<!-- more -->
+
+
+<p>In a nutshell, Facebook is a network of people I know first IRL, so getting pictures of their dinner last night or latest cat&rsquo;s antics and other useless stuff I can sort of live with, it goes with the territory.</p>
+
+<p>But G+ is more like Twitter with longer posts &ndash; I follow a a lot of people I don&rsquo;t know IRL, but only because of a shared interest, and I&rsquo;m only interested in their posts on that interest, not the other noise.</p>
+
+<p>Whereas pointless posts on Twitter are only 140 characters, don&rsquo;t take up much screen real estate, and are easy to skim and/or skip, that&rsquo;s less the case with G+. I really want a way in G+ to filter out posts by those people that don&rsquo;t have anything to do with the shared interest.</p>
+
+<p>For example, if I create a &ldquo;Functional Programming&rdquo; circle and subscribe to a bunch of Haskell, Ocaml, ML, Lisp, and Scheme programmers that I don&rsquo;t know IRL, I&rsquo;m really not interested in their vacation photos and whatnot. But currently there&rsquo;s no way to filter their vacation photo posts from their posts on functional programming.</p>
+
+<p>An effective 90% solution would be to simply add hash tag filtering to circles, so I can instruct my Functional Programming circle to only accept posts with #functional, #functionalprogramming, #haskell, #ocaml, #ml, #lisp, #scheme, and block anything else without at least one of those hash tags in it.</p>
+
+<p>Not quite perfect, and G+&lsquo;ers would have to develop the habbit of using hashtags more than they currently do, but it&rsquo;s functional and flexible enough and provides the tools necessary for the community to solve this problem themselves.</p>
+
+<p>This is my biggest G+ pain point, and while I have nothing negative to say about this redesign, as long as it doesn&rsquo;t solve this one problem, it will do nothing to get me using G+ more.</p>
+]]></content>
+  </entry>
+  
+</feed>

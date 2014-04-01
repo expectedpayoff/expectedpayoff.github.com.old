@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Wikileaks on Wikileaks]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/04/19/wikileaks-on-wikileaks/"/>
+    <updated>2013-04-19T11:19:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/04/19/wikileaks-on-wikileaks</id>
+    <content type="html"><![CDATA[<p>An enlightening demonstration of the motivations behind Wikileaks, from the transcript
+of a secret meeting in 2011 between Julian Assange and Eric Schmidt (former Google CEO).</p>
+
+<!-- more -->
+
+
+<p><em>So, on the one hand we have live dynamic services and organizations&hellip; well there&rsquo;s
+three things. Live dynamic services. Organizations that run those services, so that you
+are referring to a hierarchy. You are referring to a system of control. An organization,
+a government, that represents an organized evolving group. And on the other hand you have
+artefacts. You have human intellectual artefacts that have the ability to be completely
+independent from any system of human control. They are out there in the Platonic realm
+somehow. And shouldn&rsquo;t in fact be referred to by an organization. They should be referred
+to in a way that is intrinsic to the intellectual content, that arises out of the
+intellectual content! I think that is an inevitable and very important way forward, and
+where this&hellip; where I saw that this was a problem was dealing with a man by the name of
+Nahdmi Auchi. A few years ago was listed by one of the big business magazines in the UK
+as the fifth richest man in the UK. In 1980 left Iraq. He&rsquo;d grown rich under Saddam
+Hussein&rsquo;s oil industry. And is alleged by the Italian press to be involved in a load of
+arms trading there, he has over two hundred companies run out of his Luxembourg holding
+unit. And several that we discovered in Panama. He had infiltrated the British Labour
+political establishment to the degree that the 20th business birthday in London he was
+given a painting signed by 146 members Commons including Tony Blair. He&rsquo;s the same guy
+who was the principal financier of Tony Rezko. Tony Rezko was the financier and fundraiser
+of Rod Blagoyevich, from Chicago. Convicted of corruption. Tony Rezko has been convicted
+of corruption. And Barack Obama. He was the intermediary who helped Barack Obama buy one
+of his houses and then the money not directly for the house but it bouyed up Tony Rezko&rsquo;s
+finances came from that&hellip; [indistinct]. So during the &ndash; this is detail, but it will get
+to a point. During the 2008 presidential primaries a lot of attention was turned to Barack
+Obama by the US press, unsurprisingly. And so it started to look into his fundraisers, and
+discovered Tony Rezko, and then they just started to turn their eyes towards Nadhmi Auchi.
+Auchi then hired Carter Ruck, a rather notorious firm of London libel solicitors, whose
+founder, Carter Ruck, has been described as doing for freedom of speech what the Boston
+strangler did for door to door salesmen.</em></p>
+
+<p><em>And he started writing letters to all of the London papers who had records of his 2003
+extradition to France and conviction for corruption in France over the Elf-Acquitaine scandal.
+Where he had been involved in taking kickbacks on selling the invaded Kuwaiti governments&#8217; oil
+refineries in order to fund their operations while Iraq had occupied it. So the Guardian pulled
+three articles from 2003. So they were five years old. They had been in the Guardian&rsquo;s archive
+for 5 years. Without saying anything. If you go to those URLs you will not see &ldquo;removed due to
+legal threats.&rdquo; You will see &ldquo;page not found.&rdquo; And one from the Telegraph. And a bunch from some
+American publications. And bloggers, and so on. Important bits of history, recent history, that
+were relevant to an ongoing presidential campaign in the United States were pulled out of the
+intellectal record. They were also pulled out of the Guardian&rsquo;s index of articles. So why? The
+Guardian&rsquo;s published in print, and you can go to the library and look up those articles. They
+are still there in the library. How would you know that they were there in the library? To look
+up, because they are not there in the Guardian&rsquo;s index. Not only have they ceased to exist,
+they have ceased to have ever existed. Which is the modern implementation of Orwell&rsquo;s dictum
+that he controls the present controls the past and he who controls the past controls the future.
+Because the past is stored physically in the present. All records of the past. This issue of
+preserving politically salient intellectual content while it is under attack is central to what
+WikiLeaks does &mdash; because that is what we are after! We are after those bits that people are
+trying to suppress, because we suspect, usually rightly, that they&rsquo;re expending economic work
+on suppressing those bits because they perceive that they are going to induce some change.&ldquo;</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bitcoin's Intrinsic Value?]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/03/22/bitcoins-intrinsic-value/"/>
+    <updated>2013-03-22T12:59:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/03/22/bitcoins-intrinsic-value</id>
+    <content type="html"><![CDATA[<p>Yesterday I watched a <a href="http://www.bloomberg.com/video/a-look-at-the-world-s-largest-online-currency-cPMjkXT0QB~SWJbQWWaB2g.html">Bloomberg News segment</a> on Bitcoin, which raised a
+number of questions about the cryptocurrency.  All of these have been answered
+before but the journalists apparently weren&rsquo;t aware of that (except perhaps the host,
+Sara Eisen, who seems to have done her homework).</p>
+
+<p>Following are the answers to these questions, as well as some additional, unanswered,
+questions and issues the segment could have raised but didn&rsquo;t.</p>
+
+<!-- more -->
+
+
+<p><strong>Q:</strong>  <em>[Bitcoin has] no power to tax</em></p>
+
+<p><strong>A:</strong>  The implicit assumption of this statement is that currencies gain value because
+they are the exclusive means of remitting taxes to the issuing government.  If
+all citizens are required by law to pay taxes in this currency, then come tax
+time they must convert wealth from other forms into this currency to pay taxes,
+creating demand for that currency.  Since tax time in most developed countries is
+a ubiquitous, ongoing, daily occurence (sales tax), then there is a ubiquitous,
+ongoing, daily demand for that currency, giving it constant steady value.</p>
+
+<p>However, asking that question implies a narrow view of that aspect of currencies.
+While modern, government-issued, government debt-backed currencies typiclly gain
+value from their status as taxation legal tender, that is not the only way.
+Anything that creates demand for a currency can give it value.</p>
+
+<p>For example, the US dollar is also the primary currency for purchasing oil in the
+world.  Any country that needs to buy oil (almost all of them), must convert either
+its own currency or other wealth into dollars to buy oil, increasing demand for the
+dollar, and hence its value.</p>
+
+<p>Another way in which value is imparted to the US Dollar, it is the only currency by
+which one may purchase what has for the past half century (until the recent financial
+crisis at least) been considered the risk-free rate of return &ndash; short-term
+<a href="http://financial-dictionary.thefreedictionary.com/Risk-Free+Rate+of+Return">US Treasury Bills</a>.</p>
+
+<p>Financial instability in Europe or other parts of the world tends to result in the
+movement of wealth from investment in riskier assets to investment in US Treasuries
+for this reason, and this fallback status grants the dollar another source of demand
+and value not available to other currencies.</p>
+
+<p>Another example is gold, simply because it induces a singular psychological response
+in most humans: charitably &ndash; awe at its luster and beauty, uncharitably &ndash; desire,
+avarice.  In either case, gold induces demand among humans purely psychologically,
+independent of any functional use it may have, and this is the source from which its
+value as a currency is hisorically derived.</p>
+
+<p>Bitcoin may not derive value from its status as exclusive medium of tax remitance,
+but that has no bearing on whether it is a currency or not.  Rather, it must meet
+the three criteria for definition of a currency:</p>
+
+<ol>
+<li>A medium of exchange</li>
+<li>A unit of account</li>
+<li>A store of value</li>
+</ol>
+
+
+<p>Bitcoin is certainly a medium of exchange with global scope and efficient payment and
+transfer capabilities, moreso than any traditional currency, the latter part even
+moreso than the US Dollar.  Transactions are, like cash, non-reversible, requiring
+buyers to truly <em>caveat emptor</em>, but transactions anywhere in the world are completed
+in a matter of minutes and locked in (confirmed) in just a few hours.</p>
+
+<p>Bitcoin provides units of <a href="https://en.bitcoin.it/wiki/Units">account</a>, the smallest being the Satoshi, or
+0.00000001 BTC (eight decimal places, or in scientific notation, 1.0 x 10^-8).</p>
+
+<p>Finally, is Bitcoin a store of value?  Truthfully the jury is still out on that.  Some
+pertinent questions, that the Bloomberg presenters could have been asking here:</p>
+
+<ol>
+<li><p>Will its price stablize?  Volatility is generally not associated with store of
+value.</p></li>
+<li><p>Will it appreciate over time?  Depreciation is generally not associated with store
+of value.  However, this is a test every debt-backed, inflationary currency,
+including US Federal Reserve Notes, fails, at least as measured per unit of currency.</p></li>
+<li><p>What are the long-term technical risks of relying completely on the Internet as
+both system and database?  The Internet is remarkably technically resilient, and
+bitcoin is designed to be so as well, but are there systemic risks that could
+undermine it?  For example, wide-scale power outages due to solar storms, or
+control by malicious actor of more than 50% of the computing power of the network.
+What are the safeguards and redundancies against such events?</p></li>
+<li><p>What are the long-term regulatory risks?  Will governments find ways to regulate
+bitcoin into uselessness to protect their monopoly on currency issuence?</p></li>
+</ol>
+
+
+<p>These are all pertinent critques that a professional news organization like Bloomberg
+<em>should</em> be asking of Bitcoin right now.</p>
+
+<p><strong>Q:</strong>  <em>Who finances it?</em></p>
+
+<p><strong>A:</strong>  No one.  It doesn&rsquo;t work like traditional banks and currencies, so stop thinking
+of it in those terms.  Bitcoin is <a href="https://en.wikipedia.org/wiki/Free_and_Open_Source_Software">FOSS &ndash; Free Open Source Software</a>.  It is
+created by hobbyists and concerned citizens working together over the internet, the
+same as <a href="https://en.wikipedia.org/wiki/Linux">GNU/Linux</a>, <a href="https://en.wikipedia.org/wiki/BSD_UNIX">BSD Unix</a>, and scads of other highly successful open
+source software projects that run most of the Internet&rsquo;s infrastructure.</p>
+
+<p>&ldquo;Free&rdquo; has an intentional double meaning here:</p>
+
+<ol>
+<li><p>Free as in Liberty &ndash; you can download the software, modify it, borrow from it,
+redistribute it, whatever you want.  Bitcoin is licensed under the clear,
+simple <a href="http://opensource.org/licenses/MIT">MIT License</a>.  Free as in zero restrictions what you can do with it.</p></li>
+<li><p>free as in no monetary cost &ndash; you pay nothing to download and use it.  No
+upfront fee, no recurring subscription fees, no hidden taxes down the road, not
+even any embedded advertising.  Completely free.</p></li>
+</ol>
+
+
+<p>Having said that, bitcoin does require an infrastructure:  the Internet, plus
+participants in the Bitcoin network who have decided to set up <a href="https://en.wikipedia.org/wiki/Bitcoin#Bitcoin_mining">&ldquo;mining&rdquo;</a>
+operations by which new Bitcoins are created.</p>
+
+<p>The Internet obviously was originally financed by taxpayers, and ongoing financing
+comes from the citizens and organizations who pay fees to connect and use it.</p>
+
+<p>The Bitcoin Mining operations are funded mainly by the <a href="https://en.wikipedia.org/wiki/Technology_adoption_lifecycle">innovators and early
+adopters</a> who saw value in Bitcoin early, and purchased the computer hardware
+necessary for <a href="http://www.businessinsider.com/how-to-mine-bitcoins-2013-3?op=1">calculating the hash algorithm</a> that creates bitcoins.  Their ROI
+for that is a set amount of bitcoins every time their system finds an answer to
+the <a href="https://en.bitcoin.it/wiki/Mining#The_Computationally-Difficult_Problem">hash algorithm</a> (lots of answers possible, all relatively difficult
+to find).</p>
+
+<p>So, if Bitcoin is &ldquo;financed&rdquo; by anyone, it is the total computing effort of all
+participants mining bitcoins, from individuals to <a href="https://en.bitcoin.it/wiki/Pooled_mining">pools</a>.</p>
+
+<p><strong>Q:</strong>  <em>sounds like an ameoba</em></p>
+
+<p><strong>R:</strong>  An amoeba?  Srsly bro?  You&rsquo;re on  <em>Bloomberg News</em>, not Fox News.  Lets try to
+maintain a little higher standard of rigor here.</p>
+
+<p><strong>Q:</strong>  <em>Is there any fundamental justifcation for appeal of bitcoin</em></p>
+
+<p><strong>R:</strong>  Yes, that its value is derived in such a way that it can&rsquo;t be compromised by a central
+bank bailing out a fraudulent banking system.  The mechanism by which Bitcoin is
+created and operates is transparent, open, and F/free to the entire world, and more
+difficult for any one entity or cartel to control and manipulate for the benefit of
+some at the expense of others.</p>
+
+<p>Whereas prevailing national currency regimes are run by obfuscated operations of the
+world&rsquo;s central banks and <a href="https://en.wikipedia.org/wiki/Bank_for_International_Settlements">their parent organization</a>, all of which are privately
+owned institutions (though usually government-chartered, with the exception of the BIS)
+whose interests may conflict with those of the citizens of the countries in which
+they operate.  The recent financial crisis has highlighted this inherent conflict of
+interest, in which national currencies, national debt, and <a href="http://www.bloomberg.com/news/2013-03-22/merkel-vents-anger-at-cyprus-over-bailout-plan-as-deadline-looms.html">national savings</a> are
+all being risked to &ldquo;socialize private losses&rdquo;.</p>
+
+<p>As a result, despite bitcoin&rsquo;s relative immaturity and current price volatility,
+some people perceive it as an option for a long term store of value relative to
+the debt-backed government currencies in which they no longer trust the issuer to
+act in citizens&#8217; best interest.  Bitcoin&rsquo;s intrinsic math and mechanisms are set, and
+are the same now as they will be 20 years from now, making it a viable long term bet
+for those who understand the algorithm, the infrastructure, and the general risks.<br/>
+These people have been early adopters, driving up demand for bitcoin, and as a result
+its value and appeal to others.</p>
+
+<p><strong>Q:</strong>  <em>I look at Bitcoin and I think to myself, [like] Farmville, this is virtual nonsense</em></p>
+
+<p><strong>R:</strong>  I never played Farmville, so can&rsquo;t comment extensively on it.  But, Farmville&rsquo;s virtual
+currency is issued by a for-profit private company, on a for-profit social network,
+for the purpose of making those companies a profit.</p>
+
+<p>Bitcoin is issued by an open, transparent network in which anyone in the world can
+freely participate in the creation of the currency (and share in the profits that go
+along with it, at least up until the last bitcoin is created at 21 million).</p>
+
+<p>And, can you even buy anything outside of Farmville with Farmville&rsquo;s currency?</p>
+
+<p>Just because two things are &ldquo;virtual&rdquo; does not mean they are comparable.</p>
+
+<p><strong>Q:</strong>  <em>&ldquo;And the fear of the algorithm, think of all the problems we&rsquo;ve seen, if you talk to any
+critics of HFT, and they talk about you don&rsquo;t want to be in a situation where you&rsquo;re
+dependent on an algorithm, and we&rsquo;re talking about actual currency here.&rdquo;</em></p>
+
+<p><strong>A:</strong>  We&rsquo;re dependent on algorithms all the time.  What do you think runs the entire Internet,
+financial exchanges, the power grid, mobile phone systems, etc.  <a href="https://en.wikipedia.org/wiki/High-frequency_trading">HFT</a> is a special case
+of many disparate, complex, opaque, proprietary algorithms competing against each
+other, interacting in sometimes <a href="https://en.wikipedia.org/wiki/Emergence">emergent</a>, unpredictable ways (Flash Crashes).</p>
+
+<p>Bitcoin is a case of a single (or few), relatively simple algorithm/s, working together
+in the same system to solve a <a href="http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">well-defined mathematical problem</a> that just wasn&rsquo;t
+solvable until the invention of the Internet, public key crytpography, and the Bittorrent
+distributed communication protocol.</p>
+
+<p>Again, just because two things are &ldquo;algorithms&rdquo; does not mean they are comparable.</p>
+
+<p><strong>Q:</strong>  <em>We will hear a lot more about it, but will it be in the context of things like Zynga&rsquo;s
+share price that reflects people&rsquo;s lack of confidence in &ldquo;virtual&rdquo; things?</em></p>
+
+<p><strong>A:</strong>  Again, see answer above re: Farmville.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bitcoin &amp; the Byzantine Generals Problem]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/"/>
+    <updated>2013-03-22T12:52:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem</id>
+    <content type="html"><![CDATA[<p>Whenever I need to explain what is so special about Bitcoin to someone unfamiliar with it, I explain it in terms of accounting ledgers and the Byzantine Generals Problem.  This is that explanation, so I can just link it to folks instead of having to rewrite it every time.</p>
+
+<p>First, don&rsquo;t think of bitcoin as a currency, but rather as a ledger.  It is an electronic ledger, of which a copy is kept on every participant&rsquo;s computer in the network, and all of which are continually updated, reconciled, and synchronized in real-time.  Every participant can make entries in this ledger, which records transactions of a certain amount of currency from one participant to another participant, and every one of those entries is then propagated to the network in realtime, so that every copy on every computer is updated near simultaneously and all copies of the ledger are kept synchronized.  The official term for this public, distributed ledger is the <a href="https://en.bitcoin.it/wiki/Blockchain">&lsquo;blockchain&rsquo;</a> (which <a href="http://blockchain.info/">you can see here</a>), and it uses <a href="https://en.wikipedia.org/wiki/BitTorrent">Bittorrent</a> technology to keep all copies synchronized.</p>
+
+<p>You can also think of Bitcoin not as a currency but as a general solution to a <a href="https://en.wikipedia.org/wiki/Consensus_(computer_science)">difficult algorithmic problem</a> in the field of distributed systems, colloquially known as <a href="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance">Byzantine Fault Tolerance</a>, the <a href="http://en.wikipedia.org/wiki/Byzantine_Generals%27_Problem">Byzantine Generals Problem</a>, or the <a href="https://en.wikipedia.org/wiki/Two_Generals%27_Problem">Two Generals Problem</a>.</p>
+
+<!-- more -->
+
+
+<p>The fun, informal statement of the problem is this:  Imagine during the Byzantine era, there is a fortified city-state, Byzantium, that contains within its walls wealth beyond the wildest dreams and avarice of its neighbors.  It is surrounded by ten other city-states, each of which is also wealthy, but nowhere near as wealthy as Byzantium.  All ten neighbors covet Byzantium&rsquo;s wealth, and wish to invade and take it for their own.</p>
+
+<p>However, Byzantium is so well defended that none of the neighboring city-states is strong enough to succeed at an invasion.  Any lone invasion attempt would fail and result in the total annihilation of the invader&rsquo;s army, leaving it vulnerable to invasion and pillaging by any of the other nine, all of which also covet each other&rsquo;s wealth and constantly scheme against each other.  Moreover, Byzantium&rsquo;s defenses are so strong, that it will take more than half the of the ten neighbors&#8217; armies attacking simultaneously to overcome.</p>
+
+<p>So, if six or more neighboring armies attack together, they will succeed and gain the riches of Byzantium.  However, if one or more betrays the rest of the group by agreeing to invade and then holding back while the others attack, so that only five or less armies attack simultaneously, then all the attacking armies will be annihilated, and then pillaged by the remaining neighbors, including the ones that betrayed them.  It is a network of untrusting parties that must nevertheless work together to accomplish a shared mission.</p>
+
+<p>Moreover, the only way that the ten neighbors can communicate and coordinate the attack time is by sending messengers on horseback amongst themselves.  They can&rsquo;t all meet in one place for a conference (none of the kings trust the others outside the safety of his own fortress or army).  However, they can send as many messengers, as frequently as they want, and to whomever they want, at any time.  Each message contains something like &ldquo;I will attack on Day 4 at 0600, will you join me?&rdquo;.</p>
+
+<p>If the recipient agrees, they attach a signed/certified/sealed/verified response to the original message, then send out copies of the newly combined message to all 9 neighbors again, asking each of them to do the same.  The eventual objective is to have them all agreeing to the same time by adding all ten of their seals onto the same message chain.  The result will be a message chain with ten seals all agreeing to the same time, and probably several discarded message chains that contained a few seals but not all.</p>
+
+<p>However, the problem is that if each city-state sends one messenger apiece to each of the other nine, then that&rsquo;s 10 cities sending 9 messages each, 90 total in transit at any one time, and each city receiving 9 messages each, ostensibly each with different attack times.  Further, some of the cities will agree to more than one attack time, intending to betray the originator, so they will rebroadcast more than one message chain.  This system quickly degenerates into a completely untrustworthy tangle of conflicting messages and attack times.</p>
+
+<p>Bitcoin solves this problem with a simple (in hindsight) modification to the system &ndash; it adds a cost to sending messages, which slows down the rate of message passing, and does so with an element of randomness that ensures that only one city-state will be able to broadcast at a time.  The cost that it adds is a <a href="https://en.bitcoin.it/wiki/Proof_of_work">&lsquo;proof of work&rsquo;</a>, and it is based on calculating a random hash algorithm.  A hash is an algorithm that does nothing more than takes some input data and performs a calculation on it that results in a 64-digit string of random numbers and letters, like this:</p>
+
+<pre><code>d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
+</code></pre>
+
+<p>In the case of bitcoin, the input data consists of the entire ledger/blockchain up to the current point in time.  And while a single hash value can be calculated nearly instantaneously with today&rsquo;s computers, only a hash value where the first thirteen characters are zero is accepted by bitcoin as the &lsquo;proof of work&rsquo;.  Such a thirteen-zero hash code is extremely improbable and rare, and currently takes the entire bitcoin network about 10 minutes of searching before one is found.  Billions of invalid hash codes are generated before one machine in the network randomly lands on a valid one, and this is the &lsquo;proof of work&rsquo; that slows down the rate of message passing and makes the whole system viable.  Here&rsquo;s what they look like:</p>
+
+<pre><code>f51d0199c4a6d9f6da230b579d850698dff6f695b47d868cc1165c0ce74df5e1
+
+d70298566aa2f1a66d892dc31fedce6147b5bf509e28d29627078d9a01a8f86b
+
+119c506ceaa18a973a5dbcfbf23253bc970114edd1063bd1288fbba468dcb7f8
+</code></pre>
+
+<p>&hellip; millions or billions more like this until finally a valid one &hellip;</p>
+
+<pre><code>000000000000084b6550604bf21ad8a955b945a0f78c3408c5002af3cdcc14f5
+</code></pre>
+
+<p>The machine (or city state in our analogy) that discovers the next valid hash code is the one that gets to take all previous messages, append its own, along with its signature/seal/etc, and broadcast out to the rest of the network.  As soon as the other machines in the network receive and verify this new thirteen-zero hash code and attached messages, they stop their current calculations, update their copy of the ledger with new version, and start calculating the hash again by feeding the newly updated ledger/blockchain to the hashing algorithm.  The hash calculation race is reset from a new starting point and begun anew.  Thus the network constantly syncs itself so that all computers on it are using the same version of the ledger for their hashing calculations.</p>
+
+<p>In the meantime, there are about 10 minutes in between successful hash code discoveries and blockchain updates (this is intentional, and the algorithm difficulty is adjusted every two weeks to make sure it takes the network a constant 10 minutes to find a new valid hash code).  During that 10m, participants on the network are sending messages and making transactions, and since every machine on the network is using the same ledger, all those transactions and messages are entered into every copy of the ledger across the entire network.  When the blockchain is updated and synced across the network, all transactions that were entered into the blockchain during the previous 10 minutes are also updated and synced.  Hence the distributed transaction record is reconciled and synchronized among all participants.</p>
+
+<p>Last, when individuals enter a transaction into the network, they use standard <a href="https://en.wikipedia.org/wiki/Public-key_cryptography">public key cryptography</a> tools built into the bitcoin client program to sign it with their public key and the public key of the recipient.  This is the counterpart to the &lsquo;seal&rsquo; that the Byzantine Generals signed and verified their messages with.  Hence the hash calculation rate limiter combined with public key cryptography, turn an untrusting network into a trusting one, allowing all the participants to agree (on an attack time, or a series of transactions, <a href="https://dot-bit.org/Main_Page">domain name records</a>, political voting system, or anything else that needs distributed agreement).</p>
+
+<p>So the crux of why Bitcoin is special:  It represents a solution to a difficult algorithmic problem that was not possible until a confluence of historical events:</p>
+
+<ol>
+<li><p>The creation of the Internet.</p></li>
+<li><p>The invention of public key cryptography.</p></li>
+<li><p>The invention of the <a href="https://en.wikipedia.org/wiki/Peer_to_peer">P2P</a> <a href="https://en.wikipedia.org/wiki/BitTorrent">Bitorrent Protocol</a>.  Bittorrent was originally developed for sharing many files between relatively small subsets of the users on the network, but Bitcoin repurposes it to share a single file amongst <em>all</em> users.</p></li>
+<li><p>The realization that adding a simple time delay into the system along with public key cryptography to verify individual transactions could solve the problem.</p></li>
+</ol>
+
+
+<p>If some of the most brilliant ideas are simple in hindsight, #4 at least certainly qualifies, though overall the project has stood on the shoulders of giants.</p>
+
+<p>Finally, this solution to the Byzantine Generals Problem can be repurposed to any domain where lack of trust on a distributed network is the core problem.  As already mentioned, people are building a <a href="https://dot-bit.org/Main_Page">distributed Domain Name System</a> for the Internet, and are working distributed voting systems for use in political elections (no website yet), for starters.  If people thought that mere filesharing disrupted the world, the Bitcoin solution and protocol are just beginning to open the floodgates.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Government Spending Deconstructed]]></title>
+    <link href="http://expectedpayoff.com/blog/2013/01/18/government-spending-deconstructed/"/>
+    <updated>2013-01-18T15:27:00-08:00</updated>
+    <id>http://expectedpayoff.com/blog/2013/01/18/government-spending-deconstructed</id>
+    <content type="html"><![CDATA[<p>A brief but clarifying <a href="http://fivethirtyeight.blogs.nytimes.com/2013/01/16/what-is-driving-growth-in-government-spending/#more-38257">look at US government spending</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Other Election 2012 Contest: The Pollsters vs the Data Scientists vs the Political Markets]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/"/>
+    <updated>2012-10-25T12:57:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets</id>
+    <content type="html"><![CDATA[<p><em>&ldquo;Election administrators go to bed at night and say, &lsquo;dear Lord, let it be a landslide.&rsquo;&rdquo;</em> -Trevor Potter, former commissioner and chairman of the FEC</p>
+
+<p>Election 2012 is shaping up to be interesting for a variety of reasons, but not least because of two reasons involving forecasting:</p>
+
+<ol>
+<li>Sophisticated probabalistic electoral college forecast models first seen in the early-mid 2000s have had a few election cycles to mature and evolve.</li>
+<li>This is the first <em>closely contested</em> presidential election since said techniques hit mainstream, and for the first time since then we&rsquo;re seeing disagreement among different forecasting methodologies.</li>
+</ol>
+
+
+<p>There are roughly three categories of data-driven, systematic forecasting methodologies:</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Traditional (but highly tuned) polls like <a href="http://www.gallup.com/poll/154559/US-Presidential-Election-Center.aspx?ref=interactive">Gallup</a>, <a href="http://pewresearch.org/topics/election'12/">Pew</a>, <a href="http://www.rasmussenreports.com/public_content/politics/political_updates/daily_presidential_tracking_poll">Rassmussen</a>, both of the national popular vote, state popular votes, and of registered and &lsquo;likely&rsquo; voters.</li>
+<li>Electoral college probability models/simulations run by data scientists like <a href="https://en.wikipedia.org/wiki/Nate_Silver">Nate Silver</a> (<a href="http://fivethirtyeight.com">fivethirtyeight.com</a>), <a href="https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew Tannenbaum</a> (<a href="http://www.electoral-vote.com/">electoral-vote.com</a>), <a href="https://twitter.com/DrewLinzer">Drew Linzer</a> (<a href="http://votamatic.org/">votamatic.com</a>), <a href="http://researchdmr.com/">David de Rothschild</a> (<a href="http://www.predictwise.com/">predictwise.com</a>), and <a href="https://en.wikipedia.org/wiki/Sam_Wang_(neuroscientist)">Sam Wang</a> (<a href="http://election.princeton.edu/">Princeton Election Consortium</a>) that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.</li>
+<li><a href="http://www.macroeconomicwoes.com/uncategorized/the-policy-wonks-guide-to-the-presidential-betting-market.html">Political betting markets</a> like <a href="http://www.pinnaclesports.com/ContestCategory/Politics/Lines.aspx">Pinnacle Sports</a>, <a href="http://www.matchbook.com/matchbook/events/market/?category=138157">Matchbook</a>, <a href="http://www.intrade.com/v4/misc/scoreboard/">Intrade</a>, and the <a href="http://tippie.uiowa.edu/iem/">Iowa Electronic Markets</a>.</li>
+</ol>
+
+
+<p>This is the first US presidential election since 2000 that is actually close and contested, and hence the first ever closely contested presidential election that features mature probability models of the electoral college &ndash; alongside tuned, tweaked, evolved and relatively sophisticated polls and betting markets &ndash; all attempting to divine the outcome.</p>
+
+<p>One characteristic of this close election is that idiosyncracies, and perhaps flaws and biases, in these forecasting methods are more likely to be exposed under the higher general uncertainty than in the past two presidential election cycles.</p>
+
+<p>Whereas uncontested or landslide elections tend to result in all the forecasting methods roughly agreeing with each other, close elections can result in disagreement among them &ndash; as is happening now &ndash; and hence a moment of truth: who is most accurate (or to put it in more scientific terms, who is <a href="http://serendip.brynmawr.edu/sci_cult/lesswrong/lesswrong/">less wrong</a>).</p>
+
+<p>As of writing this, the major national polls generally show Romney eeking out a slight lead in the national popular vote, the electoral college models show a stubborn lead for Obama, and the betting markets generally favor Obama while trending Romney (with some <a href="http://fivethirtyeight.blogs.nytimes.com/2012/10/24/oct-23-the-virtues-and-vices-of-election-prediction-markets/">unusual activity</a> which could hurt their credibility even if they correctly predict the election).</p>
+
+<p>So who is least wrong?  We&rsquo;ll know in about two weeks, and can look forward to plenty of postmortem analysies of the analysies afterwards.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Problems of Forecasting]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/"/>
+    <updated>2012-07-04T13:12:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting</id>
+    <content type="html"><![CDATA[<p>Followup to the <a href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/">previous post</a>.  Nate&rsquo;s <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">extensive article</a> is too wide-ranging to paraphrase or summarize, but is a great overview of the problems of forecasting.</p>
+
+<p>And some choice followup commentary:</p>
+
+<blockquote><p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3">Dan M.Grove</a>, OK
+Nate, I really think you overstate your case. I&rsquo;ll give an easy counter-examples to your statement that narrow theories are better than broad theories: the standard model of physics. From it, all weak intereactions and all of quantum electromagnetism can be derived. And classical electromagnitism has been derived from quantum electrodynamics.
+These theories have been verified millions of time. They are the basis for our understanding a wide range of technology, from electromagnetism to computers to lasers to quantum optics.
+You rightly point out that medical papers are often not reproduced. That is because they only need a 95% confidence level (or 2 sigma) to be published. And, since null results are rarely published, its easy to have 19 random unpublished result, and 1 random published one.
+When charm was found, it was published with a 5-sigma statistical signal. It was reproduced immediately. These are broad ranging theories that have been well identifed.
+If you want a political science result to be verified, it should be something that isn&rsquo;t just something that can be restated N different ways, that has stable results when you change the question slightly. In particular, it is a big plus for the theory if you offer a skeptical colleauge the right to reset the question and then recomute the results. Then the results should have less than a 1 in 100 chance of being found randomly. 1 in 1000 would be much better.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3:1">Nate Silver</a>, Brooklyn, NY
+Dan,
+You make some excellent points. In particular, one of the things I found very problematic when I began to examine the elections &ldquo;fundamentals&rdquo; models is that they were not very robust to small change in assumptions. Replace an economic variable with one that is normally closely correlated with it, and you will get a substantially different result in certain elections.
+But I think one needs to be careful about drawing analogies between the physical and the social sciences. One of the things that characterized Tetlock&rsquo;s hedgehogs was that they saw the political system as more analogous to a noncomplex (perhaps even Newtonian) physical system than the foxes did.
+This can sometimes cut the other way as well. For instance, there are some criticisms of global warming forecasts that would be reasonably compelling if they were tantamount to social science predictions, but don&rsquo;t work as well when the causality of the greenhouse effect, etc. is relatively well understood (although, I certainly don&rsquo;t claim that global warming forecasts are above criticism or without their problematic elements).
+Then again, it&rsquo;s interesting that a lot of Bayesian probability theory really originated with Laplace, who thought that even though the mechanisms understanding the universe were extremely regular, our ability to measure and understand them precisely might not be.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3:3">Richard</a>, NY
+Nate,
+I think you are confusing complexity with uncertainty in formulation. The weather/climate system is immensely complex and involves a massive number of interactions and feedbacks. Most of those interactions however are reasonably well understood and can be derived from the laws of physics.
+Social science models on the other hand are complex but also subject to fundamental lack of understanding of the basic interactions involved. This manifests itself in the parametric sensitivity you mentioned. Weather models are not subject to anywhere near this degree of parametric uncertainty even though they are proably more complex. Indeed the largest numerical models in the world are weather/climate models.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3:8">Dan M.Grove</a>, OK
+Thanks for your reply Nate. You are absolutely right that facile comparisons between physical sciences and social sciences are extremely dangerous. But, when you included medicine, I wanted to point out that broad statements can have enormous predictive power.
+Ecconomics and social sciences are causally dense. So, it is hard to make broad quantitative statements. Still, I don&rsquo;t think that the attempt to make fields like interenational relations more like science by so limiting the scope of one&rsquo;s study to make it barely useful is the answer either. People like Huntington still provided insight, even thought they weren&rsquo;t quantitative.
+It&rsquo;s interesting that you mention Laplace because physicists talk about the Laplacian ilusion; since QM shows the inherent indetermancy of physics. Indeed, some measurable properties cannot exist apart from measurement (e.g. electron spin at N degrees).
+Finally, while it is hard to make general, robust, high probabability statements in the field of political science, it is not impossible. It&rsquo;s just that most folks in the social sciences, and many in medicine, alas, think they&rsquo;ve done it when they haven&rsquo;t. Part of it is the way statistics are improperly treated. Being one of the first scientists who learned his craft when Monte Carlos were reasonably priced, I understand something of the pitfalls and the ways around them.
+So, I agree, most of the supposedly precise general statements in the social sciences aren&rsquo;t&hellip;but a few are.</p></blockquote>
+
+<!-- more -->
+
+
+<blockquote><p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=35">Kris NedzynskiWarsaw</a>, Poland
+Nate, I would be extremely eager to hear your opinion on Jude Wanniski’s approach to prediction in politics.
+I believe he was a true genius, largely still waiting to be appreciated. He applied Hayek’s “dispersed knowledge” concept (actually it can be traced back to Aristotle) to politics. Through that lens he was analyzing American and global political events, often with amazing accuracy. For instance he warned Senator Jesse Helms in 1998 that if the US government would not start to study origins of terrorism instead of merely defending against it, “terrorist mind will succeed in taking two towers completely”.
+Wanniski’s theory was laid down in kis “The Way The World Works”, but these may serve as a brief summary:
+<a href="http://tnij.org/q72t">http://tnij.org/q72t</a>
+<a href="http://tnij.org/q72o">http://tnij.org/q72o</a>
+<a href="http://tnij.org/q72p">http://tnij.org/q72p</a></p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=17">DMC</a>, Lucerne, Switzerland
+Are you aware of the &ldquo;Good Judgement Project?&rdquo;
+<a href="http://goodjudgmentproject.com/">http://goodjudgmentproject.com/</a>
+In brief, these academic researchers asked teams of volunteers to make predictions about a range of international events. The teams varied in the training they received. Results of the predictions were scored in a rigorous way that benefits those who are aware of the uncertainties in their own predictions.
+I participated as a forecaster in the first year of the project, and found it a very interesting exercise. I am very much looking forward to seeing the papers that will document the results and conclusions.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=12">valleyforge</a>, Valley Forge, PA
+Political science is a soft science precisely because it is immune to reliable modeling and hence prediction. Humans are not billard balls or even charmed quarks and the society we&rsquo;ve created is not governed by immutable laws. Hegel, Marx, and Asimov&rsquo;s fictional psychohistorian Hari Seldon may have believed in deterministic history but the &ldquo;great man&rdquo; problem will always defy the models. For illustration just look at the decisive influence that one man&rsquo;s vote, Anthony Kennedy&rsquo;s, has on national policy for 312 million people. Or the many unexpected inventions and discoveries, and even disasters, that changed the course of history. Such black swan events by definition cannot be predicted but have tremendous consequences.
+Judging political scientists who seek merely to explain by the accuracy of their theories implied predictions is inappropriate as it expects that their field of inquiry is ultimately knowable when it is not. Conversely political scientists who have the temerity to make inadequately-qualified predictions deserve the ridicule they get.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=8">Gyre</a>, Pennsylvania
+I&rsquo;m not so sure that predictions can&rsquo;t be made without statistics. I wasn&rsquo;t at all surprised when the Mali coup occurred, it fit the pattern of coups across the world for the past sixty years. A dangerous separatist conflict, a past history of coups in the region, a fairly poor country and the perception that the civil leaders couldn&rsquo;t handle it. Admittedly I didn&rsquo;t predict the coup surviving as long as it has, but predicting the coup itself isn&rsquo;t so bad.
+In the interest of fairness to numbers, political scientist Jay Ufelder has a post on using certain numbers and criteria to predict the nations most likely to have coups.
+<a href="http://dartthrowingchimp.wordpress.com/2012/01/30/assessing-coup-risk-in-2012/">http://dartthrowingchimp.wordpress.com/2012/01/30/assessing-coup-risk-in-2012/</a>
+Also political scientist Daniel Drezner has an article in response to Stevens. He&rsquo;s not impressed.
+<a href="http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate">http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate</a></p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=6">Richard</a>, NY
+Some context from the physical sciences might be useful: Weather forecasts have been probably the most successful predictions in the context of large unavoidable uncertainty. It is interesting to look histocially at their skill and the reasons for its slow improvement over decades. Initially (50s-70s) this occured due to better model formulation. Such models were very firmly grounded in well established physics. Later (80s-present) it was due to more complete observational data for prediction initialization.
+So the lessons would appear to be:
+1. Work out the basic rules governing the dynamics of the system of interest.
+2. Once step 1) has been achieved, hit the system with tons of data.
+My sense as a physical scientist is that social/political scientists have a lot of trouble with point 1) and resort to point 2) almost in desperation.
+Personally I would think a lot more about the basic behavioural dynamics that set political opinion. Economic factors are pretty clearly important but not completely explanatory&hellip;..</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=10">wheelers</a>, denver
+Nate, you are part of the solution.
+the network of wicked problem solvers.
+<a href="http://pressthink.org/2012/06/covering-wicked-problems/">http://pressthink.org/2012/06/covering-wicked-problems/</a></p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Pathology of Big Data]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/"/>
+    <updated>2012-07-04T12:17:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data</id>
+    <content type="html"><![CDATA[<p>Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  <a href="https://www.facebook.com/photo.php?fbid=10150935763253375&amp;set=a.10150109720973375.279515.13012333374&amp;type=1">The first</a> by <a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Taleb</a>, <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">the second</a> by <a href="http://fivethirtyeight.com">Nate Silver</a>.  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.</p>
+
+<blockquote><p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> The pathology of Big Data: the more variables, the DISPROPORTIONATELY higher the number of spurious results that appear &ldquo;statistically significant&rdquo;. For a real-life application see <a href="http://www.fooledbyrandomness.com/NEJM.pdf">this busted article in The N E Journal of Medicine</a>.</p></blockquote>
+
+<p>Additional clarification in the comments:</p>
+
+<!-- more -->
+
+
+<blockquote><p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> This is called the Wigner Effect in physics: a random matrix with orthogonal components will show a series of declining Principal components&hellip; In the Lebanese dialect, the more data, the more illusion of patterns.</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> Geert, the problem is that nobody corrects for multiple testing in social science and epidemiology.</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> Geert Van Damme, furthermore the researcher is implicitly doing multiple testing throught his career even if he submits to Bonferoni adjustments within a single paper.</p>
+
+<p><a href="https://www.facebook.com/mark.weaver.756">Mark Weaver</a> &hellip; Stan Young rocks! (<a href="http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html">http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html</a>).</p>
+
+<p><a href="https://www.facebook.com/mark.weaver.756">Mark Weaver</a> Iva, just a correction&hellip; ALL statistical analysis is not futile! However, if the analysis was based on a method developed after 1955, say, and does not have one of these names attached (Fisher, Tukey, Kempthorne, Neyman) then it most likely is futile because it&rsquo;s likely based on completely insane assumptions&hellip; and, you shouldn&rsquo;t really need a &ldquo;statistician&rdquo; to understand it!</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> There are two separate types of misuse of statistics to prove a hypothesis. The data dredging fallacy examines a very large set of data to discover possible &ldquo;statistically significant&rdquo; coincidences, ignoring the certainty that a large data set will always have some coincidences, if enough relationships are examined. The second involves the interpretation of these coincidences, real or imaginary. It is common to conclude that coincidence implies causality, ignoring the possibility (likelihood?) that hidden variables affect both of the observed parameters.  When seeing these fallacious arguments used so often, one always asks the same question: Stupidity or mendacity?</p>
+
+<p><a href="https://www.facebook.com/kimmo.vehkalahti">Kimmo Vehkalahti</a> Recommended reading: &ldquo;The Cult of Statistical Significance&rdquo;, see: <a href="http://www.deirdremccloskey.com/articles/stats/preface_ziliak.php">http://goo.gl/yYQXM</a>.</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> Here is a useful link to the article identified by Mark Weaver (with excellent cartoons) <a href="http://goo.gl/vuTIf">http://goo.gl/vuTIf</a>.</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> The phenomenon we are describing was diagnoses as &ldquo;apophenia&rdquo; By William Gibson is one of his books.  Humans have an inate predisposition to look for patterns, and often find them where none exist. This tendency is strongly enhanced when rewards are given for discovering trends. And, as Nassim points out, the lack of punishment for finding false trends is also encouragement. Apophenia is a critical attribute for success in many professions &ndash; sports reporters, economists, stock market analysts, astrologers (but I repeat myself).</p>
+
+<p><a href="https://www.facebook.com/GuruAnaerobic">Guru Anaerobic</a> One manifestation of this are books like &lsquo;The Bible Code&rsquo; [Ed: eg, many false positives of pattern identification in large data, the data in this case being the text of the Bible]</p>
+
+<p><a href="https://www.facebook.com/nick.teague">Nicholas Teague</a> Concept summed up neatly in this simple cartoon: <a href="http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card">http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card</a></p>
+
+<p><a href="https://www.facebook.com/marcelo.schafranski.5">Marcelo Schafranski</a> Which one is more accurate: Bonferroni´s correction or False Discovery Rate?</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> both inaccurate, of course, but same principle</p>
+
+<p><a href="https://www.facebook.com/marcelo.schafranski.5">Marcelo Schafranski</a> I completely lost faith on Fisher´s/Pearson´s p, as long as it refers to the data and not to the hypothesis. It makes the Bonferroni/false discovery rate (which encourages &ldquo;salame-slicing&rdquo;) discussion pointless. But unfortunately, in medical science, which is my field, peolpe seem hypnotized by the p value. I sincerely wish they knew efect sizes. Totally agree with you: hard findings do not need statistics.</p>
+
+<p><a href="https://www.facebook.com/pedropeloso">Pedro Peloso</a> MORE ON CORRELATIONS.</p>
+
+<p>Think you will like this:</p>
+
+<p><a href="http://www.pnas.org/content/105/45/17436">http://www.pnas.org/content/105/45/17436</a></p>
+
+<p>It is related to your post on spurrious correlations. These guys reply to a paper &ldquo;claiming&#8221;climate change is the cause of some amphibian extinctions. They found better correlation of the extinctions with beer production and local production of bananas.</p></blockquote>
+
+<p>See <a href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/">next post for Nate&rsquo;s orthogonal take</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computer Science: A Medium for Expression]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression/"/>
+    <updated>2012-07-03T13:04:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/03/computer-science-a-medium-for-expression</id>
+    <content type="html"><![CDATA[<p><a href="http://betabeat.com/2012/06/real-tales-of-learning-computer-science-as-a-high-school-girl-stuyvesant/#slide2">A very well-articulated reason for learning programming and computer science:</a></p>
+
+<blockquote><p>&ldquo;Before taking the mandated Intro class last year, when I heard &lsquo;computer science,&rsquo; I pictured nerdy boys, who turned into nerdy bearded men, slouched over huge computers and click-clacking out codes that meant nothing to me. There’s nothing wrong with nerdy boys, comp sci just didn’t seem like something I would ever be interested in.</p>
+
+<p>&ldquo;This image was quickly shattered in that first intro class. Computer science started to resonate with me when I worked on my first project, creating a simple animation of a string quartet using Netlogo. It was while I was working on this that I realized comp sci isn’t about nerdy boys sitting at computers and coding out nonsense that turns into violent video games and complicated math problem solvers. No, comp sci isn’t this at all. Comp sci, as I have found in my classes at Stuy, is a medium for expression, a place for creation and creativity.&rdquo;</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A 3D Printer on Every Desktop in Every Home]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home/"/>
+    <updated>2012-06-09T02:23:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/09/a-3d-printer-on-every-desktop-in-every-home</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been meaning to write this post for a while, but Vice-President Biden <a href="http://www.3dprinter.net/joe-biden-plugs-3d-printing-commencement-address">just gave me the kick in the rear to finally get it done</a>.</p>
+
+<p>My mom and dad are wonderful parents who have done a many great things for my sister and I along the way.  One of the most important was that when we were wee little tykes they got us started early with the nascent computer revolution by buying us a series of cutting edge home computers &ndash; Tandy TRS-80, Apple IIc, Apple IIgs, and a series of PCs.  I still remember learning BASIC on the TRS-80 and connecting to the Internet&rsquo;s precursors &ndash; CompuServe, Prodigy, AOL, and random BBS&rsquo;s via fast 56k baud modem.</p>
+
+<p>I don&rsquo;t believe mom and dad were sure exactly what little kids could get out these new devices, but it was no leap of faith to perceive that computers were the way of the way of the future, and getting a head start on the information age was incredibly educational and quite a gift.</p>
+
+<p>The dream of the 70s and 80s Silicon Valley visionaries like Steve Jobs, Bill Gates, Jack Tramiel (Commodore 64), and others was <em>&ldquo;A computer on every desk in every home&rdquo;</em>.  They achieved it and more &ndash; now it&rsquo;s a computer on every desk, in every backpack, in every pocket and purse, in every corner of the world, from developed to developing nations (well, almost).  And look at how they changed the world.</p>
+
+<p>However, the revolution isn&rsquo;t over, it&rsquo;s just getting started, and the next phase is going to be <em>&ldquo;a factory on every desk in every home&rdquo;</em>.  Or, more specifically <em>&ldquo;A 3D Printer on every desk in every home.&rdquo;</em>  Parents and schools will be buying their kids home 3D printers to go along with their computers, tablets, and smart phones.</p>
+
+<!-- more -->
+
+
+<p>But the nexus of the virtual world of design (<a href="http://online.wsj.com/article/SB10001424053111903480904576512250915629460.html">software</a>) + the meat space of manufacturing (3D printing) on every desktop in every home will result in a synthesis worth much more than the sum of its parts.  Individuals will be able to conceive of an item that solves a particular problem they have (say a <a href="http://www.youtube.com/watch?v=8aghzpO_UZE">wrench</a> or a <a href="http://www.youtube.com/watch?v=hmxjLpu2BvY">bicycle</a>), design it themselves if they know how, download a design<a href="http://www.thingiverse.com/">1</a>,<a href="http://i.materialise.com/">2</a>,<a href="http://www.shapeways.com">3</a>, or scan an object with a <a href="http://www.zcorp.com/en/Products/3D-Scanners/spage.aspx">handheld</a> <a href="http://www.nextengine.com/">laser</a> into a CAD/CAM file, and make it on the spot.</p>
+
+<p>The Internet democratized access to information, and along with it any domain that consisted of pure information &ndash; journalism (blogs, data journalism, twitter, etc.), media and entertainment production (user-generated content, youtube, bittorrent, etc), financial markets (Etrade, day trading, etc.), government (very much in its nascence with the <a href="http://radar.oreilly.com/gov2/">Government 2.0</a> movement, but happening inexorably).</p>
+
+<p>If you think of all of that as virtual wealth &ndash; things of value that exist only in bits and bytes, 1s and 0s, electromagnetic signals, pure information &ndash; then the Internet&rsquo;s greatest triumph so far was to democratize virtual wealth creation.</p>
+
+<p>Concordantly, the most world-changing revolutionary aspect of this <a href="http://www.3dprinter.net/third-industrial-revolution-the-economist-gets-it">Third Industrial Revolution</a> will be the democratization of <a href="http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/">real wealth creation</a>.  Whereas virtual wealth exists in virtual form, real wealth consists of material products that are made from raw materials, innovation (science, engineering, hacking, serendipitous coincidence), capital, and time.  Real wealth creation happens when the value of the final product is worth more than the total cost of all the inputs.</p>
+
+<p>We call that &lsquo;profit&rsquo; or &lsquo;net revenue&rsquo;, but what it really represents is wealth created out of thin air that <em>didn&rsquo;t previously exist anywhere in the world</em>.  It&rsquo;s the greatest magic trick the human race ever invented, the ultimate rabbit-from-the hat, lead-into-gold trick, that makes steady economic growth possible and lets us escape the <a href="http://krugman.blogs.nytimes.com/2009/07/01/the-malthusian-insult/">Malthusian trap</a>.  It is the core mechanic of capitalism.</p>
+
+<p>And personal computers + personal 3D printers are about to revolutionize it, <em>again</em>.</p>
+
+<p>A few of the consequences of this decentralization of wealth creation that I can think of off the top of my head are:</p>
+
+<ol>
+<li><p>Reverse outsourcing of cheap things.  No longer will run-of-the-mill everyday cheap things be made overseas and imported.  Rather, people will make them at home and buy the raw materials (plastic powder, etc).  Things like household tools, utensils, etc. will simply be made at home from digital designs shared on the internet, while only the raw materials are made in factories somewhere and shipped cross-country and/or imported from overseas.  Global flow of trade will be altered.</p></li>
+<li><p>Some things simply won&rsquo;t be made in factories anymore &ndash; any kind of inexpensive thing that is not significantly complex.  Fine, exquisite, artisan, handmade things, like Stradivarious violins, will continue being handmade and valued for it.  Highly complex things like cars and computers will also continue to be assembled in factories, but increasingly made of 3D Printed parts.  However, their designs may be partially or fully produced by enthusiast communities collaborating over the Internet, similar to how open source software like <a href="http://www.linuxfoundation.org/">Linux</a> and <a href="http://www.mozilla.org">Firefox</a> are made today.</p></li>
+<li><p>Education &ndash; you thought computers alone were educational, wait till your kids get a computer paired with a 3d printer!  Their creativity will know no bounds.  But more importantly they will be learning via a rapid feedback loop of <em>conception &ndash;> design &ndash;> production &ndash;> design improvement &ndash;> production &ndash;> design improvement &ndash;></em> &hellip; ad infinitum.  That&rsquo;s the basic definition of <em><a href="http://en.wikipedia.org/wiki/Kaizen">kaizen</a></em> &ndash; continuous, incremental, iterative improvement, and it is now in the hands of children.</p></li>
+<li><p>The ultimate in lean manufacturing and mass customization &ndash; no more guessin&hellip; er, forecasting how much of a product to produce to meet market demand, rather individuals will simply print either a single object or exactly the quantity they require to solve whatever problem or address whatever they need they have at that moment.</p></li>
+</ol>
+
+
+<p>The estimation and forecasting will shift to the production of raw materials for 3D Printing instead, but these can afford to be less precise and accurate, simply because unlike a spoon or wrench, the raw materials are much more flexible and have more shelf life.  They never go out of style, become obsolete slower (only as new printer technology overtakes and replaces prior versions in the market), and can be used to make anything, solve any problem, address any need, supply any demand.</p>
+
+<p>Retail consumers can hoard, overstock, resell, or even borrow and lend unused raw materials in ways that don&rsquo;t make sense with manufactured items, knowing the raw materials will get used eventually, if not when.  This lean, custom, just-in-time, distributed, mass manufacturing will change business planning and forecasting fundamentally.</p>
+
+<ol type="a">
+<li>Rowe Price has a <a href="http://individual.troweprice.com/public/Retail/Planning-&amp;-Research/Connections/3D-Printing/The-Game-Changer">good article covering other uses</a> &ndash; most importantly is the development of handheld lasers that let one scan an object (or even another person) and generate a real-time CAD/CAM file that can then be 3D Printed.  That makes the CAD/CAM design process faster &ndash; say you&rsquo;re designing a prostethic leg for a an amputee, you just scan their remaining leg and use the computer to mirror-image it, then chisel the prosthetic parts from that template.  This makes the iterative design process significantly faster and more effecient, and more immediately accessible to children and others just getting started with the technology.</li>
+</ol>
+
+
+<p>In this new revolution, what&rsquo;s foreseeable is exciting, but what&rsquo;s unforeseeable is even moreso.</p>
+
+<p>So, to all those parents (and schools) out there looking to do great things for your children to give them the best head start in life you possibly can, I strongly suggest familiarizing yourself with the rapidly emerging ecosystem and economy of 3D Printing, and get your kids involved from an early age.  Prices are coming down, and home 3D printers can already be had for just a few hundred dollars.  It will be for their generation what the computer on every desk in every home was for ours, but because it combines both virtual and real wealth creation, it will be even more empowering, enriching, and impactful.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Create Real Wealth]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth/"/>
+    <updated>2012-06-09T00:31:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/09/how-to-create-real-wealth</id>
+    <content type="html"><![CDATA[<p>One of the many problems caused by the ongoing financial crisis is renewed criticisms of the capitalist system in general.  Our current system is deeply flawed and certainly deserves some of it, however there is bathwater and there is the baby, and we conflate the two at the risk of exacerbating the financial crisis rather than mitigating it or preventing a recurrence.</p>
+
+<p><strong>Bathwater</strong> = increasing fragility, instability, and systemic risk; regulatory, institutional, and govermental capture; crony capitalism; privatized profits and socialized losses; too big to fail; increasing financialization of the economy &ndash;> increasing concentration of paper wealth &ndash;> outsourcing of real wealth creation &ndash;> increasing concentration of political power &ndash;> tyranny of the minority, etc.</p>
+
+<p><strong>Baby</strong> = the core mechanic of capitalism &ndash; real wealth creation.</p>
+
+<!-- more -->
+
+
+<p>Paul Graham wrote an <a href="http://www.paulgraham.com/wealth.html">excellent essay</a> on how to create wealth as an entrepreneur.  That&rsquo;s the micro take on it, and I&rsquo;d like to add the macro take:</p>
+
+<p>There are only two ways of creating real wealth:</p>
+
+<ol>
+<li><p>Harvest raw materials + apply labor + capital + innovation + time = finished product worth more than the total cost of inputs.  [value of final product &ndash; total cost of inputs] = [real wealth].  We call it &lsquo;profit&rsquo; or &lsquo;net revenue&rsquo; but what it really is, is wealth that <em>didn&rsquo;t previously exist anywhere in the world and was created out of thin air</em>.<br/>
+For example, we used to take hundreds of dollars worth of iron and wood, and turn it into thousands of dollars worth of trains and ships.  Now we take millions of dollars worth of sand, copper, and aluminum, and turn it into billions of dollars worth of microchips.  Miracle.  Magic.  Alchemy.  Science.  And, the core mechanic of capitalism.
+This is the greatest magic trick the human race has ever invented, the ultimate rabit-from-the-hat, lead-into-gold alchemy, and is what makes all else in our modern world possible.</p></li>
+<li><p>Provide a service that reduces the cost of inputs or increases the value of the final product of #1.
+For example, there is great economic value in a government and legal system that incentivizes wealth creation #1 and disincentivizes wealth destruction (via fraud, crime, etc.).  Improving health and education also reduce the costs of inputs and increase the value of outputs.  A system of efficiently allocating capital to real wealth creation ventures (when it&rsquo;s working correctly) provides great value to #1 as well.</p></li>
+</ol>
+
+
+<p>These are two <em>the</em> two fundamental ideas of economics, the core mechanic of capitalism, that everyone living in a modern economy must understand.  Two more good essays drawing the distinction between the current problems of capitalism and its core mechanics are by <a href="http://www.becker-posner-blog.com/2012/06/capitalismposner.html">Judge Richard Posner</a> and <a href="http://www.becker-posner-blog.com/2012/06/profits-competition-and-social-welfare-becker.html">Gary Becker</a>.  There is much to criticize of our current incarnation of capitalism, but any criticism that fails to understand and account for real wealth creation is probably flawed.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[America's Greatest 21st Century Challenge]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge/"/>
+    <updated>2012-06-09T00:00:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/09/americas-greatest-21st-century-challenge</id>
+    <content type="html"><![CDATA[<p>There is a lot of <a href="https://news.ycombinator.com/item?id=4086251">discussion</a> in tech circles recently on the sorry state of US immigration and the dire need for more qualified engineers, computer scientists, matheticians, etc., but much of it misses the bigger picture.  The big picture is that the dominant socioeconomic dynamic of the 21st century will be the competition between the US system and China&rsquo;s massive population (and India&rsquo;s to a lesser extent) for global economic ascendance.</p>
+
+<p>The US population is ~300 million, China&rsquo;s is ~1.2 billion, 4x our size. (India&rsquo;s is over 1 billion and the EU is ~400 million, for comparison).  For every engineer, scientist, genius, etc in the US, there are ~4 in China.  Over the long term the US has no hope whatsoever of competing against that without significant structural changes.</p>
+
+<!-- more -->
+
+
+<p>Those structural changes include fixing our educational system, fighting tooth and nail for skilled immigrants, offering them better incentives to stay rather than return home to make their fortunes in fast growing developing economies, fixing the broken financial and patent/IP systems, etc.</p>
+
+<p>Judge Posner sums up our strengths and failings well in a <a href="http://www.becker-posner-blog.com/2012/06/capitalismposner.html">recent blog post</a>. It <em>is</em> possible to compete against numbers, but against a numerical advantage as overwhelming as China&rsquo;s, the US system will need to be operating at an order of magnitude greater efficiency than it currently is.</p>
+
+<p>Immigration is one of the few crucial advantages the US can exploit in that competition, but right now we&rsquo;re shooting ourselves in the foot so hard there we&rsquo;re blowing our leg off.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Main Problem With Google Plus So Far]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far/"/>
+    <updated>2012-06-08T23:44:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/08/my-main-problem-with-google-plus-so-far</id>
+    <content type="html"><![CDATA[<p>Google+ got a <a href="http://googleblog.blogspot.com/2012/04/toward-simpler-more-beautiful-google.html">redesign two months ago</a>.  It&rsquo;s nice, I have no major complaints about the new look (except for the huge whitespace beneath the aside portrait/info, but that&rsquo;s more aestetic than usability).</p>
+
+<p>However, I do have a major complaint about the fundamental functionality.  The problem with G+ is that you can&rsquo;t fine-tune the signal:noise ratio enough.</p>
+
+<!-- more -->
+
+
+<p>In a nutshell, Facebook is a network of people I know first IRL, so getting pictures of their dinner last night or latest cat&rsquo;s antics and other useless stuff I can sort of live with, it goes with the territory.</p>
+
+<p>But G+ is more like Twitter with longer posts &ndash; I follow a a lot of people I don&rsquo;t know IRL, but only because of a shared interest, and I&rsquo;m only interested in their posts on that interest, not the other noise.</p>
+
+<p>Whereas pointless posts on Twitter are only 140 characters, don&rsquo;t take up much screen real estate, and are easy to skim and/or skip, that&rsquo;s less the case with G+. I really want a way in G+ to filter out posts by those people that don&rsquo;t have anything to do with the shared interest.</p>
+
+<p>For example, if I create a &ldquo;Functional Programming&rdquo; circle and subscribe to a bunch of Haskell, Ocaml, ML, Lisp, and Scheme programmers that I don&rsquo;t know IRL, I&rsquo;m really not interested in their vacation photos and whatnot. But currently there&rsquo;s no way to filter their vacation photo posts from their posts on functional programming.</p>
+
+<p>An effective 90% solution would be to simply add hash tag filtering to circles, so I can instruct my Functional Programming circle to only accept posts with #functional, #functionalprogramming, #haskell, #ocaml, #ml, #lisp, #scheme, and block anything else without at least one of those hash tags in it.</p>
+
+<p>Not quite perfect, and G+&lsquo;ers would have to develop the habbit of using hashtags more than they currently do, but it&rsquo;s functional and flexible enough and provides the tools necessary for the community to solve this problem themselves.</p>
+
+<p>This is my biggest G+ pain point, and while I have nothing negative to say about this redesign, as long as it doesn&rsquo;t solve this one problem, it will do nothing to get me using G+ more.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sync Chrome and Chromium Bookmarks Locally With Git]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/"/>
+    <updated>2012-06-08T18:24:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git</id>
+    <content type="html"><![CDATA[<p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
+
+<p>Well there&rsquo;s an easy way to do this with a software version control control system like Git, Mercurial, Subversion, etc.  I use Linux and Git, but this technique should work on any operating system with any version control system.</p>
+
+<!-- more -->
+
+
+<p>There are three pertinent filesystem locations &ndash; the Chrome Bookmarks file, the Chromium Bookmarks file, and the Git repo you will create to sync the two:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>~/.config/google-chrome/Default/Bookmarks
+</span><span class='line'>~/.config/chromium/Default/Bookmarks
+</span><span class='line'>~/bin/backup/bookmarks/chromium/Bookmarks.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Howto:</p>
+
+<ol>
+<li>Create a bare git repository that will serve as the parent or hub for syncing the two Bookmarks files.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; mkdir -p ~/bin/backup/bookmarks/chromium/ && cd ~/bin/backup/bookmarks/chrome-ium
+</span><span class='line'>$&gt; git --bare init Bookmarks.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<ol>
+<li>Initialize a child git repository in each of Chrome and Chromium&rsquo;s settings directories where the Bookmarks file resides.<br/>
+Primary browser (Chromium, for this example):</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; $&gt; cd ~/.config/chromium/Default
+</span><span class='line'>$&gt; git init</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Set remote origin to the hub repo for both.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; git remote add origin ~/bin/backup/bookmarks/chrome-ium/Bookmarks.git</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Include a <code>.gitignore</code> file that ignores everything except &lsquo;Bookmarks&rsquo; and &lsquo;.gitignore&rsquo;.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; vim .gitignore</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>*
+</span><span class='line'>!Bookmarks
+</span><span class='line'>!.gitignore</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Add, Commit, and Push the Bookmarks repo of your primary browser (say Chromium).  Pull the repo to your secondary browser (Chrome in this case).</li>
+</ol>
+
+
+<p>Primary browser (Chromium for this example):</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; git add -A  (should only add the files "Bookmarks" and ".gitignore", no others.  Verify with 'git status')
+</span><span class='line'>$&gt; git commit -m 'init'
+</span><span class='line'>$&gt; git pull origin master
+</span><span class='line'>$&gt; git push -u origin master</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Secondary browser (Chrome for this example)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; git remote add origin ~/bin/backup/bookmarks/chrome-ium/Bookmarks.git
+</span><span class='line'>$&gt; git add -A  (should only add the files "Bookmarks" and ".gitignore", no others.  Verify with 'git status')
+</span><span class='line'>$&gt; git commit -m 'init'
+</span><span class='line'>$&gt; git pull origin master</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>The tricky part &ndash; Chrome and Chromium both calculate the hash of the Bookmark file every time it is changed from within the browser, and add that hash as the first entry in the top of the Bookmarks file.  It is included in every new hash as well.  If that recorded hash does not match the calculated hash when Chrome/ium starts up, it will assume the file is corrupt and fall back to Bookmarks.bak instead.  Hence, you have to be careful when synching &ndash; you can never merge the remote hub repo if you have made changes locally, or it will cause the calculated hash to diverge from the recorded one, and Chrome/ium will think the file is corrupt and will ignore it in favor of the older Bookmarks.bak.  The simple solution is to make sure that when you add new bookmarks to one, you also pull those changes into the other browser before adding new bookmarks to the other.</li>
+</ol>
+
+
+<p>I&rsquo;m working on a post-commit hook that will automatically do this, but not done yet.</p>
+
+<p>Done.  Now whenever you add bookmarks to one browser, keep the parent repo updated with:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; cd ~/.config/[browser]/Default
+</span><span class='line'>$&gt; git add -A
+</span><span class='line'>$&gt; git commit -m 'update'
+</span><span class='line'>$&gt; git pull origin master
+</span><span class='line'>$&gt; git push -u origin master</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>And finally just remember to also do a <code>git pull origin master</code> from the other browser <em>before</em> adding any new bookmarks to it as well.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Manage Multiple Java, Scala, Haskell, Etc. Packages in Debian With Update Alternatives]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java/"/>
+    <updated>2012-06-08T13:53:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/08/manage-multiple-java</id>
+    <content type="html"><![CDATA[<p>Sun/Oracle Java was <a href="http://askubuntu.com/questions/67909/how-do-i-install-oracle-jdk-6">removed from Linux distros</a> in 2011 due to licensing issues.<br/>
+It can only be downloaded directly from Oracle&rsquo;s website now and installed manually.
+There are many different ways of doing that, but for Debian and Debian-derivatives,
+I prefer using Debian&rsquo;s excellent <code>update-alternatives</code> tool.</p>
+
+<!-- more -->
+
+
+<h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">How To</a></h4>
+
+<ol>
+<li><p>Download the package, extract or build to <code>/usr/lib/jvm/[version]</code>,
+<code>/opt/java/[version]</code>, <code>/opt/scala/[version]</code>, <code>/opt/haskell/[version]</code>,
+or anywhere else in the system file system (except <code>~/</code>).</p></li>
+<li><p>Change owner:group to root:root</p></li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo chown -Rv root:root /opt/java/[version]</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Run the <code>update-alternatives</code> script (<a href="https://github.com/byrongibson/scripts/tree/master/install/java">Java</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/scala">Scala</a>, <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell">Haskell</a>). Feel
+free to fork and modify for other languages.</li>
+</ol>
+
+
+<p>See my installation guide for <a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Haskell</a> for more details. The same process works
+for any package.  The tricky part is writing the <code>update-alternatives</code> script, but it
+should be clear how it works upon closer inspection of those scripts.</p>
+
+<p>The <code>update-alternatives</code> commands take the form:</p>
+
+<figure class='code'><figcaption><span>Install </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>update-alternatives --install [destination] [identifier] [source] [priority] \
+</span><span class='line'> --slave [destination] [identifier] [source] \
+</span><span class='line'> ...
+</span><span class='line'> --slave [destination] [identifier] [source]</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Change active package </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>update-alternatives --config [identifier]</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span>Remove all </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>update-alternatives --remove [identifier]</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<div><script src='https://gist.github.com/2898928.js'></script>
+<noscript><pre><code>#!/usr/bin/env bash -
+
+# install haskell GHC to the system via Debian update-alternatives
+
+BIN=&quot;/usr/bin&quot;
+MAN=&quot;/usr/share/man&quot;
+GHC=&quot;/opt/haskell/ghc/7.4.1&quot;
+GHC_BIN=&quot;$GHC/bin&quot;
+GHC_MAN=&quot;$GHC/share/man&quot;
+PRIORITY_LEVEL=1200
+
+update-alternatives --install $BIN/ghc ghc $GHC_BIN/ghc $PRIORITY_LEVEL \
+ --slave $BIN/ghci ghci $GHC_BIN/ghci \
+ --slave $BIN/ghc-pkg ghc-pkg $GHC_BIN/ghc-pkg \
+ --slave $BIN/haddock haddock $GHC_BIN/haddock \
+ --slave $BIN/hp2ps hp2ps $GHC_BIN/hp2ps \
+ --slave $BIN/hpc hpc $GHC_BIN/hpc \
+ --slave $BIN/hsc2hs hsc2hs $GHC_BIN/hsc2hs \
+ --slave $BIN/runghc runghc $GHC_BIN/runghc \
+ --slave $BIN/runhaskell runhaskell $GHC_BIN/runhaskell \
+ --slave $MAN/man9 man.ghc $GHC_MAN/man1</code></pre></noscript></div>
+
+
+<p>Read on for why&hellip;</p>
+
+<!-- more -->
+
+
+<h4><a href="https://github.com/byrongibson/scripts/tree/master/install/haskell#readme">Why?</a></h4>
+
+<ol>
+<li><p>It can be used with any package, not just Java.  I currently use it to manage
+multiple versions of Java, Scala, Haskell GHC, Haskell Platform, Ant, and Maven.</p></li>
+<li><p>Debian repos are known for providing stable software, but sometimes at the cost of
+being up to date.  Great for production machines, not so great when you want to
+experiment with the latest and greatest on your dev box.  <code>update-alternatives</code>
+solves that, by letting you easily bypass the repos to manually add current versions
+of software to the system (linking them into /usr/bin/, /usr/lib, /usr/share, etc.)
+without conflicting with the version from the repos.  With <code>update-alternatives</code> you
+can install both, and toggle among the active one depending on what you&rsquo;re working on.</p></li>
+<li><p>Upgrade to a new version without deleting the old.  Both can co-exist on the system
+at the same time, unlike installing the software via repo.  If the new version breaks
+something that depends on it, easily rollback to the prior version with just a
+<code>sudo update-alternatives --config</code>.</p></li>
+<li><p>Keep your system cleaner by putting software in a single location like
+/opt/java/jdk/1.6.0_34 and soft linking it to system directories like /usr/bin,
+/usr/lib, /usr/share, etc.  A typical *nix install is messy &ndash; files are deposited
+throughout the system in /usr/bin, /usr/lib, /usr/share, etc.  <code>update-alternatives</code>
+solves that problem.</p></li>
+<li><p>Easily uninstall any package.  For example, switch the current active package to
+another version with <code>update-alternatives --config java</code> and delete the unwanted one
+with <code>rm -rf /opt/java/jdk/1.7.0_04</code>.</p></li>
+<li><p>Run the software via System PATH instead of user PATH.  <code>update-alternatives</code>
+automatically installs software to the system path it is designed for, usually
+/usr/bin.</p></li>
+</ol>
+
+
+<h4>Final Thoughts</h4>
+
+<p>This system reminds me a bit of <a href="http://www.gobolinux.org/">Gobo Linux</a>, which seeks to [redesign the Linux
+filesystem][7] by putting full package distributions in a single location, like
+<code>/Programs/Bash/3.0</code>.  A great idea that would make Linux much more user-friendly.
+<code>update-alternatives</code> is one small step in that direction.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Set Up DrRacket for the Little Schemer]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer/"/>
+    <updated>2012-06-07T21:57:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/how-to-set-up-drracket-for-the-little-schemer</id>
+    <content type="html"><![CDATA[<p><a href="http://racket-lang.org/">Racket</a>, formerly PLT Scheme, is one of the easiest Scheme programming environments to set up, making it a convenient environment for learners to use to work through all the problems in <a href="http://www.ccs.neu.edu/home/matthias/BTLS/">The Little Schemer</a>. It only needs two modifications after installation:</p>
+
+<ol>
+<li><p>Start DrRacket</p></li>
+<li><p>Change the language to Module. In the Language menu at the top (or the bottom left):</p>
+
+<p> <blockquote><p>Language &ndash;&gt; Choose Language &ndash;&gt; Module &ndash;&gt; OK</p></blockquote></p></li>
+<li><p>DrRacket lacks the primitive <code>atom?</code> used extensively in The Little Schemer, so you have to define it yourself.  atom? simply returns true if the input is an atom, false if not. In the top window, the Definitions window, add:</p></li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>(define atom? (lambda (a)  (not (list? a))))</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s all, you&rsquo;re ready to start.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Best Soccer/futbol Site Ever]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever/"/>
+    <updated>2012-06-07T21:52:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/best-soccer-slash-futbol-site-ever</id>
+    <content type="html"><![CDATA[<p>I played soccer from when I was about 9 years old through high school, and have remained a lifelong fan, but despite that I never realized the extent and depth of tactics employed in the game, especially at the highest levels (World Cup, European and English league championships, South America).  Thanks to <a href="http://www.zonalmarking.net/">Zonal Marking</a>, I do now.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Linux Is Better Than Windows]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows/"/>
+    <updated>2012-06-07T21:42:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/why-linux-is-better-than-windows</id>
+    <content type="html"><![CDATA[<p><a href="http://www.whylinuxisbetter.net/">The ways in which Linux &gt; Windows:</a></p>
+
+<ol>
+<li>More stable</li>
+<li>Less virus, trojan, &amp; security risk</li>
+<li>Security through <a href="http://en.wikipedia.org/wiki/Security_through_transparency">transparency</a> and (for now)<a href="http://en.wikipedia.org/wiki/Security_through_minority#Security_through_minority">minority</a> vs <a href="http://en.wikipedia.org/wiki/Security_through_obscurity">Security through obscurity</a></a></li>
+<li><a href="http://c2.com/cgi/wiki?GratisSoftware">free</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gratis_versus_Libre%22">Free</a></li>
+<li>Update all your software, not just the OS, with one-click</li>
+<li>Tens of thousands ofeasy-to-getf/Free software packages available in the online, repositories</li>
+<li>Next-generation desktops (Compiz Fusion, etc.)</li>
+<li>Never defragment your hard drive again</li>
+<li>Your system never slows down over months and years of useage</li>
+<li>Theme your desktop (with more than just 3 themes)</li>
+<li>Less ecological impact &ndash; no boxed software, no CDs, download everything online.</li>
+<li>Be part of an emerging global community</li>
+<li><a href="http://www.whylinuxisbetter.net/">More&hellip;</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paul Graham Explaining Computer Programming to a 7th Grader]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader/"/>
+    <updated>2012-06-07T21:40:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/paul-graham-explaining-computer-programming-to-a-7th-grader</id>
+    <content type="html"><![CDATA[<p>Paul Graham <a href="http://paulgraham.com/int.html">on the profession of programming</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Philip Greenspun on the Value of College]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college/"/>
+    <updated>2012-06-07T21:36:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/philip-greenspun-on-the-value-of-college</id>
+    <content type="html"><![CDATA[<p>Noted computer scientist <a href="http://blogs.law.harvard.edu/philg/2010/06/12/americans-lets-stop-investing-in-our-kids/">Philip Greenspun on the comparative value of college</a>, and an interesting <a href="http://news.ycombinator.com/item?id=1427054">discussion among hacker entrepreneurs</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Steve Yegge on the Value of Polyglot Programming]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming/"/>
+    <updated>2012-06-07T21:29:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/steve-yegge-on-the-value-of-polyglot-programming</id>
+    <content type="html"><![CDATA[<p><a href="http://sites.google.com/site/steveyegge2/tour-de-babel">Oldie but goodie</a> on the value of polyglot programming.</p>
+]]></content>
+  </entry>
+  
+</feed>

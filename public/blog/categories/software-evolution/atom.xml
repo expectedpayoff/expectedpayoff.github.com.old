@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software Evolution | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/software-evolution/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Advice to Young Engineer/Entrepreneur]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur/"/>
+    <updated>2012-06-07T19:17:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/06/07/advice-to-young-engineer-slash-entrepreneur</id>
+    <content type="html"><![CDATA[<p>Just reposting a <a href="http://news.ycombinator.com/item?id=1747713">little gem from HackerNews</a>&hellip;</p>
+
+<blockquote><ol>
+<li><p> Be good. Be very good. Don&rsquo;t be the &ldquo;front-end guy&rdquo; or the &ldquo;back-end guy&rdquo;, or some other &ldquo;guy&rdquo;. Once you know what you want to build, building software is about five things: algorithms that solve your problem, programming languages that express your algorithms, computer architecture that makes your algorithms run efficiently on real hardware, the practical toolchain, and the management of complexity of real software. So study algorithms, and then graduate algorithms, and then advanced graduate algorithms. Do every challenge problem online. Study programming languages to express those algorithms. You can get away with three: C, Lisp, Haskell. Everything else is crud. Study computer architecture and compilers to see how your programs run efficiently. Learn great tools (Emacs/Vim/Visual Studio/bash/Linux/OS X/Windows whatever &ndash; just great ones that you&rsquo;re damn good at). Learn how complexity is managed. Look at lare open source projects, study how they&rsquo;re organized, and contribute patches to understand how small changes can effect a large system.</p></li>
+<li><p> Learn what to build. Once you get really good, your time starts to be more valuable than gold. There will be very few people in the world who are as good (the internet will bias you to think that the world is full of great people &ndash; this ain&rsquo;t so, there isn&rsquo;t enough of &lsquo;em). You owe it to people and to yourself not to bother with improving something by 1% or 10% because you&rsquo;re wasting time in opportunity cost and could be improving something by 1000%. Make sure what you&rsquo;re building is worth building, and make sure every line of code you write is worth writing, otherwise you will fail. Break the NIH syndrome in yourselves now (all good people have it, phenomenal people that build successful companies broke it in themselves). Learn to infer what people want.</p></li>
+<li><p> If you&rsquo;re that good, you will easily get a $100k job after graduation (probably more by then), and grow to $180k in a few years. That&rsquo;s very, very comfortable. It&rsquo;s not worth busting your ass 16 hours a day to build another CRM tool when you can have a $180k job. So don&rsquo;t start a business to start a business. Start a business to bring a meaningful change in the world. A huge change. A 1000% change. There are lots of hugely successful companies out there that do what&rsquo;s not meaningful to you &ndash; ignore them. But do make sure that what&rsquo;s meaningful to you is also meaningful to millions (hopefully billions) of others. You won&rsquo;t get rich writing Lisp compilers.</p></li>
+</ol>
+
+
+<p>  This is what matters. Most everything else is fluff.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

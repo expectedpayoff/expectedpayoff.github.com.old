@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Sync Chrome and Chromium Bookmarks Locally With Git - E(X)PECTED P(A)YOFF</title>
+  <meta name="author" content="Byron Gibson">
+
+  
+  <meta name="description" content="If you use both Google Chrome browser and its upstream development version, Chromium, on the same machine, you may, like me, want a way to sync your &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="E(X)PECTED P(A)YOFF" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32249640-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">E(X)PECTED P(A)YOFF</a></h1>
+  
+    <h2>on economics, software, uncertainty, and sometimes their intersection.  by Byron Gibson.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://www.duckduckgo.com/" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:expectedpayoff.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Sync Chrome and Chromium Bookmarks Locally With Git</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T18:24:00-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>If you use both <a href="https://www.google.com/chrome">Google Chrome</a> browser and its upstream development version, <a href="http://www.chromium.org/">Chromium</a>, on the same machine, you may, like me, want a way to sync your Bookmarks between the two locally, without using some third party cloud sync/backup service.</p>
+
+<p>Well there&rsquo;s an easy way to do this with a software version control control system like Git, Mercurial, Subversion, etc.  I use Linux and Git, but this technique should work on any operating system with any version control system.</p>
+
+<!-- more -->
+
+
+<p>There are three pertinent filesystem locations &ndash; the Chrome Bookmarks file, the Chromium Bookmarks file, and the Git repo you will create to sync the two:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>~/.config/google-chrome/Default/Bookmarks
+</span><span class='line'>~/.config/chromium/Default/Bookmarks
+</span><span class='line'>~/bin/backup/bookmarks/chromium/Bookmarks.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Howto:</p>
+
+<ol>
+<li>Create a bare git repository that will serve as the parent or hub for syncing the two Bookmarks files.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; mkdir -p ~/bin/backup/bookmarks/chromium/ && cd ~/bin/backup/bookmarks/chrome-ium
+</span><span class='line'>$&gt; git --bare init Bookmarks.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<ol>
+<li>Initialize a child git repository in each of Chrome and Chromium&rsquo;s settings directories where the Bookmarks file resides.<br/>
+Primary browser (Chromium, for this example):</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; $&gt; cd ~/.config/chromium/Default
+</span><span class='line'>$&gt; git init</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Set remote origin to the hub repo for both.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; git remote add origin ~/bin/backup/bookmarks/chrome-ium/Bookmarks.git</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Include a <code>.gitignore</code> file that ignores everything except &lsquo;Bookmarks&rsquo; and &lsquo;.gitignore&rsquo;.</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; vim .gitignore</span></code></pre></td></tr></table></div></figure>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>*
+</span><span class='line'>!Bookmarks
+</span><span class='line'>!.gitignore</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Add, Commit, and Push the Bookmarks repo of your primary browser (say Chromium).  Pull the repo to your secondary browser (Chrome in this case).</li>
+</ol>
+
+
+<p>Primary browser (Chromium for this example):</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; git add -A  (should only add the files "Bookmarks" and ".gitignore", no others.  Verify with 'git status')
+</span><span class='line'>$&gt; git commit -m 'init'
+</span><span class='line'>$&gt; git pull origin master
+</span><span class='line'>$&gt; git push -u origin master</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Secondary browser (Chrome for this example)</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; git remote add origin ~/bin/backup/bookmarks/chrome-ium/Bookmarks.git
+</span><span class='line'>$&gt; git add -A  (should only add the files "Bookmarks" and ".gitignore", no others.  Verify with 'git status')
+</span><span class='line'>$&gt; git commit -m 'init'
+</span><span class='line'>$&gt; git pull origin master</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>The tricky part &ndash; Chrome and Chromium both calculate the hash of the Bookmark file every time it is changed from within the browser, and add that hash as the first entry in the top of the Bookmarks file.  It is included in every new hash as well.  If that recorded hash does not match the calculated hash when Chrome/ium starts up, it will assume the file is corrupt and fall back to Bookmarks.bak instead.  Hence, you have to be careful when synching &ndash; you can never merge the remote hub repo if you have made changes locally, or it will cause the calculated hash to diverge from the recorded one, and Chrome/ium will think the file is corrupt and will ignore it in favor of the older Bookmarks.bak.  The simple solution is to make sure that when you add new bookmarks to one, you also pull those changes into the other browser before adding new bookmarks to the other.</li>
+</ol>
+
+
+<p>I&rsquo;m working on a post-commit hook that will automatically do this, but not done yet.</p>
+
+<p>Done.  Now whenever you add bookmarks to one browser, keep the parent repo updated with:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$&gt; cd ~/.config/[browser]/Default
+</span><span class='line'>$&gt; git add -A
+</span><span class='line'>$&gt; git commit -m 'update'
+</span><span class='line'>$&gt; git pull origin master
+</span><span class='line'>$&gt; git push -u origin master</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>And finally just remember to also do a <code>git pull origin master</code> from the other browser <em>before</em> adding any new bookmarks to it as well.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Byron Gibson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-08T18:24:00-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/bookmark/'>bookmark</a>, <a class='category' href='/blog/categories/bookmarks/'>bookmarks</a>, <a class='category' href='/blog/categories/chrome/'>chrome</a>, <a class='category' href='/blog/categories/chromium/'>chromium</a>, <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/google-chrome/'>google chrome</a>, <a class='category' href='/blog/categories/google-chrome/'>google-chrome</a>, <a class='category' href='/blog/categories/local/'>local</a>, <a class='category' href='/blog/categories/sync/'>sync</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/" data-via="byrongibson" data-counturl="http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/06/08/manage-multiple-java/" title="Previous Post: Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives">&laquo; Manage Multiple Java, Scala, Haskell, etc. packages in Debian with Update Alternatives</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/06/08/my-main-problem-with-google-plus-so-far/" title="Next Post: My Main Problem With Google Plus So Far">My Main Problem With Google Plus So Far &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/04/19/wikileaks-on-wikileaks/">Wikileaks on Wikileaks</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/bitcoins-intrinsic-value/">Bitcoin's Intrinsic Value?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/22/bitcoin-and-the-byzantine-generals-problem/">Bitcoin &amp; the Byzantine Generals Problem</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/01/18/government-spending-deconstructed/">Government Spending Deconstructed</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/">The Other Election 2012 Contest: The Pollsters vs the Data Scientists vs the Political Markets</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("byrongibson", 5, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/byrongibson" class="twitter-follow-button" data-show-count="false">Follow @byrongibson</a>
+  
+</section>
+
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/byrongibson">@byrongibson</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'byrongibson',
+            count: 1,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105507345434893922031?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Byron Gibson -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'byrongibson';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/';
+        var disqus_url = 'http://expectedpayoff.com/blog/2012/06/08/sync-chrome-and-chromium-bookmarks-locally-with-git/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

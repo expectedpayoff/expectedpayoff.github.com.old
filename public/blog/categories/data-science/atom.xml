@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Data Science | E(X)PECTED P(A)YOFF]]></title>
+  <link href="http://expectedpayoff.com/blog/categories/data-science/atom.xml" rel="self"/>
+  <link href="http://expectedpayoff.com/"/>
+  <updated>2014-04-01T03:48:30-07:00</updated>
+  <id>http://expectedpayoff.com/</id>
+  <author>
+    <name><![CDATA[Byron Gibson]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Other Election 2012 Contest: The Pollsters vs the Data Scientists vs the Political Markets]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets/"/>
+    <updated>2012-10-25T12:57:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/10/25/the-other-election-2012-contest-the-pollsters-vs-the-data-scientists-vs-the-political-markets</id>
+    <content type="html"><![CDATA[<p><em>&ldquo;Election administrators go to bed at night and say, &lsquo;dear Lord, let it be a landslide.&rsquo;&rdquo;</em> -Trevor Potter, former commissioner and chairman of the FEC</p>
+
+<p>Election 2012 is shaping up to be interesting for a variety of reasons, but not least because of two reasons involving forecasting:</p>
+
+<ol>
+<li>Sophisticated probabalistic electoral college forecast models first seen in the early-mid 2000s have had a few election cycles to mature and evolve.</li>
+<li>This is the first <em>closely contested</em> presidential election since said techniques hit mainstream, and for the first time since then we&rsquo;re seeing disagreement among different forecasting methodologies.</li>
+</ol>
+
+
+<p>There are roughly three categories of data-driven, systematic forecasting methodologies:</p>
+
+<!-- more -->
+
+
+<ol>
+<li>Traditional (but highly tuned) polls like <a href="http://www.gallup.com/poll/154559/US-Presidential-Election-Center.aspx?ref=interactive">Gallup</a>, <a href="http://pewresearch.org/topics/election'12/">Pew</a>, <a href="http://www.rasmussenreports.com/public_content/politics/political_updates/daily_presidential_tracking_poll">Rassmussen</a>, both of the national popular vote, state popular votes, and of registered and &lsquo;likely&rsquo; voters.</li>
+<li>Electoral college probability models/simulations run by data scientists like <a href="https://en.wikipedia.org/wiki/Nate_Silver">Nate Silver</a> (<a href="http://fivethirtyeight.com">fivethirtyeight.com</a>), <a href="https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum">Andrew Tannenbaum</a> (<a href="http://www.electoral-vote.com/">electoral-vote.com</a>), <a href="https://twitter.com/DrewLinzer">Drew Linzer</a> (<a href="http://votamatic.org/">votamatic.com</a>), <a href="http://researchdmr.com/">David de Rothschild</a> (<a href="http://www.predictwise.com/">predictwise.com</a>), and <a href="https://en.wikipedia.org/wiki/Sam_Wang_(neuroscientist)">Sam Wang</a> (<a href="http://election.princeton.edu/">Princeton Election Consortium</a>) that incorporate polls, economic indicators, and other correlated variables to create a forecast model of the electoral college.</li>
+<li><a href="http://www.macroeconomicwoes.com/uncategorized/the-policy-wonks-guide-to-the-presidential-betting-market.html">Political betting markets</a> like <a href="http://www.pinnaclesports.com/ContestCategory/Politics/Lines.aspx">Pinnacle Sports</a>, <a href="http://www.matchbook.com/matchbook/events/market/?category=138157">Matchbook</a>, <a href="http://www.intrade.com/v4/misc/scoreboard/">Intrade</a>, and the <a href="http://tippie.uiowa.edu/iem/">Iowa Electronic Markets</a>.</li>
+</ol>
+
+
+<p>This is the first US presidential election since 2000 that is actually close and contested, and hence the first ever closely contested presidential election that features mature probability models of the electoral college &ndash; alongside tuned, tweaked, evolved and relatively sophisticated polls and betting markets &ndash; all attempting to divine the outcome.</p>
+
+<p>One characteristic of this close election is that idiosyncracies, and perhaps flaws and biases, in these forecasting methods are more likely to be exposed under the higher general uncertainty than in the past two presidential election cycles.</p>
+
+<p>Whereas uncontested or landslide elections tend to result in all the forecasting methods roughly agreeing with each other, close elections can result in disagreement among them &ndash; as is happening now &ndash; and hence a moment of truth: who is most accurate (or to put it in more scientific terms, who is <a href="http://serendip.brynmawr.edu/sci_cult/lesswrong/lesswrong/">less wrong</a>).</p>
+
+<p>As of writing this, the major national polls generally show Romney eeking out a slight lead in the national popular vote, the electoral college models show a stubborn lead for Obama, and the betting markets generally favor Obama while trending Romney (with some <a href="http://fivethirtyeight.blogs.nytimes.com/2012/10/24/oct-23-the-virtues-and-vices-of-election-prediction-markets/">unusual activity</a> which could hurt their credibility even if they correctly predict the election).</p>
+
+<p>So who is least wrong?  We&rsquo;ll know in about two weeks, and can look forward to plenty of postmortem analysies of the analysies afterwards.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Problems of Forecasting]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/"/>
+    <updated>2012-07-04T13:12:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting</id>
+    <content type="html"><![CDATA[<p>Followup to the <a href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/">previous post</a>.  Nate&rsquo;s <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">extensive article</a> is too wide-ranging to paraphrase or summarize, but is a great overview of the problems of forecasting.</p>
+
+<p>And some choice followup commentary:</p>
+
+<blockquote><p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3">Dan M.Grove</a>, OK
+Nate, I really think you overstate your case. I&rsquo;ll give an easy counter-examples to your statement that narrow theories are better than broad theories: the standard model of physics. From it, all weak intereactions and all of quantum electromagnetism can be derived. And classical electromagnitism has been derived from quantum electrodynamics.
+These theories have been verified millions of time. They are the basis for our understanding a wide range of technology, from electromagnetism to computers to lasers to quantum optics.
+You rightly point out that medical papers are often not reproduced. That is because they only need a 95% confidence level (or 2 sigma) to be published. And, since null results are rarely published, its easy to have 19 random unpublished result, and 1 random published one.
+When charm was found, it was published with a 5-sigma statistical signal. It was reproduced immediately. These are broad ranging theories that have been well identifed.
+If you want a political science result to be verified, it should be something that isn&rsquo;t just something that can be restated N different ways, that has stable results when you change the question slightly. In particular, it is a big plus for the theory if you offer a skeptical colleauge the right to reset the question and then recomute the results. Then the results should have less than a 1 in 100 chance of being found randomly. 1 in 1000 would be much better.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3:1">Nate Silver</a>, Brooklyn, NY
+Dan,
+You make some excellent points. In particular, one of the things I found very problematic when I began to examine the elections &ldquo;fundamentals&rdquo; models is that they were not very robust to small change in assumptions. Replace an economic variable with one that is normally closely correlated with it, and you will get a substantially different result in certain elections.
+But I think one needs to be careful about drawing analogies between the physical and the social sciences. One of the things that characterized Tetlock&rsquo;s hedgehogs was that they saw the political system as more analogous to a noncomplex (perhaps even Newtonian) physical system than the foxes did.
+This can sometimes cut the other way as well. For instance, there are some criticisms of global warming forecasts that would be reasonably compelling if they were tantamount to social science predictions, but don&rsquo;t work as well when the causality of the greenhouse effect, etc. is relatively well understood (although, I certainly don&rsquo;t claim that global warming forecasts are above criticism or without their problematic elements).
+Then again, it&rsquo;s interesting that a lot of Bayesian probability theory really originated with Laplace, who thought that even though the mechanisms understanding the universe were extremely regular, our ability to measure and understand them precisely might not be.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3:3">Richard</a>, NY
+Nate,
+I think you are confusing complexity with uncertainty in formulation. The weather/climate system is immensely complex and involves a massive number of interactions and feedbacks. Most of those interactions however are reasonably well understood and can be derived from the laws of physics.
+Social science models on the other hand are complex but also subject to fundamental lack of understanding of the basic interactions involved. This manifests itself in the parametric sensitivity you mentioned. Weather models are not subject to anywhere near this degree of parametric uncertainty even though they are proably more complex. Indeed the largest numerical models in the world are weather/climate models.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=3:8">Dan M.Grove</a>, OK
+Thanks for your reply Nate. You are absolutely right that facile comparisons between physical sciences and social sciences are extremely dangerous. But, when you included medicine, I wanted to point out that broad statements can have enormous predictive power.
+Ecconomics and social sciences are causally dense. So, it is hard to make broad quantitative statements. Still, I don&rsquo;t think that the attempt to make fields like interenational relations more like science by so limiting the scope of one&rsquo;s study to make it barely useful is the answer either. People like Huntington still provided insight, even thought they weren&rsquo;t quantitative.
+It&rsquo;s interesting that you mention Laplace because physicists talk about the Laplacian ilusion; since QM shows the inherent indetermancy of physics. Indeed, some measurable properties cannot exist apart from measurement (e.g. electron spin at N degrees).
+Finally, while it is hard to make general, robust, high probabability statements in the field of political science, it is not impossible. It&rsquo;s just that most folks in the social sciences, and many in medicine, alas, think they&rsquo;ve done it when they haven&rsquo;t. Part of it is the way statistics are improperly treated. Being one of the first scientists who learned his craft when Monte Carlos were reasonably priced, I understand something of the pitfalls and the ways around them.
+So, I agree, most of the supposedly precise general statements in the social sciences aren&rsquo;t&hellip;but a few are.</p></blockquote>
+
+<!-- more -->
+
+
+<blockquote><p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=35">Kris NedzynskiWarsaw</a>, Poland
+Nate, I would be extremely eager to hear your opinion on Jude Wanniski’s approach to prediction in politics.
+I believe he was a true genius, largely still waiting to be appreciated. He applied Hayek’s “dispersed knowledge” concept (actually it can be traced back to Aristotle) to politics. Through that lens he was analyzing American and global political events, often with amazing accuracy. For instance he warned Senator Jesse Helms in 1998 that if the US government would not start to study origins of terrorism instead of merely defending against it, “terrorist mind will succeed in taking two towers completely”.
+Wanniski’s theory was laid down in kis “The Way The World Works”, but these may serve as a brief summary:
+<a href="http://tnij.org/q72t">http://tnij.org/q72t</a>
+<a href="http://tnij.org/q72o">http://tnij.org/q72o</a>
+<a href="http://tnij.org/q72p">http://tnij.org/q72p</a></p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=17">DMC</a>, Lucerne, Switzerland
+Are you aware of the &ldquo;Good Judgement Project?&rdquo;
+<a href="http://goodjudgmentproject.com/">http://goodjudgmentproject.com/</a>
+In brief, these academic researchers asked teams of volunteers to make predictions about a range of international events. The teams varied in the training they received. Results of the predictions were scored in a rigorous way that benefits those who are aware of the uncertainties in their own predictions.
+I participated as a forecaster in the first year of the project, and found it a very interesting exercise. I am very much looking forward to seeing the papers that will document the results and conclusions.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=12">valleyforge</a>, Valley Forge, PA
+Political science is a soft science precisely because it is immune to reliable modeling and hence prediction. Humans are not billard balls or even charmed quarks and the society we&rsquo;ve created is not governed by immutable laws. Hegel, Marx, and Asimov&rsquo;s fictional psychohistorian Hari Seldon may have believed in deterministic history but the &ldquo;great man&rdquo; problem will always defy the models. For illustration just look at the decisive influence that one man&rsquo;s vote, Anthony Kennedy&rsquo;s, has on national policy for 312 million people. Or the many unexpected inventions and discoveries, and even disasters, that changed the course of history. Such black swan events by definition cannot be predicted but have tremendous consequences.
+Judging political scientists who seek merely to explain by the accuracy of their theories implied predictions is inappropriate as it expects that their field of inquiry is ultimately knowable when it is not. Conversely political scientists who have the temerity to make inadequately-qualified predictions deserve the ridicule they get.</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=8">Gyre</a>, Pennsylvania
+I&rsquo;m not so sure that predictions can&rsquo;t be made without statistics. I wasn&rsquo;t at all surprised when the Mali coup occurred, it fit the pattern of coups across the world for the past sixty years. A dangerous separatist conflict, a past history of coups in the region, a fairly poor country and the perception that the civil leaders couldn&rsquo;t handle it. Admittedly I didn&rsquo;t predict the coup surviving as long as it has, but predicting the coup itself isn&rsquo;t so bad.
+In the interest of fairness to numbers, political scientist Jay Ufelder has a post on using certain numbers and criteria to predict the nations most likely to have coups.
+<a href="http://dartthrowingchimp.wordpress.com/2012/01/30/assessing-coup-risk-in-2012/">http://dartthrowingchimp.wordpress.com/2012/01/30/assessing-coup-risk-in-2012/</a>
+Also political scientist Daniel Drezner has an article in response to Stevens. He&rsquo;s not impressed.
+<a href="http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate">http://drezner.foreignpolicy.com/posts/2012/06/25/when_a_stupid_op_ed_produces_some_smart_debate</a></p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=6">Richard</a>, NY
+Some context from the physical sciences might be useful: Weather forecasts have been probably the most successful predictions in the context of large unavoidable uncertainty. It is interesting to look histocially at their skill and the reasons for its slow improvement over decades. Initially (50s-70s) this occured due to better model formulation. Such models were very firmly grounded in well established physics. Later (80s-present) it was due to more complete observational data for prediction initialization.
+So the lessons would appear to be:
+1. Work out the basic rules governing the dynamics of the system of interest.
+2. Once step 1) has been achieved, hit the system with tons of data.
+My sense as a physical scientist is that social/political scientists have a lot of trouble with point 1) and resort to point 2) almost in desperation.
+Personally I would think a lot more about the basic behavioural dynamics that set political opinion. Economic factors are pretty clearly important but not completely explanatory&hellip;..</p>
+
+<p><a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/?comments#permid=10">wheelers</a>, denver
+Nate, you are part of the solution.
+the network of wicked problem solvers.
+<a href="http://pressthink.org/2012/06/covering-wicked-problems/">http://pressthink.org/2012/06/covering-wicked-problems/</a></p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Pathology of Big Data]]></title>
+    <link href="http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data/"/>
+    <updated>2012-07-04T12:17:00-07:00</updated>
+    <id>http://expectedpayoff.com/blog/2012/07/04/the-pathology-of-big-data</id>
+    <content type="html"><![CDATA[<p>Two notable posts on the subtle problems of big data, forecasting, statistical significance, and false positives.  <a href="https://www.facebook.com/photo.php?fbid=10150935763253375&amp;set=a.10150109720973375.279515.13012333374&amp;type=1">The first</a> by <a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Taleb</a>, <a href="http://fivethirtyeight.blogs.nytimes.com/2012/06/25/the-problems-with-forecasting-and-how-to-improve/">the second</a> by <a href="http://fivethirtyeight.com">Nate Silver</a>.  These posts and their ensuing comments discussions illuminate an issue that all data science practitioners should be aware of.</p>
+
+<blockquote><p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> The pathology of Big Data: the more variables, the DISPROPORTIONATELY higher the number of spurious results that appear &ldquo;statistically significant&rdquo;. For a real-life application see <a href="http://www.fooledbyrandomness.com/NEJM.pdf">this busted article in The N E Journal of Medicine</a>.</p></blockquote>
+
+<p>Additional clarification in the comments:</p>
+
+<!-- more -->
+
+
+<blockquote><p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> This is called the Wigner Effect in physics: a random matrix with orthogonal components will show a series of declining Principal components&hellip; In the Lebanese dialect, the more data, the more illusion of patterns.</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> Geert, the problem is that nobody corrects for multiple testing in social science and epidemiology.</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> Geert Van Damme, furthermore the researcher is implicitly doing multiple testing throught his career even if he submits to Bonferoni adjustments within a single paper.</p>
+
+<p><a href="https://www.facebook.com/mark.weaver.756">Mark Weaver</a> &hellip; Stan Young rocks! (<a href="http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html">http://www.significancemagazine.org/details/magazine/1324539/Deming-data-and-observational-studies.html</a>).</p>
+
+<p><a href="https://www.facebook.com/mark.weaver.756">Mark Weaver</a> Iva, just a correction&hellip; ALL statistical analysis is not futile! However, if the analysis was based on a method developed after 1955, say, and does not have one of these names attached (Fisher, Tukey, Kempthorne, Neyman) then it most likely is futile because it&rsquo;s likely based on completely insane assumptions&hellip; and, you shouldn&rsquo;t really need a &ldquo;statistician&rdquo; to understand it!</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> There are two separate types of misuse of statistics to prove a hypothesis. The data dredging fallacy examines a very large set of data to discover possible &ldquo;statistically significant&rdquo; coincidences, ignoring the certainty that a large data set will always have some coincidences, if enough relationships are examined. The second involves the interpretation of these coincidences, real or imaginary. It is common to conclude that coincidence implies causality, ignoring the possibility (likelihood?) that hidden variables affect both of the observed parameters.  When seeing these fallacious arguments used so often, one always asks the same question: Stupidity or mendacity?</p>
+
+<p><a href="https://www.facebook.com/kimmo.vehkalahti">Kimmo Vehkalahti</a> Recommended reading: &ldquo;The Cult of Statistical Significance&rdquo;, see: <a href="http://www.deirdremccloskey.com/articles/stats/preface_ziliak.php">http://goo.gl/yYQXM</a>.</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> Here is a useful link to the article identified by Mark Weaver (with excellent cartoons) <a href="http://goo.gl/vuTIf">http://goo.gl/vuTIf</a>.</p>
+
+<p><a href="https://www.facebook.com/bob.sundahl">Bob Sundahl</a> The phenomenon we are describing was diagnoses as &ldquo;apophenia&rdquo; By William Gibson is one of his books.  Humans have an inate predisposition to look for patterns, and often find them where none exist. This tendency is strongly enhanced when rewards are given for discovering trends. And, as Nassim points out, the lack of punishment for finding false trends is also encouragement. Apophenia is a critical attribute for success in many professions &ndash; sports reporters, economists, stock market analysts, astrologers (but I repeat myself).</p>
+
+<p><a href="https://www.facebook.com/GuruAnaerobic">Guru Anaerobic</a> One manifestation of this are books like &lsquo;The Bible Code&rsquo; [Ed: eg, many false positives of pattern identification in large data, the data in this case being the text of the Bible]</p>
+
+<p><a href="https://www.facebook.com/nick.teague">Nicholas Teague</a> Concept summed up neatly in this simple cartoon: <a href="http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card">http://nohype.tumblr.com/post/225060683/confusion-information-graph-a-simple-index-card</a></p>
+
+<p><a href="https://www.facebook.com/marcelo.schafranski.5">Marcelo Schafranski</a> Which one is more accurate: Bonferroni´s correction or False Discovery Rate?</p>
+
+<p><a href="https://www.facebook.com/pages/Nassim-Nicholas-Taleb/13012333374">Nassim Nicholas Taleb</a> both inaccurate, of course, but same principle</p>
+
+<p><a href="https://www.facebook.com/marcelo.schafranski.5">Marcelo Schafranski</a> I completely lost faith on Fisher´s/Pearson´s p, as long as it refers to the data and not to the hypothesis. It makes the Bonferroni/false discovery rate (which encourages &ldquo;salame-slicing&rdquo;) discussion pointless. But unfortunately, in medical science, which is my field, peolpe seem hypnotized by the p value. I sincerely wish they knew efect sizes. Totally agree with you: hard findings do not need statistics.</p>
+
+<p><a href="https://www.facebook.com/pedropeloso">Pedro Peloso</a> MORE ON CORRELATIONS.</p>
+
+<p>Think you will like this:</p>
+
+<p><a href="http://www.pnas.org/content/105/45/17436">http://www.pnas.org/content/105/45/17436</a></p>
+
+<p>It is related to your post on spurrious correlations. These guys reply to a paper &ldquo;claiming"climate change is the cause of some amphibian extinctions. They found better correlation of the extinctions with beer production and local production of bananas.</p></blockquote>
+
+<p>See <a href="http://expectedpayoff.com/blog/2012/07/04/the-problems-of-forecasting/">next post for Nate&rsquo;s orthogonal take</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
